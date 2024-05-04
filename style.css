@@ -1,4 +1,85 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
 }
+.header {
+    height: 857px;
+    width: auto;
+    background-image: url('./assets/bg\ header.png');
+    background-size: cover;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+  }
+.company-name {
+    position: absolute;
+    width: 1077px;
+    height: 372px;
+    left: 155px;
+    top: 198px;
+    font-weight: 800;
+    font-size: 140px;
+    line-height: 182px;
+    color: #FFBF00;
+}
+
+  @media (max-width: 991px) {
+    .navbar {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+    }
+  }
+
+  .company-logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 80px;
+    margin: auto 0;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    margin: auto 0;
+  }
+
+  .nav-link {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: inherit;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 0;
+  }
+  a:hover {
+    color: #FFBF00;
+  }
+  
+  ul, li {
+    display: inline;
+    padding-inline-start: 50px;
+  }
+
+  .search-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 16px;
+  }
+
