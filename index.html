@@ -12,12 +12,12 @@
     <!-- START NAVBAR-->
     <section class="header">
         <div class="navbar">
-            <a href="#home"><img src="assets/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
+            <a href="index.html"><img src="assets/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
             <nav class="nav-links">
             <ul>
-              <li><a href="#home" class="nav-link">HOME</a></li>
-              <li><a href="#dashboard" class="nav-link">DASHBOARD</a></li>
-              <li><a href="#aboutus" class="nav-link">ABOUT US</a></li>
+              <li><a href="index.html" class="nav-link">HOME</a></li>
+              <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
+              <li><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
             </ul>
         </nav>
         <form action="/action_page.php">
@@ -83,38 +83,42 @@
     <!--END OUTLATES COFFEE SHOP-->
 
     <!--INFORMATION SECTION-->
-    <main class="content-wrapper" id="aboutus">
-      <div class="row-infor">
-        <section class="content-column">
-          <div class="information-container">
-            <img src="./assets/bac-bg.png" alt="" class="information-image" />
-            <div class="information-label">INFORMATION</div>
-            <h2 class="information-title">BUSINESS BACKGROUND</h2>
-            <p class="information-description">
-              Pada industri coffe shop yang begitu kompetitif saat ini, memahami preferensi pelanggan dan tren pasar menjadi kunci keberhasilan. Maven Roasters menyadari kebutuhan dalam menciptakan inovasi suatu produk tertentu dalam mempertahankan dan meningkatkan posisi pasarnya.
-            </p>
+    <section class="information-section">
+      <div class="content-wrapper">
+        <div class="content-container">
+          <div class="column">
+            <article class="business-background">
+              <img src="./assets/bac-bg.png" alt="Business Background" class="background-image" />
+              <div class="information-label">INFORMATION</div>
+              <div class="business-background-content">
+                <h2 class="business-background-title">BUSINESS BACKGROUND</h2>
+                <p class="business-background-description">
+                  Pada industri coffe shop yang begitu kompetitif saat ini, memahami preferensi pelanggan dan tren pasar menjadi kunci keberhasilan. Maven Roasters menyadari kebutuhan dalam menciptakan inovasi suatu produk tertentu dalam mempertahankan dan meningkatkan posisi pasarnya.
+                </p>
+              </div>
+            </article>
           </div>
-        </section>
-        <section class="content-column-right">
-          <div class="credential">
-            <div class="project-container">
-              <img src="./assets/prj-bg.png" alt="" class="information-image" />
-              <h2 class="project-title">PROJECT CAPSTONE</h2>
-              <p class="project-description">
-                Website ini dibuat untuk memenuhi Project Capstone kami pada cycle Software Engineering. Dimana project ini merupakan lanjutan dari Project Capstone cycle Data Analytics.
-              </p>
-            </div>
-            <div class="dashboard-container">
-              <img src="./assets/dash-bg.png" alt="" class="information-image" />
-              <h2 class="dashboard-title">Dashboard</h2>
-              <p class="dashboard-description">
-                Dashboard Coffee Shop ini bertujuan untuk menvisualisasikan hasil analisis data dari dataset yang disediakan oleh Maven Analytics. Dengan menggunakan data dari bulan Januari-Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
-              </p>
-            </div>
+          <div class="project-details">
+            <article class="project-capstone">
+              <div class="project-capstone-content">
+                <img src="./assets/prj-bg.png" alt="Project Capstone" class="background-image" />
+                <h2 class="project-capstone-title">PROJECT CAPSTONE</h2>
+                <p class="project-capstone-description">
+                  Website ini dibuat untuk memenuhi Project Capstone kami pada cycle Software Engineering. Dimana project ini merupakan lanjutan dari Project Capstone cycle Data Analytics.
+                </p>
+              </div>
+              <section class="dashboard">
+                <img src="./assets/dash-bg.png" alt="Dashboard" class="background-image" />
+                <h2 class="dashboard-title">Dashboard</h2>
+                <p class="dashboard-description">
+                  Dashboard Coffee Shop ini bertujuan untuk menvisualisasikan hasil analisis data dari dataset yang disediakan oleh Maven Analytics. Dengan menggunakan data dari bulan Januari-Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
+                </p>
+              </section>
+            </article>
           </div>
-        </section>
+        </div>
       </div>
-    </main> 
+    </section>
     <!--END INFORMATION SECTION-->
 
     <!-- CONTACT US -->
@@ -163,7 +167,7 @@
         <div class="contact-info">
           <div class="contact-info-content">
             <p class="copyright">
-              Copyright © 2024 Team 20 RevoU SIB 6. All Right Reserved.
+              Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
             </p>
             <div class="contact-details">
               <span class="phone">Phone : +(62) 8123 4567 890</span><br />
