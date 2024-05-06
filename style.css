@@ -121,8 +121,9 @@
     object-fit: contain;
     width: 16px;
   }
+  /*END NAVBAR*/
 
-  /*OUTLET SHOP*/
+  /* START OUTLET SHOP*/
   .outlets-coffee-shop {
     display: flex;
     width: 100%;
@@ -299,8 +300,192 @@
       margin: 0 10px;
     }
   }
+  /*END OUTLETS*/
 
-  /* CONTACT US */
+   /* START INFORMATION SECTION */
+   .information-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    align-items: start;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 27px 0 78px;
+  }
+  
+  .information-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .information-label {
+    position: relative;
+    background-color: #ffbf00;
+    color: #000;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 5px 10px;
+    font: 700 12px Inter, sans-serif;
+  }
+  
+  .information-title {
+    position: relative;
+    text-decoration-line: underline;
+    margin: 340px 0 0 34px;
+    font: 600 18px Inter, sans-serif;
+  }
+
+  .information-description {
+    position: relative;
+    text-align: justify;
+    letter-spacing: -0.32px;
+    align-self: stretch;
+    margin-top: 29px;
+    font: 500 16px Inter, sans-serif;
+  }
+  
+  .credential {
+    width: 50%;
+    justify-content: right;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    min-height: 290px;
+    width: 100%;
+    align-items: start;
+    padding: 74px 80px 74px 34px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  .project-title {
+    position: relative;
+    text-decoration-line: underline;
+    margin-top: 32px;
+    font: 600 18px Inter, sans-serif;
+  }
+  
+  .project-description {
+    position: relative;
+    text-align: justify;
+    letter-spacing: -0.48px;
+    margin-top: 20px;
+    font: 400 16px Inter, sans-serif;
+  }
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    min-height: 293px;
+    margin-top: 38px;
+    width: 100%;
+    align-items: start;
+    padding: 80px 80px 49px 34px;
+  }
+  
+  .dashboard-title {
+    position: relative;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 9px;
+    font: 600 18px Inter, sans-serif;
+  }
+
+  .dashboard-description {
+    position: relative;
+    text-align: justify;
+    letter-spacing: -0.48px;
+    margin-top: 27px;
+    font: 400 16px Inter, sans-serif;
+  }
+  
+  .content-wrapper {
+    background-color: #000;
+    padding: 33px 80px 80px;
+    margin-top: 100px;
+    grid-row: g-5;
+  }
+  
+    .row-infor {
+      flex-direction: column;
+      gap: 20px;
+      display: flex;
+    }
+
+  .content-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  
+  .content-column-right {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    gap: 20px;
+    float: right;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .content-wrapper {
+      padding: 0 20px;
+    }
+  }
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+
+  .content-column-right {
+    width: 100%;
+  }
+  
+  .information-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  
+  .information-label {
+    white-space: initial;
+    border-radius: 8%;
+  }
+
+  .information-title {
+    margin: 40px 0 0 10px;
+  }
+  
+  .information-description {
+    max-width: 100%;
+  }
+  
+  .project-container,
+  .dashboard-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  /* END INFORMATION SEC*/
+
+  /* START CONTACT US */
   .contact {
     width: 466px;
     height: 601px;
@@ -349,4 +534,135 @@
       transition: 0.5s; 
   }
 
-  /* CONTACT US */
+  /* END CONTACT US */
+
+  /*START FOOTER*/
+  .footer {
+    background-color: #000;
+    padding: 35px 80px;
+  }
+
+  @media (max-width: 991px) {
+    .footer {
+      padding: 0 20px;
+    }
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .footer-content {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+
+  .social-media {
+    width: 26%;
+  }
+
+  @media (max-width: 991px) {
+    .social-media {
+      width: 100%;
+    }
+  }
+
+  .social-media-content {
+    display: flex;
+    gap: 17px;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .social-media-content {
+      margin-top: 40px;
+    }
+  }
+
+  .logo {
+    width: 96px;
+  }
+
+  .social-media-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+
+  .social-media-title {
+    color: #fff;
+    font: 300 16px Inter, sans-serif;
+  }
+  .social-media-icons {
+    display: flex;
+    margin-top: 18px;
+    gap: 8px;
+  }
+
+  @media (max-width: 991px) {
+    .social-media-icons {
+      padding-right: 20px;
+    }
+  }
+
+  .social-media-icon {
+    width: 16px;
+  }
+
+  .contact-info {
+    width: 74%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .contact-info {
+      width: 100%;
+    }
+  }
+
+  .contact-info-content {
+    display: flex;
+    margin-top: 31px;
+    align-items: flex-start;
+    gap: 20px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 991px) {
+    .contact-info-content {
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .copyright {
+    color: #797979;
+    align-self: end;
+    margin-top: 42px;
+    flex-grow: 1;
+    font: 15px Inter, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .copyright {
+      margin-top: 40px;
+    }
+  }
+  .contact-details {
+    color: #fff;
+    text-align: right;
+    align-self: start;
+    width: 240px;
+    font: 16px Inter, sans-serif;
+  }
+
+  .phone {
+    font-weight: 300;
+  }
+
+  .email {
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  /*END FOOTER*/
