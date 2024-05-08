@@ -860,3 +860,25 @@
       width: 100%;
     }
   }
+
+  /* ABOUT US REVOU */
+.img_revou {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img_revou img {
+  height: 493px;
+  width: 493px;
+  margin: 30px;
+}
+
+.img_revou p {
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
+
+}
+/* ABOUT US REVOU */
