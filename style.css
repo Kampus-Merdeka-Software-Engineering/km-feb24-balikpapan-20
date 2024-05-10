@@ -5,10 +5,9 @@
 }
 .header {
     height: 857px;
-    width: auto;
     background-image: url('./assets/bg\ header.png');
     background-size: cover;
-    max-width: 100%;
+    min-width: 1920px;
     position: relative;
 }
 .header-black {
