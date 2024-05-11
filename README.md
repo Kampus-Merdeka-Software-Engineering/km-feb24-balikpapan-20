@@ -7,12 +7,12 @@
 | Farah Setyaningsih| Front-end Engineer, Data Cleaning | [LinkedIn](https://www.linkedin.com/in/farah-setyaningsih/) |
 | Asifa' Ainur Rokhimah| Front-end Engineer, Data Visualization | [LinkedIn](https://www.linkedin.com/in/asifa-ainur-rokhimah-4a463b1b7/) |
 | Kamila Sakninah| Front-end Engineer, Data Communication | [LinkedIn](https://www.linkedin.com/in/kamila-sakinah-3224b61b8/) |
-| Yogi Kurnia Putra| Deployment Team, Data Cleaning | [LinkedIn]() |
+| Yogi Kurnia Putra| Deployment Team, Data Cleaning | [LinkedIn](https://www.linkedin.com/in/yogi-kurnia-putra-3aa0512b2) |
 | Putri Khusnul Khotimah| Quality Assurance, Data Analysis | [LinkedIn](https://www.linkedin.com/in/putri-khusnul-khotimah-087219218/) |
 | Alifah Khairina| Quality Assurance, Data Analysis | [LinkedIn](https://www.linkedin.com/in/alifah-khairina/) |
 | M. Haris Syamsunni'Am| Pitch Deck Team, Data Visualization | [LinkedIn]() |
 | Pramono Budi Prasetyo| Pitch Deck Team, Data Communication | [LinkedIn]() |
-| Lubna Shauma Zahidah| Pitch Deck Team, Data Communication | [LinkedIn]() |
+| Lubna Shauma Zahidah| Pitch Deck Team, Data Communication | [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav) |
 
 
 
