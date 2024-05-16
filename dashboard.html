@@ -6,251 +6,424 @@
     <title>Maven Roaster</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: center; /* Center the container */
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 20px;
+            gap: 20px; /* Add gap between items */
+        }
+        .chart-box {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ddd; /* Add a border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
+            border-radius: 10px; /* Rounded corners */
+            background-color: #fff; /* Background color */
+        }
+        .chart-box canvas {
+            height: 300px; /* Set a fixed height */
+            width: 100%; /* Set width to 100% of the container */
+        }
+        .sales-chart-box {
+            width: 60%; /* Tambah atau ubah properti width sesuai keinginan */
+            height: auto; /* Atur height menjadi auto agar menyesuaikan dengan konten */
+        }
+        .sales-chart-box canvas {
+            height: 300px; /* Tambah atau ubah nilai height sesuai keinginan */
+            width: 600px; /* Set width to 100% of the container */
+        }
+    </style>
 </head>
-
 <body>
-     <!-- START NAVBAR-->
-     <section class="header-black">
+    <!-- START NAVBAR-->
+    <section class="header-black">
         <div class="navbar">
             <a href="index.html"><img src="assets/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
             <nav class="nav-links">
-            <ul>
-              <li><a href="index.html" class="nav-link">HOME</a></li>
-              <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
-              <li><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
-            </ul>
-        </nav>
-        <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>         
+                <ul>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
+                    <li><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>         
         </div>
         <h1 class="header-black-title">DASHBOARD</h1>
         <p class="header-black-description">
-        Dengan menggunakan data dari bulan Januari - Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
+            Dengan menggunakan data dari bulan Januari - Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
         </p>
     </section>
     <!--END NAVBAR-->
 
     <!--MAIN DASHBOARD-->
     <div class="chart-container">
-      <div class="chart-item">
-          <canvas id="salesmonth"></canvas>
-      </div>
-      <div class="chart-item">
-          <canvas id="totalsales"></canvas>
-      </div>
-  </div>
-  <div class="chart-container">
-    <div class="chart-item">
-        <canvas id="rushhour"></canvas>
+        <div class="chart-box sales-chart-box">
+            <canvas id="salestransaksi"></canvas>
+        </div>
     </div>
-    <div class="chart-item">
-        <canvas id="rushday"></canvas>
+    <div class="chart-container">
+        <div class="chart-box">
+            <canvas id="salesmonth"></canvas>
+        </div>
+        <div class="chart-box">
+            <canvas id="totalsales"></canvas>
+        </div>
     </div>
-  </div>
-
-  <div class="chart-container">
-    <div class="chart-item">
-        <canvas id="kategori"></canvas>
+    <div class="chart-container">
+        <div class="chart-box">
+            <canvas id="rushhour"></canvas>
+        </div>
+        <div class="chart-box">
+            <canvas id="rushday"></canvas>
+        </div>
     </div>
-    <div class="chart-item">
-        <canvas id="rushday"></canvas>
+    <div class="chart-container">
+        <div class="chart-box">
+            <canvas id="kategori"></canvas>
+        </div>
     </div>
-  </div>
 
-  <script>
-    // Sales by Month
-    const datasalesmonth = {
-          labels: ['1 Jan 2023', '2 Jan 2023', '3 Jan 2023', '4 Jan 2023','5 Jan 2023', '6 Jan 2023', '7 Jan 2023', '8 Jan 2023', '9 Jan 2023', '10 Jan 2023'],
-          datasets: [{
-              label: 'Lower Manhattan',
-              data: [788, 649, 756, 630, 800, 790, 788, 972, 1008, 930],
-              backgroundColor: '#ff6b6b',
-              borderColor: '#ff6b6b',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Hells Kitchen',
-              data: [851, 828, 906, 781, 714, 767, 1024, 872, 894, 808],
-              backgroundColor: '#0461b1',
-              borderColor: '#0461b1',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Astoria',
-              data: [868, 925, 902, 808, 903, 716, 807, 793, 947, 0],
-              backgroundColor: '#ffbb00',
-              borderColor: '#ffbb00',
-              borderWidth: 2,
-              tension: 0.1
-          }]
-      };
+    <script>
+        // Sales dan Transaksi
+        // Load CSV data and generate chart
+        async function loadCSVAndGenerateChart() {
+            Papa.parse('sales.csv', {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const rows = results.data;
+                    const dateLabels = rows.map(row => row['Tanggal']); // Assuming 'Tanggal' is the column name for labels
+                    const totalTransaksiData = rows.map(row => parseInt(row['Total Transaksi'])); // Assuming 'Total Transaksi' is the column name for total transactions
+                    const salesTransaksiData = rows.map(row => parseInt(row['Sales Transaksi'])); // Assuming 'Sales Transaksi' is the column name for sales transactions
 
-      // Opsi untuk Chart Sales by Month
-      const configsalesmonth = {
-          type: 'bar',
-          data: datasalesmonth,
-          options: {
-              responsive: true,
-              scales: {
-                  y: {
-                      beginAtZero: true
-                  }
-              }
-          }
-      };
+                    // Generate chart
+                    const ctx = document.getElementById('salestransaksi').getContext('2d');
 
-      // Inisialisasi Chart Sales by Month
-      const salesmonth = new Chart(
-          document.getElementById('salesmonth'),
-          configsalesmonth
-      );
+                    const chartData = {
+                        labels: dateLabels,
+                        datasets: [
+                            {
+                                label: 'Total Transaksi',
+                                data: totalTransaksiData, 
+                                backgroundColor: '#9430af',
+                                borderColor: '#9430af',
+                                borderWidth: 2,
+                                yAxisID: 'y',
+                                pointRadius: 0, // Menyembunyikan titik
+                                pointHoverRadius: 0 // Menyembunyikan titik saat dihover
+                            },
+                            {
+                                label: 'Sales Transaksi',
+                                data: salesTransaksiData,
+                                backgroundColor: '#f55f30',
+                                borderColor: '#f55f30',
+                                borderWidth: 2,
+                                yAxisID: 'y1',
+                                pointRadius: 0, // Menyembunyikan titik
+                                pointHoverRadius: 0 // Menyembunyikan titik saat dihover
+                            },
+                        ]
+                    };
 
-      // Total Sales
-      const datatotalsales = {
-          labels: ['Hells Kitchen', 'Astoria', 'Lower Manhattan'],
-          datasets: [{
-              label: 'Sales Transaksi',
-              data: [236511, 232243, 230057],
-              backgroundColor: '#fdd55e',
-              borderColor: '#fdd55e',
-              borderWidth: 1
-          }]
-      };
+                    const chartConfig = {
+                        type: 'line',
+                        data: chartData,
+                        options: {
+                            plugins: {
+                            title: {
+                                display: true,
+                                text: 'Sales and Transaction in 6 Months',
+                                padding: {
+                                    top: 10,
+                                    bottom: 10
+                                },
+                                font: {
+                                    size: 40
+                                }   
+                            }
+                                    },
+                            responsive: true,
+                            interaction: {
+                                mode: 'index',
+                                intersect: false,
+                            },
+                            stacked: false,
+                            scales: {
+                                y: {
+                                    type: 'linear',
+                                    display: true,
+                                    position: 'left',
+                                },
+                                y1: {
+                                    type: 'linear',
+                                    display: true,
+                                    position: 'right',
+                                    grid: {
+                                        drawOnChartArea: false,
+                                    },
+                                },
+                            }
+                        },
+                    };
 
-      // Opsi untuk Chart Total Sales
-      const configtotalsales = {
-          type: 'bar',
-          data: datatotalsales,
-          options: {
-              responsive: true,
-              scales: {
-                  y: {
-                      beginAtZero: true
-                  }
-              }
-          }
-      };
+                    const myChart = new Chart(ctx, chartConfig);
+                }
+            });
+        }
 
-      // Inisialisasi Chart Total Sales
-      const totalsales = new Chart(
-          document.getElementById('totalsales'),
-          configtotalsales
-      );
+        loadCSVAndGenerateChart();
 
-
-      // Rush Hour
-      const datarushhour = {
-          labels: ['0', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', ''],
-          datasets: [{
-              label: 'Lower Manhattan',
-              data: [, 4516, 8850, 8788, 8922, 9452, 4090, 4191, 3763, 4304, 4594, 4148, 3750, 2078, 194, 102],
-              backgroundColor: '#ff6b6b',
-              borderColor: '#ff6b6b',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Hells Kitchen',
-              data: [, 2349, 4734, 9653, 9393, 9873, 5053, 3544, 3782, 3942, 3575, 3751, 4041, 3854, 3415, 778],
-              backgroundColor: '#0461b1',
-              borderColor: '#0461b1',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Astoria',
-              data: [, , 5865, 6756, 7055, 7388, 4892, 4955, 4894, 4661, 4754, 4982, 4909, 4894, 4986, ],
-              backgroundColor: '#ffbb00',
-              borderColor: '#ffbb00',
-              borderWidth: 2,
-              tension: 0.1
-          }]
-      };
-
-      // Opsi untuk Chart Rush Hour
-      const configrushhour = {
-          type: 'line',
-          data: datarushhour,
-          options: {
-              responsive: true,
-              scales: {
-                  y: {
-                    beginAtZero: false,
-                      suggestedMin: 0, // Minimal rentang Y
-                      suggestedMax: 12000 // Maksimal rentang Y
-                  }
-              }
-          }
-      };
-
-      // Inisialisasi Chart Rush Hour
-      const rushhour = new Chart(
-          document.getElementById('rushhour'),
-          configrushhour
-      );
+        // End Sales and Transaksi
 
 
-      // Rush Day
-      const datarushday = {
-          labels: ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
-          datasets: [{
-              label: 'Lower Manhattan',
-              data: [9931, 10748, 10123, 10088, 10433, 10298, 10121],
-              backgroundColor: '#ff6b6b',
-              borderColor: '#ff6b6b',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Hells Kitchen',
-              data: [10270, 10121, 10583, 10078, 10345, 10567, 9773],
-              backgroundColor: '#0461b1',
-              borderColor: '#0461b1',
-              borderWidth: 2,
-              tension: 0.1
-          },
-          {
-              label: 'Astoria',
-              data: [9981, 10362, 9743, 10459, 10345, 10567, 9773],
-              backgroundColor: '#ffbb00',
-              borderColor: '#ffbb00',
-              borderWidth: 2,
-              tension: 0.1
-          }]
-      };
-
-      // Opsi untuk Chart Rush Day
-      const configrushday = {
-          type: 'line',
-          data: datarushday,
-          options: {
-              responsive: true,
-              scales: {
-                  y: {
-                      beginAtZero: false,
-                      suggestedMin: 9600, // Minimal rentang Y
-                      suggestedMax: 11000 // Maksimal rentang Y
-                  }
-              }
-          }
-      };
-
-      // Inisialisasi Chart Rush Day
-      const rushday = new Chart(
-          document.getElementById('rushday'),
-          configrushday
-      );
 
 
-      // Kategori
+        // Sales by Month
+        const datasalesmonth = {
+            labels: ['1 Jan 2023', '2 Jan 2023', '3 Jan 2023', '4 Jan 2023','5 Jan 2023', '6 Jan 2023', '7 Jan 2023', '8 Jan 2023', '9 Jan 2023', '10 Jan 2023'],
+            datasets: [{
+                label: 'Lower Manhattan',
+                data: [788, 649, 756, 630, 800, 790, 788, 972, 1008, 930],
+                backgroundColor: '#ff6b6b',
+                borderColor: '#ff6b6b',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Hells Kitchen',
+                data: [851, 828, 906, 781, 714, 767, 1024, 872, 894, 808],
+                backgroundColor: '#0461b1',
+                borderColor: '#0461b1',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Astoria',
+                data: [868, 925, 902, 808, 903, 716, 807, 793, 947, 0],
+                backgroundColor: '#ffbb00',
+                borderColor: '#ffbb00',
+                borderWidth: 2,
+                tension: 0.1
+            }]
+        };
+
+        const configsalesmonth = {
+            type: 'bar',
+            data: datasalesmonth,
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Sales by Month',
+                        padding: {
+                            top: 10,
+                            bottom: 10
+                        },
+                        font: {
+                            size: 40
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        };
+
+        const salesmonth = new Chart(
+            document.getElementById('salesmonth'),
+            configsalesmonth
+        );
+
+        // Total Sales
+        const datatotalsales = {
+            labels: ['Hells Kitchen', 'Astoria', 'Lower Manhattan'],
+            datasets: [{
+                label: 'Sales Transaksi',
+                data: [236511, 232243, 230057],
+                backgroundColor: '#fdd55e',
+                borderColor: '#fdd55e',
+                borderWidth: 1
+            }]
+        };
+
+        const configtotalsales = {
+            type: 'bar',
+            data: datatotalsales,
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Total Sales by 6 Month', // Add the title here
+                        padding: {
+                            top: 10,
+                            bottom: 10
+                        },
+                        font: {
+                            size: 40
+                        }
+                    
+                    }
+                    
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        };
+
+        const totalsales = new Chart(
+            document.getElementById('totalsales'),
+            configtotalsales
+        );
+
+        // Rush Hour
+        const datarushhour = {
+            labels: ['0', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', ''],
+            datasets: [{
+                label: 'Lower Manhattan',
+                data: [, 4516, 8850, 8788, 8922, 9452, 4090, 4191, 3763, 4304, 4594, 4148, 3750, 2078, 194, 102],
+                backgroundColor: '#ff6b6b',
+                borderColor: '#ff6b6b',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Hells Kitchen',
+                data: [, 2349, 4734, 9653, 9393, 9873, 5053, 3544, 3782, 3942, 3575, 3751, 4041, 3854, 3415, 778],
+                backgroundColor: '#0461b1',
+                borderColor: '#0461b1',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Astoria',
+                data: [, , 5865, 6756, 7055, 7388, 4892, 4955, 4894, 4661, 4754, 4982, 4909, 4894, 4986, ],
+                backgroundColor: '#ffbb00',
+                borderColor: '#ffbb00',
+                borderWidth: 2,
+                tension: 0.1
+            }]
+        };
+
+        const configrushhour = {
+            type: 'line',
+            data: datarushhour,
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Rush Hour', // Add the title here
+                        padding: {
+                            top: 10,
+                            bottom: 10
+                        },
+                        font: {
+                            size: 40
+                        }
+                    
+                    }
+                    
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        suggestedMin: 0, // Minimal rentang Y
+                        suggestedMax: 11000 // Maksimal rentang Y
+                    }
+                }
+            }
+        };
+
+        const rushhour = new Chart(
+            document.getElementById('rushhour'),
+            configrushhour
+        );
+
+        // Rush Day
+        const datarushday = {
+            labels: ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
+            datasets: [{
+                label: 'Lower Manhattan',
+                data: [9931, 10748, 10123, 10088, 10433, 10298, 9971],
+                backgroundColor: '#ff6b6b',
+                borderColor: '#ff6b6b',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Hells Kitchen',
+                data: [10270, 10121, 10583, 10078, 10345, 10567, 9773],
+                backgroundColor: '#0461b1',
+                borderColor: '#0461b1',
+                borderWidth: 2,
+                tension: 0.1
+            },
+            {
+                label: 'Astoria',
+                data: [9981, 10362, 9743, 10459, 10384, 10342, 9720],
+                backgroundColor: '#ffbb00',
+                borderColor: '#ffbb00',
+                borderWidth: 2,
+                tension: 0.1
+            }]
+        };
+
+        const configrushday = {
+            type: 'line',
+            data: datarushday,
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Rush Day', // Add the title here
+                        padding: {
+                            top: 10,
+                            bottom: 10
+                        },
+                        font: {
+                            size: 40
+                        }
+                    
+                    }
+                    
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        suggestedMin: 9500, // Minimal rentang Y
+                        suggestedMax: 11000 // Maksimal rentang Y
+                    }
+                }
+            }
+        };
+
+        const rushday = new Chart(
+            document.getElementById('rushday'),
+            configrushday
+        );
+
+        // Kategori
       const datakategori = {
           labels: ['Coffee', 'Tea', 'Bakery', 'Drinking Chocolate', 'Coffee Beans', 'Branded', 'Loose Tea', 'Flavours', 'Packaged Chocolate'],
           datasets: [{
-              label: 'Kategori',
+              label: 'Sales Transaksi',
               data: [269952, 196405, 82315, 72416, 40085, 13607, 11213, 8408, 4407],
               backgroundColor: '#00acc2',
               borderColor: '#00acc2',
@@ -264,6 +437,21 @@
           data: datakategori,
           options: {
               responsive: true,
+              plugins: {
+                    title: {
+                        display: true,
+                        text: 'Top Category Product by Sales', // Add the title here
+                        padding: {
+                            top: 10,
+                            bottom: 10
+                        },
+                        font: {
+                            size: 40
+                        }
+                    
+                    }
+                    
+                },
               scales: {
                   y: {
                       beginAtZero: true
@@ -277,41 +465,39 @@
           document.getElementById('kategori'),
           configkategori
       );
-
-  </script>
+    </script>
+    
     <!--END MAIN DASHBOARD-->
 
     <!--FOOTER SECTION-->
     <footer class="footer">
         <div class="footer-content">
-          <div class="social-media">
-            <div class="social-media-content">
-              <img src="./assets/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
-              <div class="social-media-text">
-                <h3 class="social-media-title">Follow us on Social Media</h3>
-                <div class="social-media-icons">
-                  <img src="./assets/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
-                  <img src="./assets/twitter.png" alt="Twitter Icon" class="social-media-icon" />
-                  <img src="./assets/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
+            <div class="social-media">
+                <div class="social-media-content">
+                    <img src="./assets/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
+                    <div class="social-media-text">
+                        <h3 class="social-media-title">Follow us on Social Media</h3>
+                        <div class="social-media-icons">
+                            <img src="./assets/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
+                            <img src="./assets/twitter.png" alt="Twitter Icon" class="social-media-icon" />
+                            <img src="./assets/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="contact-info">
-            <div class="contact-info-content">
-              <p class="copyright">
-                Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
-              </p>
-              <div class="contact-details">
-                <span class="phone">Phone : +(62) 8123 4567 890</span><br />
-                <span class="email">info@mavenroastersco.com</span>
-              </div>
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <p class="copyright">
+                        Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
+                    </p>
+                    <div class="contact-details">
+                        <span class="phone">Phone : +(62) 8123 4567 890</span><br />
+                        <span class="email">info@mavenroastersco.com</span>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
-      <!--END FOOTER SECTION-->
-  
-      <script src="./app.js"></script>
+    </footer>
+    <!--END FOOTER SECTION-->
 </body>
 </html>
