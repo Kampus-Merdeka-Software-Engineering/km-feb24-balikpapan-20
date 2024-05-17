@@ -1,57 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="register.css" />
-</head>
-<body>
-
+    <script
+      src="https://kit.fontawesome.com/1ab94d0eba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/register.css" />
+  </head>
+  <body>
     <!-- UNTUK  LOGIN REGISTER JANGAN DIUBAH2 YA GES -->
-      <main class="container">
-        <div style="display: flex;">
-          <img src="assets/Maven Roaster Logo (3).png" width="35px" height="35px" style="background:linear-gradient(10deg,black, rgb(42, 31, 12)); border-radius: 5px; margin-right: 10px;"/>
-          
-          <h2>Register</h2>
-        </div>
-        <!-- Makes POST request to /regisyer route -->
-        <form action="/register" method="POST">
+    <main class="container">
+      <div style="display: flex">
+        <img
+          src="assets/Maven Roaster Logo (3).png"
+          width="35px"
+          height="35px"
+          style="
+            background: linear-gradient(10deg, black, rgb(42, 31, 12));
+            border-radius: 5px;
+            margin-right: 10px;
+          "
+        />
 
-          <div class="input-field">
-              <!-- <label for="email">Email</label> -->
-              <input type="email"  name="username" id="username"  placeholder="Enter Your Email">
-              <div class="underline"></div>
-          </div>
-          <div class="input-field">
-                <!-- <label for="password">Password</label> -->
-                <input type="password" name="password" id="password" placeholder="Create Your Password">
-                <div class="underline"></div>
-          </div>
-  
-          <button type="submit">Register</button>
-        </form>
-                  
-        <div class="footer">
-          <span class="register">Already have an account? <a href="/login">Login</a></span><br>
-          
-          <div class="or-container">
-            <span class="line"></span>
-            <span class="text">Or</span>
-            <span class="line"></span>
-          </div>
-          
-          <div class="social-field">
-            <div class="social-field google"> 
-              <a href="/auth/google" role="button">
-                <i class="fab fa-google"></i>
-                Sign Up with Google
-              </a>
-            </div>
+        <h2>Register</h2>
+      </div>
+      <!-- Makes POST request to /regisyer route -->
+      <form action="/register" method="POST">
+        <div class="input-field">
+          <!-- <label for="email">Email</label> -->
+          <input
+            type="email"
+            name="username"
+            id="username"
+            placeholder="Enter Your Email"
+          />
+          <div class="underline"></div>
+        </div>
+        <div class="input-field">
+          <!-- <label for="password">Password</label> -->
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Create Your Password"
+          />
+          <div class="underline"></div>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <div class="footer">
+        <span class="register"
+          >Already have an account? <a href="/login">Login</a></span
+        ><br />
+
+        <div class="or-container">
+          <span class="line"></span>
+          <span class="text">Or</span>
+          <span class="line"></span>
+        </div>
+
+        <div class="social-field">
+          <div class="social-field google">
+            <a href="/auth/google" role="button">
+              <i class="fab fa-google"></i>
+              Sign Up with Google
+            </a>
           </div>
         </div>
-  
-      </main>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
