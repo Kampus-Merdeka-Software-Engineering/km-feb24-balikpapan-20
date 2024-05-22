@@ -1,5 +1,5 @@
 // Fetch the JSON data asynchronously
-fetch('data/rushDay.json')
+fetch('data/rushday.json')
   .then(response => response.json())
   .then(data => {
     // Initialize empty arrays to store data for each location
