@@ -1,0 +1,38 @@
+[
+  {
+    "product_category": "Coffee",
+    "sales transaksi": 269952.45000001846
+  },
+  {
+    "product_category": "Tea",
+    "sales transaksi": 196405.9500000097
+  },
+  {
+    "product_category": "Bakery",
+    "sales transaksi": 82315.64000000003
+  },
+  {
+    "product_category": "Drinking Chocolate",
+    "sales transaksi": 72416
+  },
+  {
+    "product_category": "Coffee beans",
+    "sales transaksi": 40085.24999999999
+  },
+  {
+    "product_category": "Branded",
+    "sales transaksi": 13607
+  },
+  {
+    "product_category": "Loose Tea",
+    "sales transaksi": 11213.60000000009
+  },
+  {
+    "product_category": "Flavours",
+    "sales transaksi": 8408.800000000874
+  },
+  {
+    "product_category": "Packaged Chocolate",
+    "sales transaksi": 4407.6399999999885
+  }
+]
