@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maven Roaster</title>
+    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+    src="https://kit.fontawesome.com/1ab94d0eba.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 
 <body>
@@ -17,7 +22,7 @@
             <nav class="nav-links">
             <ul>
               <li><a href="index.html" class="nav-link">HOME</a></li>
-              <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
+              <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
               <li><a class="nav-link"></a>
                 <div class="dropdown">
                    <span>ABOUT US </span>
@@ -37,6 +42,164 @@
         </button>
     </section>
     <!--END NAVBAR-->
+
+    <!-- login  modal -->
+    <div class="modal" id="loginModal">
+      <div class="containers modal-content">
+        <span class="close">&times;</span>
+        <div style="display: flex">
+          <img
+            src="assets/images/Maven Roaster Logo (3).png"
+            width="35px"
+            height="35px"
+            style="
+              background: linear-gradient(10deg, black, rgb(42, 31, 12));
+              border-radius: 5px;
+              margin-right: 10px;
+            "
+          />
+          <h2>Login</h2>
+        </div>
+        
+        <form action="#" method="#">
+          <div class="input-fields">
+            <!-- <label for="email">Email</label> -->
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+            <div class="underline"></div>
+          </div>
+          <div class="input-fields">
+            <!-- <label for="password">Password</label> -->
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Your Password"
+            />
+            <div class="underline"></div>
+          </div>
+  
+          <button type="submit" id="submitLogin">Continue</button>
+        </form>
+        <div class="bb"> 
+
+          <span class="register">Don't have an account? <a href="#" id="openRegisterModal">Register</a></span><br />
+        </div>
+  
+        <div class="bawah">
+        <!-- <span class="register">Don't have an account? <a href="/register">Register</a></span><br /> -->
+  
+          <div class="or-container">
+            <span class="line"></span>
+            <span class="text">Or</span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="social-field">
+            <div class="social-field google">
+              <a href="/auth/google" role="button">
+                <i class="fab fa-google"></i>
+                Login In with Google
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- login  modal -->
+    
+<!-- register  modal -->
+  <div class="rmodal" id="registerModal">
+          <div class="containers modal-content">
+            <span class="close">&times;</span>
+            <div style="display: flex">
+              <img
+                src="assets/images/Maven Roaster Logo (3).png"
+                width="35px"
+                height="35px"
+                style="
+                  background: linear-gradient(10deg, black, rgb(42, 31, 12));
+                  border-radius: 5px;
+                  margin-right: 10px;
+                "
+              />
+              <h2>Register</h2>
+            </div>
+            
+            <form action="#" method="#">
+              <div class="input-fields">
+                <!-- <label for="email">Email</label> -->
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Enter Your first name"
+                />
+                <div class="underline"></div>
+              </div>
+              <div class="input-fields">
+                <!-- <label for="email">Email</label> -->
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Enter Your last name"
+                />
+                <div class="underline"></div>
+              </div>
+              <div class="input-fields">
+                <!-- <label for="email">Email</label> -->
+                <input
+                  type="email"
+                  name="register-email"
+                  id="register-email"
+                  placeholder="Enter Your Email"
+                />
+                <div class="underline"></div>
+              </div>
+              <div class="input-fields">
+                <!-- <label for="password">Password</label> -->
+                <input
+                  type="password"
+                  name="register-password"
+                  id="register-password"
+                  placeholder="Enter Your Password"
+                />
+                <div class="underline"></div>
+              </div>
+      
+              <button type="submit" id="submitRegister">Create an account</button>
+            </form>
+            <div class="bb"> 
+    
+              <span class="register">have an account? <a href="#">Login</a></span><br />
+            </div>
+      
+            <div class="bawah">
+            <!-- <span class="register">Don't have an account? <a href="/register">Register</a></span><br /> -->
+      
+              <div class="or-container">
+                <span class="line"></span>
+                <span class="text">Or</span>
+                <span class="line"></span>
+              </div>
+      
+              <div class="social-field">
+                <div class="social-field google">
+                  <a href="/auth/google" role="button">
+                    <i class="fab fa-google"></i>
+                    Login In with Google
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+<!-- register modal -->
 
     <!--OUTLATES COFFEE SHOP-->
     <section class="outlets-coffee-shop">
@@ -186,6 +349,6 @@
     </footer>
     <!--END FOOTER SECTION-->
 
-    <script src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
 </body>
 </html>
