@@ -1,73 +1,257 @@
-async function loadJSONAndGenerateRushHourChart() {
-    try {
-        const response = await fetch('data/rushhour.json');
-        const data = await response.json();
-
-        const locations = {};
-        data.forEach(item => {
-            if (!locations[item.store_location]) {
-                locations[item.store_location] = {
-                    label: item.store_location,
-                    data: Array(22).fill(0) // Membuat array dengan panjang 21 (dari jam 6 hingga jam 20)
-                };
-            }
-            // Menyesuaikan data untuk dimulai dari jam 6
-            locations[item.store_location].data[item.hour - 5] = item['total transaksi'];
-        });
-
-        // Daftar warna yang cocok dengan warna sebelumnya
-        const colorMap = {
-            "Lower Manhattan": '#ff6b6b',
-            "Hell's Kitchen": '#0461b1',
-            "Astoria": '#ffbb00'
-        };
-
-        const chartData = {
-            labels: Array.from({ length: 17}, (_, i) => (i + 5).toString()), // Mulai dari jam 6 hingga jam 20
-            datasets: Object.values(locations).map(location => ({
-                label: location.label,
-                data: location.data,
-                backgroundColor: colorMap[location.label], // Menggunakan warna yang sesuai dengan lokasi
-                borderColor: colorMap[location.label], // Menggunakan warna yang sesuai dengan lokasi
-                borderWidth: 2,
-                tension: 0.1
-            }))
-        };
-
-        const ctx = document.getElementById('rushhour').getContext('2d');
-
-        const configrushhour = {
-            type: 'line',
-            data: chartData,
-            options: {
-                responsive: true,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Rush Hour',
-                        padding: {
-                            top: 10,
-                            bottom: 10
-                        },
-                        font: {
-                            size: 40
-                        }
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: false,
-                        suggestedMin: 0,
-                        suggestedMax: 11000
-                    }
-                }
-            }
-        };
-
-        const rushhour = new Chart(ctx, configrushhour);
-    } catch (error) {
-        console.error('Error fetching or parsing data:', error);
-    }
-}
-
-loadJSONAndGenerateRushHourChart();
+[
+  {
+    "hour": 5,
+    "store_location": "Lower Manhattan",
+    "total transaksi": null
+  },
+  {
+    "hour": 5,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": null
+  },
+  {
+    "hour": 5,
+    "store_location": "Astoria",
+    "total transaksi": null
+  },
+  {
+    "hour": 6,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4516
+  },
+  {
+    "hour": 6,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 2349
+  },
+  {
+    "hour": 6,
+    "store_location": "Astoria",
+    "total transaksi": null
+  },
+  {
+    "hour": 7,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 8850
+  },
+  {
+    "hour": 7,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 4734
+  },
+  {
+    "hour": 7,
+    "store_location": "Astoria",
+    "total transaksi": 5865
+  },
+  {
+    "hour": 8,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 8788
+  },
+  {
+    "hour": 8,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 9653
+  },
+  {
+    "hour": 8,
+    "store_location": "Astoria",
+    "total transaksi": 6756
+  },
+  {
+    "hour": 9,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 8922
+  },
+  {
+    "hour": 9,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 9393
+  },
+  {
+    "hour": 9,
+    "store_location": "Astoria",
+    "total transaksi": 7055
+  },
+  {
+    "hour": 10,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 9452
+  },
+  {
+    "hour": 10,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 9873
+  },
+  {
+    "hour": 10,
+    "store_location": "Astoria",
+    "total transaksi": 7388
+  },
+  {
+    "hour": 11,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4090
+  },
+  {
+    "hour": 11,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 5053
+  },
+  {
+    "hour": 11,
+    "store_location": "Astoria",
+    "total transaksi": 4892
+  },
+  {
+    "hour": 12,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4191
+  },
+  {
+    "hour": 12,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3544
+  },
+  {
+    "hour": 12,
+    "store_location": "Astoria",
+    "total transaksi": 4955
+  },
+  {
+    "hour": 13,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 3763
+  },
+  {
+    "hour": 13,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3782
+  },
+  {
+    "hour": 13,
+    "store_location": "Astoria",
+    "total transaksi": 4894
+  },
+  {
+    "hour": 14,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4304
+  },
+  {
+    "hour": 14,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3942
+  },
+  {
+    "hour": 14,
+    "store_location": "Astoria",
+    "total transaksi": 4661
+  },
+  {
+    "hour": 15,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4594
+  },
+  {
+    "hour": 15,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3575
+  },
+  {
+    "hour": 15,
+    "store_location": "Astoria",
+    "total transaksi": 4754
+  },
+  {
+    "hour": 16,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 4148
+  },
+  {
+    "hour": 16,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3751
+  },
+  {
+    "hour": 16,
+    "store_location": "Astoria",
+    "total transaksi": 4982
+  },
+  {
+    "hour": 17,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 3750
+  },
+  {
+    "hour": 17,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 4041
+  },
+  {
+    "hour": 17,
+    "store_location": "Astoria",
+    "total transaksi": 4909
+  },
+  {
+    "hour": 18,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 2078
+  },
+  {
+    "hour": 18,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3854
+  },
+  {
+    "hour": 18,
+    "store_location": "Astoria",
+    "total transaksi": 4894
+  },
+  {
+    "hour": 19,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 194
+  },
+  {
+    "hour": 19,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 3415
+  },
+  {
+    "hour": 19,
+    "store_location": "Astoria",
+    "total transaksi": 4986
+  },
+  {
+    "hour": 20,
+    "store_location": "Lower Manhattan",
+    "total transaksi": 102
+  },
+  {
+    "hour": 20,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 778
+  },
+  {
+    "hour": 20,
+    "store_location": "Astoria",
+    "total transaksi": null
+  },
+  {
+    "hour": 21,
+    "store_location": "Lower Manhattan",
+    "total transaksi": null
+  },
+  {
+    "hour": 21,
+    "store_location": "Hell's Kitchen",
+    "total transaksi": null
+  },
+  {
+    "hour": 21,
+    "store_location": "Astoria",
+    "total transaksi": null
+  }
+]
