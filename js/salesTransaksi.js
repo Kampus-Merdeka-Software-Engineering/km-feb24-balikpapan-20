@@ -1,6 +1,6 @@
 async function loadJSONAndGenerateChart() {
     try {
-        const response = await fetch('data/salesTransaksi.json');
+        const response = await fetch('data/salestransaksi.json');
         const data = await response.json();
 
         const dateLabels = data.map(item => item.Tanggal);
