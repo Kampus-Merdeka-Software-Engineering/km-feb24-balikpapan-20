@@ -4,46 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maven Roaster</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/styledash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
     <style>
-        .chart-container {
-            display: flex;
-            justify-content: center; /* Center the container */
-            align-items: center;
-            flex-wrap: wrap;
-            margin: 20px;
-            gap: 20px; /* Add gap between items */
-        }
-        .chart-box {
-            width: 45%;
-            padding: 20px;
-            border: 1px solid #ddd; /* Add a border */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
-            border-radius: 10px; /* Rounded corners */
-            background-color: #fff; /* Background color */
-        }
-        .chart-box canvas {
-            height: 300px; /* Set a fixed height */
-            width: 100%; /* Set width to 100% of the container */
-        }
-        .sales-chart-box {
-            width: 60%; /* Tambah atau ubah properti width sesuai keinginan */
-            height: auto; /* Atur height menjadi auto agar menyesuaikan dengan konten */
-        }
-        .sales-chart-box canvas {
-            height: 300px; /* Tambah atau ubah nilai height sesuai keinginan */
-            width: 600px; /* Set width to 100% of the container */
-        }
+
     </style>
 </head>
 <body>
     <!-- START NAVBAR-->
     <section class="header-black">
         <div class="navbar">
-            <a href="index.html"><img src="assets/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
+            <a href="index.html"><img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
             <nav class="nav-links">
                 <ul>
                     <li><a href="index.html" class="nav-link">HOME</a></li>
@@ -66,37 +43,134 @@
     <!--MAIN DASHBOARD-->
     <div class="chart-container">
         <div class="chart-box sales-chart-box">
+            <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
+            <div class="checkbox-container">
+                <label>
+                    <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
+                </label>
+                <label>
+                    <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
+                </label>
+            </div>
+            <div class="date-filter-container">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate">
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate">
+            </div>
+            <div class="filter-button-container">
+                <button id="filterButton">Filter</button>
+                <button id="clearButton">Clear</button>
+            </div>
             <canvas id="salestransaksi"></canvas>
         </div>
     </div>
     <div class="chart-container">
         <div class="chart-box">
+            <h2 class="chart-title">Sales by Month</h2>
+            <div>
+                <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
+                <label for="lowerManhattan">Lower Manhattan</label>
+                <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
+                <label for="hellsKitchen">Hell's Kitchen</label>
+                <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
+                <label for="astoria">Astoria</label>
+              </div>
             <canvas id="salesmonth"></canvas>
         </div>
         <div class="chart-box">
+            <h2 class="chart-title">Total Sales by 6 Month</h2>
             <canvas id="sales6month"></canvas>
         </div>
     </div>
     <div class="chart-container">
         <div class="chart-box">
+            <h2 class="chart-title">Rush Hour</h2>
             <canvas id="rushhour"></canvas>
         </div>
         <div class="chart-box">
+            <h2 class="chart-title">Rush Day</h2>
             <canvas id="rushday"></canvas>
         </div>
     </div>
     <div class="chart-container">
         <div class="chart-box">
+            <h2 class="chart-title">Top Category Product by Sales</h2>
             <canvas id="kategori"></canvas>
+        </div>
+        <div class="chart-box">
+            <h2 class="chart-title">Top Product by Sales & Transaction</h2>
+            <canvas id="topproduct"></canvas>
         </div>
     </div>
 
-    <script src="js/salestransaksi.js"></script>
-    <script src="js/salesmonth.js"></script>
-    <script src="js/sales6month.js"></script>
-    <script src="js/rushhour.js"></script>
-    <script src="js/rushday.js"></script>
-    <script src="js/kategori.js"></script>
+    <div class="chart-container">
+        <div class="chart-box">
+        <main class="table">
+            <section class="table_header">
+                <h1>Recent Order</h1>
+            </section>
+            <section class="table_body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> No </th>
+                            <th> Product </th>
+                            <th> Price </th>
+                            <th> Payment </th>
+                            <th> Status </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> Espresso </td>
+                            <td> $4</td>
+                            <td> Paid </td>
+                            <td> 
+                                <p class="status delivered">Delivered</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 2 </td>
+                            <td> Cappuccino </td>
+                            <td> $5 </td>
+                            <td> Due </td>
+                            <td> 
+                                <p class="status pending">Pending</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 3 </td>
+                            <td> Americano </td>
+                            <td> $3 </td>
+                            <td> Paid </td>
+                            <td> 
+                                <p class="status cancelled">Cancelled</p>
+                            </td>
+                        </tr>
+                        <td> 4 </td>
+                            <td> Latte </td>
+                            <td> $5 </td>
+                            <td> Due </td>
+                            <td> 
+                                <p class="status inprogress">In Progress</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        </div>
+    </div>
+
+    <script src="assets/js/salestransaksi.js"></script>
+    <script src="assets/js/salesmonth.js"></script>
+    <script src="assets/js/sales6month.js"></script>
+    <script src="assets/js/rushhour.js"></script>
+    <script src="assets/js/rushday.js"></script>
+    <script src="assets/js/kategori.js"></script>
+    <script src="assets/js/topproduct.js"></script>
     
     <!--END MAIN DASHBOARD-->
 
