@@ -1,302 +1,3260 @@
 [
-      {
-        "date": "1 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 868.4
-      },
-      {
-        "date": "1 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 851.4499999999999
-      },
-      {
-        "date": "1 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 788.3500000000001
-      },
-      {
-        "date": "2 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 925.4999999999999
-      },
-      {
-        "date": "2 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 828.8000000000001
-      },
-      {
-        "date": "2 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 649.0500000000001
-      },
-      {
-        "date": "3 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 902.75
-      },
-      {
-        "date": "3 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 906.2499999999998
-      },
-      {
-        "date": "3 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 756
-      },
-      {
-        "date": "4 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 808.2500000000001
-      },
-      {
-        "date": "4 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 781.6500000000001
-      },
-      {
-        "date": "4 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 630.2
-      },
-      {
-        "date": "5 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 903.05
-      },
-      {
-        "date": "5 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 714.8999999999999
-      },
-      {
-        "date": "5 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 800.9000000000001
-      },
-      {
-        "date": "6 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 716.0500000000002
-      },
-      {
-        "date": "6 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 767.1999999999998
-      },
-      {
-        "date": "6 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 790.5999999999999
-      },
-      {
-        "date": "7 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 807.3000000000001
-      },
-      {
-        "date": "7 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1024.0999999999997
-      },
-      {
-        "date": "7 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 788.2499999999999
-      },
-      {
-        "date": "8 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 872.8299999999998
-      },
-      {
-        "date": "8 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 972.5500000000001
-      },
-      {
-        "date": "8 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 793.1500000000002
-      },
-      {
-        "date": "9 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 774.01
-      },
-      {
-        "date": "9 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 894.3999999999999
-      },
-      {
-        "date": "9 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1008.2
-      },
-      {
-        "date": "10 Jan 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 947
-      },
-      {
-        "date": "10 Jan 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 808.1000000000001
-      },
-      {
-        "date": "10 Jan 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 930.5499999999998
-      },
-      {
-        "date": "21 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1614.249999999998
-      },
-      {
-        "date": "21 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 2303.8299999999963
-      },
-      {
-        "date": "21 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1890.2999999999981
-      },
-      {
-        "date": "22 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1912.0499999999986
-      },
-      {
-        "date": "22 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1557.0999999999983
-      },
-      {
-        "date": "22 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 2145.9499999999975
-      },
-      {
-        "date": "23 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1864.399999999999
-      },
-      {
-        "date": "23 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1984.0799999999988
-      },
-      {
-        "date": "23 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1933.3799999999972
-      },
-      {
-        "date": "24 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 2117.5499999999993
-      },
-      {
-        "date": "24 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1690.7999999999988
-      },
-      {
-        "date": "24 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 2097.7499999999973
-      },
-      {
-        "date": "25 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1740.6999999999996
-      },
-      {
-        "date": "25 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1769.1999999999985
-      },
-      {
-        "date": "25 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 2244.9499999999975
-      },
-      {
-        "date": "26 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1975.0999999999997
-      },
-      {
-        "date": "26 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1746.0999999999988
-      },
-      {
-        "date": "26 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 2154.699999999999
-      },
-      {
-        "date": "27 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1861.5499999999988
-      },
-      {
-        "date": "27 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1676.6999999999948
-      },
-      {
-        "date": "27 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 2437.3999999999983
-      },
-      {
-        "date": "28 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1445.8499999999995
-      },
-      {
-        "date": "28 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1524.949999999999
-      },
-      {
-        "date": "28 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1758.1
-      },
-      {
-        "date": "29 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1852.749999999999
-      },
-      {
-        "date": "29 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1298.5499999999997
-      },
-      {
-        "date": "29 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1299.4499999999998
-      },
-      {
-        "date": "30 Jun 2023",
-        "store_location": "Astoria",
-        "sales transaksi": 1807.649999999998
-      },
-      {
-        "date": "30 Jun 2023",
-        "store_location": "Hell's Kitchen",
-        "sales transaksi": 1904.9299999999978
-      },
-      {
-        "date": "30 Jun 2023",
-        "store_location": "Lower Manhattan",
-        "sales transaksi": 1768.7399999999977
-      }
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/1/2023",
+    "sales_total": 868.4,
+    "transaksi_total": 277
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/1/2023",
+    "sales_total": 851.45,
+    "transaksi_total": 270
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/1/2023",
+    "sales_total": 788.35,
+    "transaksi_total": 255
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/2/2023",
+    "sales_total": 925.5,
+    "transaksi_total": 301
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/2/2023",
+    "sales_total": 828.8,
+    "transaksi_total": 272
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/2/2023",
+    "sales_total": 649.05,
+    "transaksi_total": 217
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/3/2023",
+    "sales_total": 902.75,
+    "transaksi_total": 287
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/3/2023",
+    "sales_total": 906.25,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/3/2023",
+    "sales_total": 756,
+    "transaksi_total": 241
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/4/2023",
+    "sales_total": 808.25,
+    "transaksi_total": 262
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/4/2023",
+    "sales_total": 781.65,
+    "transaksi_total": 256
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/4/2023",
+    "sales_total": 630.2,
+    "transaksi_total": 208
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/5/2023",
+    "sales_total": 903.05,
+    "transaksi_total": 285
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/5/2023",
+    "sales_total": 714.9,
+    "transaksi_total": 235
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/5/2023",
+    "sales_total": 800.9,
+    "transaksi_total": 258
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/6/2023",
+    "sales_total": 716.05,
+    "transaksi_total": 224
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/6/2023",
+    "sales_total": 767.2,
+    "transaksi_total": 256
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/6/2023",
+    "sales_total": 790.6,
+    "transaksi_total": 256
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/7/2023",
+    "sales_total": 807.3,
+    "transaksi_total": 257
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/7/2023",
+    "sales_total": 1024.1,
+    "transaksi_total": 323
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/7/2023",
+    "sales_total": 788.25,
+    "transaksi_total": 219
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/8/2023",
+    "sales_total": 793.15,
+    "transaksi_total": 227
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/8/2023",
+    "sales_total": 872.83,
+    "transaksi_total": 277
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/8/2023",
+    "sales_total": 972.55,
+    "transaksi_total": 302
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/9/2023",
+    "sales_total": 774.01,
+    "transaksi_total": 208
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/9/2023",
+    "sales_total": 894.4,
+    "transaksi_total": 272
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/9/2023",
+    "sales_total": 1008.2,
+    "transaksi_total": 262
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/10/2023",
+    "sales_total": 947,
+    "transaksi_total": 305
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/10/2023",
+    "sales_total": 808.1,
+    "transaksi_total": 273
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/10/2023",
+    "sales_total": 930.55,
+    "transaksi_total": 277
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/11/2023",
+    "sales_total": 740.15,
+    "transaksi_total": 229
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/11/2023",
+    "sales_total": 974.55,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/11/2023",
+    "sales_total": 841.05,
+    "transaksi_total": 258
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/12/2023",
+    "sales_total": 660.7,
+    "transaksi_total": 206
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/12/2023",
+    "sales_total": 751.9,
+    "transaksi_total": 251
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/12/2023",
+    "sales_total": 915.1,
+    "transaksi_total": 302
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/13/2023",
+    "sales_total": 705.8,
+    "transaksi_total": 246
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/13/2023",
+    "sales_total": 1362.6,
+    "transaksi_total": 409
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/13/2023",
+    "sales_total": 965.2,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/14/2023",
+    "sales_total": 763.7,
+    "transaksi_total": 213
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/14/2023",
+    "sales_total": 1143.81,
+    "transaksi_total": 326
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/14/2023",
+    "sales_total": 775,
+    "transaksi_total": 232
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/15/2023",
+    "sales_total": 1348.93,
+    "transaksi_total": 365
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/15/2023",
+    "sales_total": 962.43,
+    "transaksi_total": 280
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/15/2023",
+    "sales_total": 856.35,
+    "transaksi_total": 282
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/16/2023",
+    "sales_total": 1027.33,
+    "transaksi_total": 319
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/16/2023",
+    "sales_total": 951.15,
+    "transaksi_total": 277
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/16/2023",
+    "sales_total": 850.68,
+    "transaksi_total": 259
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/17/2023",
+    "sales_total": 1075.4,
+    "transaksi_total": 297
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/17/2023",
+    "sales_total": 1421.5,
+    "transaksi_total": 214
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/17/2023",
+    "sales_total": 788.9,
+    "transaksi_total": 251
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/18/2023",
+    "sales_total": 1064.03,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/18/2023",
+    "sales_total": 846.1,
+    "transaksi_total": 263
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/18/2023",
+    "sales_total": 825.83,
+    "transaksi_total": 269
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/19/2023",
+    "sales_total": 1079.38,
+    "transaksi_total": 313
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/19/2023",
+    "sales_total": 1046.25,
+    "transaksi_total": 293
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/19/2023",
+    "sales_total": 788.05,
+    "transaksi_total": 252
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/20/2023",
+    "sales_total": 871.43,
+    "transaksi_total": 215
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/20/2023",
+    "sales_total": 940.75,
+    "transaksi_total": 284
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/20/2023",
+    "sales_total": 791.55,
+    "transaksi_total": 268
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/21/2023",
+    "sales_total": 992.35,
+    "transaksi_total": 265
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/21/2023",
+    "sales_total": 1075.5,
+    "transaksi_total": 318
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/21/2023",
+    "sales_total": 1015,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/22/2023",
+    "sales_total": 742.8,
+    "transaksi_total": 240
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/22/2023",
+    "sales_total": 621.45,
+    "transaksi_total": 196
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/22/2023",
+    "sales_total": 1003.08,
+    "transaksi_total": 332
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/23/2023",
+    "sales_total": 928.3,
+    "transaksi_total": 292
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/23/2023",
+    "sales_total": 1026.1,
+    "transaksi_total": 304
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/23/2023",
+    "sales_total": 898.75,
+    "transaksi_total": 289
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/24/2023",
+    "sales_total": 922.05,
+    "transaksi_total": 292
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/24/2023",
+    "sales_total": 841.1,
+    "transaksi_total": 242
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/24/2023",
+    "sales_total": 1105.8,
+    "transaksi_total": 349
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/25/2023",
+    "sales_total": 942,
+    "transaksi_total": 314
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/25/2023",
+    "sales_total": 840.7,
+    "transaksi_total": 258
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/25/2023",
+    "sales_total": 1063.85,
+    "transaksi_total": 334
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/26/2023",
+    "sales_total": 939.25,
+    "transaksi_total": 308
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/26/2023",
+    "sales_total": 856.43,
+    "transaksi_total": 255
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/26/2023",
+    "sales_total": 1067.35,
+    "transaksi_total": 324
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/27/2023",
+    "sales_total": 838.55,
+    "transaksi_total": 273
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/27/2023",
+    "sales_total": 760.05,
+    "transaksi_total": 264
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/27/2023",
+    "sales_total": 1143.5,
+    "transaksi_total": 349
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/28/2023",
+    "sales_total": 733.25,
+    "transaksi_total": 244
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/28/2023",
+    "sales_total": 699.65,
+    "transaksi_total": 227
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/28/2023",
+    "sales_total": 604.2,
+    "transaksi_total": 201
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/29/2023",
+    "sales_total": 820.7,
+    "transaksi_total": 261
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/29/2023",
+    "sales_total": 612.15,
+    "transaksi_total": 195
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/29/2023",
+    "sales_total": 627.9,
+    "transaksi_total": 196
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/30/2023",
+    "sales_total": 870.6,
+    "transaksi_total": 242
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/30/2023",
+    "sales_total": 868.4,
+    "transaksi_total": 242
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/30/2023",
+    "sales_total": 737.41,
+    "transaksi_total": 209
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "1/31/2023",
+    "sales_total": 801.5,
+    "transaksi_total": 219
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "1/31/2023",
+    "sales_total": 768.4,
+    "transaksi_total": 218
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "1/31/2023",
+    "sales_total": 764.23,
+    "transaksi_total": 208
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/1/2023",
+    "sales_total": 833.7,
+    "transaksi_total": 272
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/1/2023",
+    "sales_total": 849.4,
+    "transaksi_total": 269
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/1/2023",
+    "sales_total": 783.2,
+    "transaksi_total": 255
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/2/2023",
+    "sales_total": 944.8,
+    "transaksi_total": 302
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/2/2023",
+    "sales_total": 883.95,
+    "transaksi_total": 287
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/2/2023",
+    "sales_total": 678.15,
+    "transaksi_total": 225
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/3/2023",
+    "sales_total": 940.2,
+    "transaksi_total": 301
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/3/2023",
+    "sales_total": 896,
+    "transaksi_total": 291
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/3/2023",
+    "sales_total": 755.25,
+    "transaksi_total": 242
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/4/2023",
+    "sales_total": 825.95,
+    "transaksi_total": 271
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/4/2023",
+    "sales_total": 844.65,
+    "transaksi_total": 278
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/4/2023",
+    "sales_total": 881.1,
+    "transaksi_total": 285
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/5/2023",
+    "sales_total": 871.25,
+    "transaksi_total": 283
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/5/2023",
+    "sales_total": 709.35,
+    "transaksi_total": 233
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/5/2023",
+    "sales_total": 724.1,
+    "transaksi_total": 232
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/6/2023",
+    "sales_total": 655.35,
+    "transaksi_total": 209
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/6/2023",
+    "sales_total": 796.15,
+    "transaksi_total": 264
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/6/2023",
+    "sales_total": 751.9,
+    "transaksi_total": 239
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/7/2023",
+    "sales_total": 804.3,
+    "transaksi_total": 255
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/7/2023",
+    "sales_total": 893.25,
+    "transaksi_total": 292
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/7/2023",
+    "sales_total": 737,
+    "transaksi_total": 222
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/8/2023",
+    "sales_total": 928.8,
+    "transaksi_total": 263
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/8/2023",
+    "sales_total": 949.93,
+    "transaksi_total": 298
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/8/2023",
+    "sales_total": 883.7,
+    "transaksi_total": 283
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/9/2023",
+    "sales_total": 866.8,
+    "transaksi_total": 225
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/9/2023",
+    "sales_total": 859.25,
+    "transaksi_total": 292
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/9/2023",
+    "sales_total": 884.58,
+    "transaksi_total": 244
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/10/2023",
+    "sales_total": 868,
+    "transaksi_total": 297
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/10/2023",
+    "sales_total": 1072.3,
+    "transaksi_total": 326
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/10/2023",
+    "sales_total": 961.3,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/11/2023",
+    "sales_total": 670.05,
+    "transaksi_total": 212
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/11/2023",
+    "sales_total": 1031.21,
+    "transaksi_total": 307
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/11/2023",
+    "sales_total": 825.48,
+    "transaksi_total": 265
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/12/2023",
+    "sales_total": 680.6,
+    "transaksi_total": 207
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/12/2023",
+    "sales_total": 1125.8,
+    "transaksi_total": 326
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/12/2023",
+    "sales_total": 1087.6,
+    "transaksi_total": 339
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/13/2023",
+    "sales_total": 641.9,
+    "transaksi_total": 212
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/13/2023",
+    "sales_total": 1185.15,
+    "transaksi_total": 363
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/13/2023",
+    "sales_total": 1018.43,
+    "transaksi_total": 329
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/14/2023",
+    "sales_total": 747.05,
+    "transaksi_total": 210
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/14/2023",
+    "sales_total": 1163.65,
+    "transaksi_total": 349
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/14/2023",
+    "sales_total": 763.23,
+    "transaksi_total": 237
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/15/2023",
+    "sales_total": 1254.95,
+    "transaksi_total": 375
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/15/2023",
+    "sales_total": 850.25,
+    "transaksi_total": 254
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/15/2023",
+    "sales_total": 822.85,
+    "transaksi_total": 249
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/16/2023",
+    "sales_total": 1191.3,
+    "transaksi_total": 341
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/16/2023",
+    "sales_total": 908.23,
+    "transaksi_total": 265
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/16/2023",
+    "sales_total": 923.8,
+    "transaksi_total": 266
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/17/2023",
+    "sales_total": 967.6,
+    "transaksi_total": 298
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/17/2023",
+    "sales_total": 637.6,
+    "transaksi_total": 209
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/17/2023",
+    "sales_total": 695.55,
+    "transaksi_total": 229
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/18/2023",
+    "sales_total": 1069.53,
+    "transaksi_total": 297
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/18/2023",
+    "sales_total": 1049.5,
+    "transaksi_total": 297
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/18/2023",
+    "sales_total": 746.45,
+    "transaksi_total": 233
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/19/2023",
+    "sales_total": 1164.4,
+    "transaksi_total": 342
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/19/2023",
+    "sales_total": 1164.2,
+    "transaksi_total": 331
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/19/2023",
+    "sales_total": 891,
+    "transaksi_total": 275
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/20/2023",
+    "sales_total": 760.23,
+    "transaksi_total": 209
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/20/2023",
+    "sales_total": 1066.65,
+    "transaksi_total": 316
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/20/2023",
+    "sales_total": 1056.75,
+    "transaksi_total": 336
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/21/2023",
+    "sales_total": 870.48,
+    "transaksi_total": 238
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/21/2023",
+    "sales_total": 958.65,
+    "transaksi_total": 307
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/21/2023",
+    "sales_total": 954.4,
+    "transaksi_total": 276
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/22/2023",
+    "sales_total": 1037.5,
+    "transaksi_total": 334
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/22/2023",
+    "sales_total": 830.7,
+    "transaksi_total": 254
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/22/2023",
+    "sales_total": 1060.5,
+    "transaksi_total": 323
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/23/2023",
+    "sales_total": 904.5,
+    "transaksi_total": 283
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/23/2023",
+    "sales_total": 888.98,
+    "transaksi_total": 240
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/23/2023",
+    "sales_total": 952.73,
+    "transaksi_total": 311
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/24/2023",
+    "sales_total": 986.9,
+    "transaksi_total": 303
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/24/2023",
+    "sales_total": 815.1,
+    "transaksi_total": 256
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/24/2023",
+    "sales_total": 1138.7,
+    "transaksi_total": 373
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/25/2023",
+    "sales_total": 813.55,
+    "transaksi_total": 266
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/25/2023",
+    "sales_total": 853.35,
+    "transaksi_total": 255
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/25/2023",
+    "sales_total": 1156.65,
+    "transaksi_total": 367
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/26/2023",
+    "sales_total": 1030.9,
+    "transaksi_total": 337
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/26/2023",
+    "sales_total": 928.45,
+    "transaksi_total": 269
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/26/2023",
+    "sales_total": 997.4,
+    "transaksi_total": 299
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/27/2023",
+    "sales_total": 931.85,
+    "transaksi_total": 301
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/27/2023",
+    "sales_total": 758.9,
+    "transaksi_total": 272
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/27/2023",
+    "sales_total": 1469.25,
+    "transaksi_total": 434
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "2/28/2023",
+    "sales_total": 842.9,
+    "transaksi_total": 275
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "2/28/2023",
+    "sales_total": 749.2,
+    "transaksi_total": 237
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "2/28/2023",
+    "sales_total": 719,
+    "transaksi_total": 232
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/1/2023",
+    "sales_total": 1021.1,
+    "transaksi_total": 328
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/1/2023",
+    "sales_total": 1040.45,
+    "transaksi_total": 330
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/1/2023",
+    "sales_total": 978.7,
+    "transaksi_total": 310
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/2/2023",
+    "sales_total": 1088.4,
+    "transaksi_total": 352
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/2/2023",
+    "sales_total": 1020.75,
+    "transaksi_total": 331
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/2/2023",
+    "sales_total": 886.9,
+    "transaksi_total": 280
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/3/2023",
+    "sales_total": 1160.35,
+    "transaksi_total": 371
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/3/2023",
+    "sales_total": 1037.55,
+    "transaksi_total": 328
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/3/2023",
+    "sales_total": 957.25,
+    "transaksi_total": 311
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/4/2023",
+    "sales_total": 1008.75,
+    "transaksi_total": 328
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/4/2023",
+    "sales_total": 868.4,
+    "transaksi_total": 281
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/4/2023",
+    "sales_total": 904.75,
+    "transaksi_total": 288
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/5/2023",
+    "sales_total": 1097.15,
+    "transaksi_total": 355
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/5/2023",
+    "sales_total": 904,
+    "transaksi_total": 299
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/5/2023",
+    "sales_total": 944.15,
+    "transaksi_total": 298
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/6/2023",
+    "sales_total": 732.75,
+    "transaksi_total": 231
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/6/2023",
+    "sales_total": 934.95,
+    "transaksi_total": 306
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/6/2023",
+    "sales_total": 950.35,
+    "transaksi_total": 299
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/7/2023",
+    "sales_total": 921.3,
+    "transaksi_total": 293
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/7/2023",
+    "sales_total": 1136.05,
+    "transaksi_total": 374
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/7/2023",
+    "sales_total": 746.15,
+    "transaksi_total": 216
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/8/2023",
+    "sales_total": 1209.08,
+    "transaksi_total": 332
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/8/2023",
+    "sales_total": 1184.08,
+    "transaksi_total": 357
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/8/2023",
+    "sales_total": 1130.1,
+    "transaksi_total": 350
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/9/2023",
+    "sales_total": 908.83,
+    "transaksi_total": 249
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/9/2023",
+    "sales_total": 1268.7,
+    "transaksi_total": 399
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/9/2023",
+    "sales_total": 1282.44,
+    "transaksi_total": 335
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/10/2023",
+    "sales_total": 1081.2,
+    "transaksi_total": 327
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/10/2023",
+    "sales_total": 1252.18,
+    "transaksi_total": 384
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/10/2023",
+    "sales_total": 1108.2,
+    "transaksi_total": 340
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/11/2023",
+    "sales_total": 995.25,
+    "transaksi_total": 295
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/11/2023",
+    "sales_total": 1140.8,
+    "transaksi_total": 363
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/11/2023",
+    "sales_total": 1075.6,
+    "transaksi_total": 344
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/12/2023",
+    "sales_total": 664.13,
+    "transaksi_total": 202
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/12/2023",
+    "sales_total": 1278.05,
+    "transaksi_total": 370
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/12/2023",
+    "sales_total": 1146.15,
+    "transaksi_total": 375
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/13/2023",
+    "sales_total": 846.1,
+    "transaksi_total": 282
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/13/2023",
+    "sales_total": 1440.9,
+    "transaksi_total": 423
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/13/2023",
+    "sales_total": 1340.65,
+    "transaksi_total": 405
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/14/2023",
+    "sales_total": 966.55,
+    "transaksi_total": 257
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/14/2023",
+    "sales_total": 1379.83,
+    "transaksi_total": 380
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/14/2023",
+    "sales_total": 966.28,
+    "transaksi_total": 281
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/15/2023",
+    "sales_total": 1417.45,
+    "transaksi_total": 398
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/15/2023",
+    "sales_total": 1005.28,
+    "transaksi_total": 317
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/15/2023",
+    "sales_total": 915.3,
+    "transaksi_total": 285
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/16/2023",
+    "sales_total": 1149.13,
+    "transaksi_total": 359
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/16/2023",
+    "sales_total": 1142.43,
+    "transaksi_total": 350
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/16/2023",
+    "sales_total": 1094.55,
+    "transaksi_total": 328
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/17/2023",
+    "sales_total": 1440.45,
+    "transaksi_total": 408
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/17/2023",
+    "sales_total": 788.45,
+    "transaksi_total": 236
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/17/2023",
+    "sales_total": 952.85,
+    "transaksi_total": 298
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/18/2023",
+    "sales_total": 1207.58,
+    "transaksi_total": 353
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/18/2023",
+    "sales_total": 1163.25,
+    "transaksi_total": 337
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/18/2023",
+    "sales_total": 1037.53,
+    "transaksi_total": 311
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/19/2023",
+    "sales_total": 1488.5,
+    "transaksi_total": 392
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/19/2023",
+    "sales_total": 1085.18,
+    "transaksi_total": 340
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/19/2023",
+    "sales_total": 766.35,
+    "transaksi_total": 256
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/20/2023",
+    "sales_total": 1113.08,
+    "transaksi_total": 285
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/20/2023",
+    "sales_total": 1114.1,
+    "transaksi_total": 351
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/20/2023",
+    "sales_total": 1035.1,
+    "transaksi_total": 352
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/21/2023",
+    "sales_total": 835.85,
+    "transaksi_total": 236
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/21/2023",
+    "sales_total": 1316.7,
+    "transaksi_total": 394
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/21/2023",
+    "sales_total": 1057.25,
+    "transaksi_total": 319
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/22/2023",
+    "sales_total": 1124.55,
+    "transaksi_total": 367
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/22/2023",
+    "sales_total": 923.9,
+    "transaksi_total": 277
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/22/2023",
+    "sales_total": 1235.66,
+    "transaksi_total": 370
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/23/2023",
+    "sales_total": 1060.55,
+    "transaksi_total": 328
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/23/2023",
+    "sales_total": 1142.33,
+    "transaksi_total": 325
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/23/2023",
+    "sales_total": 1158.25,
+    "transaksi_total": 387
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/24/2023",
+    "sales_total": 1123.2,
+    "transaksi_total": 355
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/24/2023",
+    "sales_total": 1015.9,
+    "transaksi_total": 300
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/24/2023",
+    "sales_total": 1447.1,
+    "transaksi_total": 456
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/25/2023",
+    "sales_total": 1025.75,
+    "transaksi_total": 337
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/25/2023",
+    "sales_total": 1006.3,
+    "transaksi_total": 297
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/25/2023",
+    "sales_total": 1348.9,
+    "transaksi_total": 416
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/26/2023",
+    "sales_total": 1208.65,
+    "transaksi_total": 391
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/26/2023",
+    "sales_total": 971.63,
+    "transaksi_total": 287
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/26/2023",
+    "sales_total": 1130.55,
+    "transaksi_total": 360
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/27/2023",
+    "sales_total": 1124,
+    "transaksi_total": 360
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/27/2023",
+    "sales_total": 1060.6,
+    "transaksi_total": 380
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/27/2023",
+    "sales_total": 1489.75,
+    "transaksi_total": 437
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/28/2023",
+    "sales_total": 954.75,
+    "transaksi_total": 312
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/28/2023",
+    "sales_total": 892.55,
+    "transaksi_total": 280
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/28/2023",
+    "sales_total": 945.25,
+    "transaksi_total": 305
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/29/2023",
+    "sales_total": 978.8,
+    "transaksi_total": 317
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/29/2023",
+    "sales_total": 672.9,
+    "transaksi_total": 221
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/29/2023",
+    "sales_total": 840.3,
+    "transaksi_total": 274
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/30/2023",
+    "sales_total": 967.05,
+    "transaksi_total": 307
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/30/2023",
+    "sales_total": 998.98,
+    "transaksi_total": 291
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/30/2023",
+    "sales_total": 966.79,
+    "transaksi_total": 319
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "3/31/2023",
+    "sales_total": 915.15,
+    "transaksi_total": 292
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "3/31/2023",
+    "sales_total": 923.4,
+    "transaksi_total": 290
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "3/31/2023",
+    "sales_total": 1049.53,
+    "transaksi_total": 304
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/1/2023",
+    "sales_total": 1316.5,
+    "transaksi_total": 433
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/1/2023",
+    "sales_total": 1215.35,
+    "transaksi_total": 390
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/1/2023",
+    "sales_total": 1168.05,
+    "transaksi_total": 375
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/2/2023",
+    "sales_total": 1351.35,
+    "transaksi_total": 430
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/2/2023",
+    "sales_total": 1222.3,
+    "transaksi_total": 399
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/2/2023",
+    "sales_total": 1002.2,
+    "transaksi_total": 327
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/3/2023",
+    "sales_total": 1333.4,
+    "transaksi_total": 429
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/3/2023",
+    "sales_total": 1144,
+    "transaksi_total": 367
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/3/2023",
+    "sales_total": 1127.55,
+    "transaksi_total": 366
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/4/2023",
+    "sales_total": 1150.75,
+    "transaksi_total": 371
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/4/2023",
+    "sales_total": 1084.55,
+    "transaksi_total": 355
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/4/2023",
+    "sales_total": 1092,
+    "transaksi_total": 360
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/5/2023",
+    "sales_total": 1242.15,
+    "transaksi_total": 400
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/5/2023",
+    "sales_total": 1108.3,
+    "transaksi_total": 356
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/5/2023",
+    "sales_total": 1202.25,
+    "transaksi_total": 380
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/6/2023",
+    "sales_total": 1002.95,
+    "transaksi_total": 318
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/6/2023",
+    "sales_total": 1167,
+    "transaksi_total": 389
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/6/2023",
+    "sales_total": 1080.25,
+    "transaksi_total": 346
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/7/2023",
+    "sales_total": 1138.6,
+    "transaksi_total": 363
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/7/2023",
+    "sales_total": 1529.45,
+    "transaksi_total": 490
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/7/2023",
+    "sales_total": 1014.75,
+    "transaksi_total": 280
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/8/2023",
+    "sales_total": 1631.93,
+    "transaksi_total": 444
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/8/2023",
+    "sales_total": 1427.78,
+    "transaksi_total": 443
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/8/2023",
+    "sales_total": 1513.35,
+    "transaksi_total": 440
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/9/2023",
+    "sales_total": 1192.18,
+    "transaksi_total": 320
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/9/2023",
+    "sales_total": 1431.4,
+    "transaksi_total": 460
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/9/2023",
+    "sales_total": 1465.3,
+    "transaksi_total": 377
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/10/2023",
+    "sales_total": 1355.45,
+    "transaksi_total": 416
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/10/2023",
+    "sales_total": 1411.05,
+    "transaksi_total": 425
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/10/2023",
+    "sales_total": 1453.8,
+    "transaksi_total": 445
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/11/2023",
+    "sales_total": 1295,
+    "transaksi_total": 411
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/11/2023",
+    "sales_total": 1362.03,
+    "transaksi_total": 420
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/11/2023",
+    "sales_total": 1195.83,
+    "transaksi_total": 406
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/12/2023",
+    "sales_total": 958.63,
+    "transaksi_total": 287
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/12/2023",
+    "sales_total": 1569,
+    "transaksi_total": 476
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/12/2023",
+    "sales_total": 1512.55,
+    "transaksi_total": 476
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/13/2023",
+    "sales_total": 1069.7,
+    "transaksi_total": 353
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/13/2023",
+    "sales_total": 1797.4,
+    "transaksi_total": 547
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/13/2023",
+    "sales_total": 1247.43,
+    "transaksi_total": 394
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/14/2023",
+    "sales_total": 1195.83,
+    "transaksi_total": 322
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/14/2023",
+    "sales_total": 1818.46,
+    "transaksi_total": 483
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/14/2023",
+    "sales_total": 1116.96,
+    "transaksi_total": 309
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/15/2023",
+    "sales_total": 1622.66,
+    "transaksi_total": 470
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/15/2023",
+    "sales_total": 1229.08,
+    "transaksi_total": 372
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/15/2023",
+    "sales_total": 1270.05,
+    "transaksi_total": 403
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/16/2023",
+    "sales_total": 1482.08,
+    "transaksi_total": 451
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/16/2023",
+    "sales_total": 1555.43,
+    "transaksi_total": 461
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/16/2023",
+    "sales_total": 1462.88,
+    "transaksi_total": 426
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/17/2023",
+    "sales_total": 1543.6,
+    "transaksi_total": 457
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/17/2023",
+    "sales_total": 1638.45,
+    "transaksi_total": 291
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/17/2023",
+    "sales_total": 1150.05,
+    "transaksi_total": 369
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/18/2023",
+    "sales_total": 1608.79,
+    "transaksi_total": 453
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/18/2023",
+    "sales_total": 1580.6,
+    "transaksi_total": 470
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/18/2023",
+    "sales_total": 1164.68,
+    "transaksi_total": 352
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/19/2023",
+    "sales_total": 1738.93,
+    "transaksi_total": 488
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/19/2023",
+    "sales_total": 1449.18,
+    "transaksi_total": 418
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/19/2023",
+    "sales_total": 1130.2,
+    "transaksi_total": 364
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/20/2023",
+    "sales_total": 1163.95,
+    "transaksi_total": 294
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/20/2023",
+    "sales_total": 1317.4,
+    "transaksi_total": 422
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/20/2023",
+    "sales_total": 1443.43,
+    "transaksi_total": 461
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/21/2023",
+    "sales_total": 1101.88,
+    "transaksi_total": 305
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/21/2023",
+    "sales_total": 1521.85,
+    "transaksi_total": 466
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/21/2023",
+    "sales_total": 1381.65,
+    "transaksi_total": 435
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/22/2023",
+    "sales_total": 1291.95,
+    "transaksi_total": 414
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/22/2023",
+    "sales_total": 1035.45,
+    "transaksi_total": 315
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/22/2023",
+    "sales_total": 1634.18,
+    "transaksi_total": 509
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/23/2023",
+    "sales_total": 1384.05,
+    "transaksi_total": 428
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/23/2023",
+    "sales_total": 1414.48,
+    "transaksi_total": 396
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/23/2023",
+    "sales_total": 1522.76,
+    "transaksi_total": 482
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/24/2023",
+    "sales_total": 1539.8,
+    "transaksi_total": 490
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/24/2023",
+    "sales_total": 1166.75,
+    "transaksi_total": 348
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/24/2023",
+    "sales_total": 1558.9,
+    "transaksi_total": 504
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/25/2023",
+    "sales_total": 1306.1,
+    "transaksi_total": 430
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/25/2023",
+    "sales_total": 1284.55,
+    "transaksi_total": 376
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/25/2023",
+    "sales_total": 1664.35,
+    "transaksi_total": 529
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/26/2023",
+    "sales_total": 1447.5,
+    "transaksi_total": 461
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/26/2023",
+    "sales_total": 1427.5,
+    "transaksi_total": 417
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/26/2023",
+    "sales_total": 1684.45,
+    "transaksi_total": 518
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/27/2023",
+    "sales_total": 1439.55,
+    "transaksi_total": 461
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/27/2023",
+    "sales_total": 1301.45,
+    "transaksi_total": 462
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/27/2023",
+    "sales_total": 1686.1,
+    "transaksi_total": 554
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/28/2023",
+    "sales_total": 1172.7,
+    "transaksi_total": 386
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/28/2023",
+    "sales_total": 1089.95,
+    "transaksi_total": 344
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/28/2023",
+    "sales_total": 1111.15,
+    "transaksi_total": 369
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/29/2023",
+    "sales_total": 1124.05,
+    "transaksi_total": 355
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/29/2023",
+    "sales_total": 892.55,
+    "transaksi_total": 290
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/29/2023",
+    "sales_total": 936.9,
+    "transaksi_total": 309
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "4/30/2023",
+    "sales_total": 1275.6,
+    "transaksi_total": 386
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "4/30/2023",
+    "sales_total": 1111.4,
+    "transaksi_total": 346
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "4/30/2023",
+    "sales_total": 1165.33,
+    "transaksi_total": 384
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/1/2023",
+    "sales_total": 1657.65,
+    "transaksi_total": 533
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/1/2023",
+    "sales_total": 1598.4,
+    "transaksi_total": 512
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/1/2023",
+    "sales_total": 1475.4,
+    "transaksi_total": 470
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/2/2023",
+    "sales_total": 1758.45,
+    "transaksi_total": 564
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/2/2023",
+    "sales_total": 1590.55,
+    "transaksi_total": 517
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/2/2023",
+    "sales_total": 1276.5,
+    "transaksi_total": 414
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/3/2023",
+    "sales_total": 1760.45,
+    "transaksi_total": 567
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/3/2023",
+    "sales_total": 1552.5,
+    "transaksi_total": 503
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/3/2023",
+    "sales_total": 1401.65,
+    "transaksi_total": 453
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/4/2023",
+    "sales_total": 1709.85,
+    "transaksi_total": 547
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/4/2023",
+    "sales_total": 1448.55,
+    "transaksi_total": 467
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/4/2023",
+    "sales_total": 1431.3,
+    "transaksi_total": 469
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/5/2023",
+    "sales_total": 1726.65,
+    "transaksi_total": 554
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/5/2023",
+    "sales_total": 1445.7,
+    "transaksi_total": 463
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/5/2023",
+    "sales_total": 1528.65,
+    "transaksi_total": 490
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/6/2023",
+    "sales_total": 1293.05,
+    "transaksi_total": 414
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/6/2023",
+    "sales_total": 1433.1,
+    "transaksi_total": 478
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/6/2023",
+    "sales_total": 1479,
+    "transaksi_total": 472
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/7/2023",
+    "sales_total": 1416.6,
+    "transaksi_total": 452
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/7/2023",
+    "sales_total": 1957.55,
+    "transaksi_total": 635
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/7/2023",
+    "sales_total": 1168.55,
+    "transaksi_total": 357
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/8/2023",
+    "sales_total": 1967.68,
+    "transaksi_total": 546
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/8/2023",
+    "sales_total": 1767.38,
+    "transaksi_total": 560
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/8/2023",
+    "sales_total": 1869.15,
+    "transaksi_total": 588
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/9/2023",
+    "sales_total": 1362.11,
+    "transaksi_total": 387
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/9/2023",
+    "sales_total": 1916.2,
+    "transaksi_total": 608
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/9/2023",
+    "sales_total": 1822.66,
+    "transaksi_total": 480
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/10/2023",
+    "sales_total": 1716.9,
+    "transaksi_total": 550
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/10/2023",
+    "sales_total": 1942.63,
+    "transaksi_total": 586
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/10/2023",
+    "sales_total": 1596.8,
+    "transaksi_total": 507
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/11/2023",
+    "sales_total": 1395,
+    "transaksi_total": 443
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/11/2023",
+    "sales_total": 1905.31,
+    "transaksi_total": 562
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/11/2023",
+    "sales_total": 1549.75,
+    "transaksi_total": 507
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/12/2023",
+    "sales_total": 1175.08,
+    "transaksi_total": 362
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/12/2023",
+    "sales_total": 1896.4,
+    "transaksi_total": 583
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/12/2023",
+    "sales_total": 1609.65,
+    "transaksi_total": 548
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/13/2023",
+    "sales_total": 1299.85,
+    "transaksi_total": 439
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/13/2023",
+    "sales_total": 2312.6,
+    "transaksi_total": 684
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/13/2023",
+    "sales_total": 1899.08,
+    "transaksi_total": 594
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/14/2023",
+    "sales_total": 1482,
+    "transaksi_total": 417
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/14/2023",
+    "sales_total": 1979.71,
+    "transaksi_total": 561
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/14/2023",
+    "sales_total": 1590.94,
+    "transaksi_total": 461
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/15/2023",
+    "sales_total": 2180.88,
+    "transaksi_total": 630
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/15/2023",
+    "sales_total": 1592.65,
+    "transaksi_total": 480
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/15/2023",
+    "sales_total": 1611.45,
+    "transaksi_total": 500
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/16/2023",
+    "sales_total": 2042.15,
+    "transaksi_total": 623
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/16/2023",
+    "sales_total": 1815.78,
+    "transaksi_total": 541
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/16/2023",
+    "sales_total": 1684.2,
+    "transaksi_total": 493
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/17/2023",
+    "sales_total": 1942.5,
+    "transaksi_total": 566
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/17/2023",
+    "sales_total": 1791.35,
+    "transaksi_total": 359
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/17/2023",
+    "sales_total": 1684.15,
+    "transaksi_total": 510
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/18/2023",
+    "sales_total": 1965.94,
+    "transaksi_total": 566
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/18/2023",
+    "sales_total": 1949.33,
+    "transaksi_total": 583
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/18/2023",
+    "sales_total": 1668.2,
+    "transaksi_total": 510
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/19/2023",
+    "sales_total": 2184.7,
+    "transaksi_total": 644
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/19/2023",
+    "sales_total": 1908.83,
+    "transaksi_total": 561
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/19/2023",
+    "sales_total": 1564.35,
+    "transaksi_total": 497
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/20/2023",
+    "sales_total": 1798.73,
+    "transaksi_total": 423
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/20/2023",
+    "sales_total": 1883.15,
+    "transaksi_total": 568
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/20/2023",
+    "sales_total": 1837.4,
+    "transaksi_total": 602
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/21/2023",
+    "sales_total": 1568.78,
+    "transaksi_total": 418
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/21/2023",
+    "sales_total": 2085.08,
+    "transaksi_total": 605
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/21/2023",
+    "sales_total": 1716.95,
+    "transaksi_total": 544
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/22/2023",
+    "sales_total": 1773.15,
+    "transaksi_total": 582
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/22/2023",
+    "sales_total": 1510.95,
+    "transaksi_total": 442
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/22/2023",
+    "sales_total": 2257.06,
+    "transaksi_total": 705
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/23/2023",
+    "sales_total": 1653.1,
+    "transaksi_total": 525
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/23/2023",
+    "sales_total": 1835.93,
+    "transaksi_total": 544
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/23/2023",
+    "sales_total": 1753.88,
+    "transaksi_total": 572
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/24/2023",
+    "sales_total": 1889.65,
+    "transaksi_total": 605
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/24/2023",
+    "sales_total": 1533.2,
+    "transaksi_total": 444
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/24/2023",
+    "sales_total": 1968.6,
+    "transaksi_total": 633
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/25/2023",
+    "sales_total": 1628.15,
+    "transaksi_total": 528
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/25/2023",
+    "sales_total": 1597.4,
+    "transaksi_total": 456
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/25/2023",
+    "sales_total": 2005.3,
+    "transaksi_total": 629
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/26/2023",
+    "sales_total": 1826.65,
+    "transaksi_total": 591
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/26/2023",
+    "sales_total": 1507.3,
+    "transaksi_total": 451
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/26/2023",
+    "sales_total": 1967,
+    "transaksi_total": 619
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/27/2023",
+    "sales_total": 1661.05,
+    "transaksi_total": 540
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/27/2023",
+    "sales_total": 1655.25,
+    "transaksi_total": 582
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/27/2023",
+    "sales_total": 2242.85,
+    "transaksi_total": 693
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/28/2023",
+    "sales_total": 1612.85,
+    "transaksi_total": 531
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/28/2023",
+    "sales_total": 1264.75,
+    "transaksi_total": 404
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/28/2023",
+    "sales_total": 1461.05,
+    "transaksi_total": 467
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/29/2023",
+    "sales_total": 1637.1,
+    "transaksi_total": 516
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/29/2023",
+    "sales_total": 1125.15,
+    "transaksi_total": 363
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/29/2023",
+    "sales_total": 1197.25,
+    "transaksi_total": 391
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/30/2023",
+    "sales_total": 1670.95,
+    "transaksi_total": 539
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/30/2023",
+    "sales_total": 1432.5,
+    "transaksi_total": 426
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/30/2023",
+    "sales_total": 1732.03,
+    "transaksi_total": 500
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "5/31/2023",
+    "sales_total": 1671.11,
+    "transaksi_total": 512
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "5/31/2023",
+    "sales_total": 1363.75,
+    "transaksi_total": 416
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "5/31/2023",
+    "sales_total": 1649.27,
+    "transaksi_total": 500
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/1/2023",
+    "sales_total": 1794.85,
+    "transaksi_total": 583
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/1/2023",
+    "sales_total": 1829.2,
+    "transaksi_total": 582
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/1/2023",
+    "sales_total": 1602.95,
+    "transaksi_total": 511
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/2/2023",
+    "sales_total": 1915.45,
+    "transaksi_total": 622
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/2/2023",
+    "sales_total": 1701.6,
+    "transaksi_total": 555
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/2/2023",
+    "sales_total": 1439.45,
+    "transaksi_total": 465
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/3/2023",
+    "sales_total": 1953.5,
+    "transaksi_total": 616
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/3/2023",
+    "sales_total": 1612.8,
+    "transaksi_total": 522
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/3/2023",
+    "sales_total": 1600.35,
+    "transaksi_total": 516
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/4/2023",
+    "sales_total": 1760.9,
+    "transaksi_total": 572
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/4/2023",
+    "sales_total": 1628.9,
+    "transaksi_total": 529
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/4/2023",
+    "sales_total": 1595.35,
+    "transaksi_total": 518
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/5/2023",
+    "sales_total": 1842.45,
+    "transaksi_total": 595
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/5/2023",
+    "sales_total": 1531.7,
+    "transaksi_total": 495
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/5/2023",
+    "sales_total": 1537,
+    "transaksi_total": 487
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/6/2023",
+    "sales_total": 1397.1,
+    "transaksi_total": 446
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/6/2023",
+    "sales_total": 1611.4,
+    "transaksi_total": 533
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/6/2023",
+    "sales_total": 1590.4,
+    "transaksi_total": 515
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/7/2023",
+    "sales_total": 1555.55,
+    "transaksi_total": 494
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/7/2023",
+    "sales_total": 2045.5,
+    "transaksi_total": 652
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/7/2023",
+    "sales_total": 1282.05,
+    "transaksi_total": 390
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/8/2023",
+    "sales_total": 2168.68,
+    "transaksi_total": 574
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/8/2023",
+    "sales_total": 2028.11,
+    "transaksi_total": 623
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/8/2023",
+    "sales_total": 1954.8,
+    "transaksi_total": 591
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/9/2023",
+    "sales_total": 1518.48,
+    "transaksi_total": 433
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/9/2023",
+    "sales_total": 2189.6,
+    "transaksi_total": 693
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/9/2023",
+    "sales_total": 2159.08,
+    "transaksi_total": 556
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/10/2023",
+    "sales_total": 1749.45,
+    "transaksi_total": 538
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/10/2023",
+    "sales_total": 1990.7,
+    "transaksi_total": 612
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/10/2023",
+    "sales_total": 1886.6,
+    "transaksi_total": 558
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/11/2023",
+    "sales_total": 1703.65,
+    "transaksi_total": 524
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/11/2023",
+    "sales_total": 2002.53,
+    "transaksi_total": 636
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/11/2023",
+    "sales_total": 1712.43,
+    "transaksi_total": 543
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/12/2023",
+    "sales_total": 1244.6,
+    "transaksi_total": 394
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/12/2023",
+    "sales_total": 2106.6,
+    "transaksi_total": 644
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/12/2023",
+    "sales_total": 1977.5,
+    "transaksi_total": 636
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/13/2023",
+    "sales_total": 1439.45,
+    "transaksi_total": 480
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/13/2023",
+    "sales_total": 2534.8,
+    "transaksi_total": 769
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/13/2023",
+    "sales_total": 2215.11,
+    "transaksi_total": 689
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/14/2023",
+    "sales_total": 1588.55,
+    "transaksi_total": 425
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/14/2023",
+    "sales_total": 2496.61,
+    "transaksi_total": 672
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/14/2023",
+    "sales_total": 1751.36,
+    "transaksi_total": 511
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/15/2023",
+    "sales_total": 2373.21,
+    "transaksi_total": 661
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/15/2023",
+    "sales_total": 1788.18,
+    "transaksi_total": 549
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/15/2023",
+    "sales_total": 1644.85,
+    "transaksi_total": 518
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/16/2023",
+    "sales_total": 2229.8,
+    "transaksi_total": 679
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/16/2023",
+    "sales_total": 1975.95,
+    "transaksi_total": 597
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/16/2023",
+    "sales_total": 1805.68,
+    "transaksi_total": 548
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/17/2023",
+    "sales_total": 2072.65,
+    "transaksi_total": 618
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/17/2023",
+    "sales_total": 2320.1,
+    "transaksi_total": 397
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/17/2023",
+    "sales_total": 1724.85,
+    "transaksi_total": 537
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/18/2023",
+    "sales_total": 2044.88,
+    "transaksi_total": 605
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/18/2023",
+    "sales_total": 2175.93,
+    "transaksi_total": 638
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/18/2023",
+    "sales_total": 1805.28,
+    "transaksi_total": 537
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/19/2023",
+    "sales_total": 2546.43,
+    "transaksi_total": 688
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/19/2023",
+    "sales_total": 2124.08,
+    "transaksi_total": 624
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/19/2023",
+    "sales_total": 1733.4,
+    "transaksi_total": 546
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/20/2023",
+    "sales_total": 1679.38,
+    "transaksi_total": 440
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/20/2023",
+    "sales_total": 1885.65,
+    "transaksi_total": 575
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/20/2023",
+    "sales_total": 1929.63,
+    "transaksi_total": 629
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/21/2023",
+    "sales_total": 1614.25,
+    "transaksi_total": 438
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/21/2023",
+    "sales_total": 2303.83,
+    "transaksi_total": 671
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/21/2023",
+    "sales_total": 1890.3,
+    "transaksi_total": 586
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/22/2023",
+    "sales_total": 1912.05,
+    "transaksi_total": 613
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/22/2023",
+    "sales_total": 1557.1,
+    "transaksi_total": 469
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/22/2023",
+    "sales_total": 2145.95,
+    "transaksi_total": 688
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/23/2023",
+    "sales_total": 1864.4,
+    "transaksi_total": 594
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/23/2023",
+    "sales_total": 1984.08,
+    "transaksi_total": 570
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/23/2023",
+    "sales_total": 1933.38,
+    "transaksi_total": 631
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/24/2023",
+    "sales_total": 2117.55,
+    "transaksi_total": 678
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/24/2023",
+    "sales_total": 1690.8,
+    "transaksi_total": 511
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/24/2023",
+    "sales_total": 2097.75,
+    "transaksi_total": 657
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/25/2023",
+    "sales_total": 1740.7,
+    "transaksi_total": 568
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/25/2023",
+    "sales_total": 1769.2,
+    "transaksi_total": 527
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/25/2023",
+    "sales_total": 2244.95,
+    "transaksi_total": 707
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/26/2023",
+    "sales_total": 1975.1,
+    "transaksi_total": 635
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/26/2023",
+    "sales_total": 1746.1,
+    "transaksi_total": 528
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/26/2023",
+    "sales_total": 2154.7,
+    "transaksi_total": 674
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/27/2023",
+    "sales_total": 1861.55,
+    "transaksi_total": 598
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/27/2023",
+    "sales_total": 1676.7,
+    "transaksi_total": 594
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/27/2023",
+    "sales_total": 2437.4,
+    "transaksi_total": 770
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/28/2023",
+    "sales_total": 1758.1,
+    "transaksi_total": 580
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/28/2023",
+    "sales_total": 1445.85,
+    "transaksi_total": 459
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/28/2023",
+    "sales_total": 1524.95,
+    "transaksi_total": 492
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/29/2023",
+    "sales_total": 1852.75,
+    "transaksi_total": 585
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/29/2023",
+    "sales_total": 1298.55,
+    "transaksi_total": 420
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/29/2023",
+    "sales_total": 1299.45,
+    "transaksi_total": 424
+  },
+  {
+    "transaction_date": "Astoria",
+    "store_location": "6/30/2023",
+    "sales_total": 1807.65,
+    "transaksi_total": 577
+  },
+  {
+    "transaction_date": "Hell's Kitchen",
+    "store_location": "6/30/2023",
+    "sales_total": 1904.93,
+    "transaksi_total": 478
+  },
+  {
+    "transaction_date": "Lower Manhattan",
+    "store_location": "6/30/2023",
+    "sales_total": 1768.74,
+    "transaksi_total": 535
+  }
 ]
