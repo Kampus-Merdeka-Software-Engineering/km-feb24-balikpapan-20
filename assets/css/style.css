@@ -8,12 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-body, dashboard {
-  background-image: url('asset/images/bgdas.png');
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-
 .header {
   height: 857px;
   width: auto;
