@@ -1,0 +1,141 @@
+.chart-container {
+    display: flex;
+    justify-content: center; /* Center the container */
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px; /* Add gap between items */
+}
+.chart-box {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+}
+.chart-box canvas {
+    height: 300px; /* Set a fixed height */
+    width: 100%; /* Set width to 100% of the container */
+}
+.sales-chart-box {
+    width: 60%; /* Tambah atau ubah properti width sesuai keinginan */
+    height: auto; /* Atur height menjadi auto agar menyesuaikan dengan konten */
+}
+.sales-chart-box canvas {
+    height: 300px; /* Tambah atau ubah nilai height sesuai keinginan */
+    width: 600px; /* Set width to 100% of the container */
+}
+.chart-title {
+    background-color: #fdd55e; /* Warna latar belakang kuning */
+    padding: 10px; /* Padding untuk membuat judul lebih berjarak dari tepi */
+    color: #333; /* Warna teks */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.checkbox-container, .date-filter-container, .filter-button-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container label, .date-filter-container label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*untuk tabel*/
+main.table {
+width: 100%;
+height: 100%;
+background-color: white;
+backdrop-filter: blur(7px);
+border-radius: .8rem;
+overflow: hidden;
+}
+
+.table_header {
+width: 100%;
+height: 10%;
+background-color: #fff4;
+padding: .8rem 1rem;
+}
+
+.table_body {
+width: 95%;
+max-height: calc(89% - .8rem);
+background-color: #fffb;
+margin: .8rem auto;
+border-radius: .6rem;
+overflow: auto;
+}
+
+.table_body::-webkit-scrollbar {
+width: 0.5rem;
+height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb {
+border-radius: .5rem;
+background-color: #0004;
+visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb {
+visibility: visible;
+}
+
+table {
+width: 100%;  /* Perbaiki lebar tabel */
+}
+
+table, th, td {
+border-collapse: collapse;
+padding: 1rem;
+text-align: left;
+vertical-align: middle;  /* Vertically center align text in table cells */
+}
+
+thead th {
+position: sticky;
+top: 0;
+left: 0;
+background-color: #d5d1defe;
+}
+
+tbody tr:nth-child(even) {
+background-color: #0000000b;
+}
+
+tbody tr:hover {
+background-color: #fff6;
+}
+
+.status {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: .4rem 1rem;  /* Adjust padding as needed */
+border-radius: 2rem;
+white-space: nowrap;  /* Prevent text from wrapping */
+}
+
+.status.delivered {
+background-color: #70be16;
+color: white;
+}
+
+.status.cancelled {
+background-color: #ff0000;
+color: white;
+}
+
+.status.pending {
+background-color: #e9b10a;
+color: white;
+}
+
+.status.inprogress {
+background-color: #1795ce;
+color: white;
+}
