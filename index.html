@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maven Roaster</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/information.css" />
+    <link rel="stylesheet" href="assets/css/outlet.css" />
+    <link rel="stylesheet" href="assets/css/contactus.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script
     src="https://kit.fontawesome.com/1ab94d0eba.js"
     crossorigin="anonymous"
-  ></script>
+    ></script>
+    <script type="module" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: 'vuiJegTjAmp-ItsmN',
+        });
+      })();
+      </script>
+      <script src="assets/js/app.js"></script>
 </head>
 
 <body>
@@ -32,6 +46,7 @@
                     <a href="aboutus_revou.html">MSIB</a>
                   </div>
                 </div></li>
+              <li><a href="login.html" class="nav-link"><img src="assets/images/user.png" alt="Login" class="login-icon"></a></li>
             </ul>
           </nav> 
         </div>
@@ -208,7 +223,7 @@
           <div class="outlets-grid">
             <div class="outlet-column">
               <article class="outlet-card">
-                <img src="assets/images/hellskitchen.png" alt="Hell's Kitchen outlet" class="outlet-image" />
+                <a href="https://maps.app.goo.gl/8eGUp9uLUENhPMVB7"> <img src="assets/images/hellskitchen.png"  alt="Hell's Kitchen outlet" class="outlet-image" /> </a>
                 <div class="outlet-details">
                   <h3 class="outlet-name">Hell's Kitchen</h3>
                   <p class="outlet-description">
@@ -222,7 +237,7 @@
             </div>
             <div class="outlet-column-2">
               <article class="outlet-card">
-                <img src="assets/images/astoria.png" alt="Astoria outlet" class="outlet-image" />
+                <a href="https://maps.app.goo.gl/VnwdRQETpQTjxUfx7"><img src="assets/images/astoria.png" alt="Astoria outlet" class="outlet-image" /></a>
                 <div class="outlet-details-2">
                   <h3 class="outlet-name-2">Astoria</h3>
                   <p class="outlet-description-2">
@@ -237,7 +252,7 @@
             </div>
             <div class="outlet-column-3">
               <article class="outlet-card">
-                <img src="assets/images/lowerman.png" alt="Lower Manhattan outlet" class="outlet-image" />
+                <a href="https://maps.app.goo.gl/QnvZpjJSxSxGcLAm7"><img src="assets/images/lowerman.png" alt="Lower Manhattan outlet" class="outlet-image" /></a>
                 <h3 class="outlet-name-3">Lower Manhattan</h3>
                 <p class="outlet-description-3">
                   Café Lower Manhattan adalah tempat <br />
@@ -295,24 +310,22 @@
       <section>
         <div class="contact">
           <h1><b>Contact Us!</b></h1>
-          <p>Get e-mail update about our latest coffe and <br /> 
-            special offers.
-          </p>
+          <p>Get e-mail update about our latest coffee and special offers. </p>
 
           <form>
               <label for="name"><b>Name</b></label> 
-              <input class="input-contact" type="text" required placeholder="Team 20">
+              <input class="input-contact" id="sendername" type="text" required placeholder="Team 20">
 
               <label for="name"><b>Email</b></label>
-              <input class="input-contact" type="email" required placeholder="team20@gmail.com">
+              <input class="input-contact" id="to" type="email" required placeholder="team20@gmail.com">
 
               <label for="name"><b>Subject</b></label>
-              <input class="input-contact" type="text" required placeholder="Type your subject here">
+              <input class="input-contact" id="subject" type="text" required placeholder="Type your subject here">
 
               <label for="name"><b>Message</b></label>
-              <textarea class="input-contact" rows="4" required placeholder="Type your message"></textarea>
+              <textarea class="input-contact" id="message" rows="4" required placeholder="Type your message"></textarea>
 
-              <button class="submit-contact" type="submit"><b>send</b></button>
+              <button class="submit-contact" onclick= "sendMail()" type="submit"><b>send</b></button>
           </form>
       </div>
       </section>
@@ -349,6 +362,5 @@
     </footer>
     <!--END FOOTER SECTION-->
 
-    <script type="module" src="assets/js/index.js"></script>
 </body>
 </html>
