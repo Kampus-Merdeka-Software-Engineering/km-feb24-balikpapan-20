@@ -1,0 +1,562 @@
+[
+  {
+    "category": "Drinking Chocolate",
+    "product detail": "Sustainably Grown Organic Lg",
+    "Sales": 21151.75,
+    "transaction_qty": 4453,
+    "emphasized": true
+  },
+  {
+    "category": "Drinking Chocolate",
+    "product detail": "Dark chocolate Lg",
+    "Sales": 21006,
+    "transaction_qty": 4668,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Latte Rg",
+    "Sales": 19112.25,
+    "transaction_qty": 4497,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Cappuccino Lg",
+    "Sales": 17641.75,
+    "transaction_qty": 4151,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Morning Sunrise Chai Lg",
+    "Sales": 17384,
+    "transaction_qty": 4346,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Latte",
+    "Sales": 17257.5,
+    "transaction_qty": 4602,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Jamaican Coffee River Lg",
+    "Sales": 16481.25,
+    "transaction_qty": 4395,
+    "emphasized": false
+  },
+  {
+    "category": "Drinking Chocolate",
+    "product detail": "Sustainably Grown Organic Rg",
+    "Sales": 16233.75,
+    "transaction_qty": 4329,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Cappuccino",
+    "Sales": 15997.5,
+    "transaction_qty": 4266,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Brazilian Lg",
+    "Sales": 15109.5,
+    "transaction_qty": 4317,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Ethiopia Lg",
+    "Sales": 14794.5,
+    "transaction_qty": 4227,
+    "emphasized": false
+  },
+  {
+    "category": "Drinking Chocolate",
+    "product detail": "Dark chocolate Rg",
+    "Sales": 14024.5,
+    "transaction_qty": 4007,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Spicy Eye Opener Chai Lg",
+    "Sales": 13652.400000000562,
+    "transaction_qty": 4404,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Ethiopia Rg",
+    "Sales": 13179,
+    "transaction_qty": 4393,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Brazilian Rg",
+    "Sales": 13155,
+    "transaction_qty": 4385,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Peppermint Lg",
+    "Sales": 13050,
+    "transaction_qty": 4350,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "English Breakfast Lg",
+    "Sales": 12927,
+    "transaction_qty": 4309,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Earl Grey Lg",
+    "Sales": 12735,
+    "transaction_qty": 4245,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Serenity Green Tea Lg",
+    "Sales": 12660,
+    "transaction_qty": 4220,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Columbian Medium Roast Lg",
+    "Sales": 12585,
+    "transaction_qty": 4195,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Traditional Blend Chai Lg",
+    "Sales": 12522,
+    "transaction_qty": 4174,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Espresso shot",
+    "Sales": 12495,
+    "transaction_qty": 4165,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Jamaican Coffee River Rg",
+    "Sales": 12455.800000000398,
+    "transaction_qty": 4018,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Lemon Grass Lg",
+    "Sales": 12267,
+    "transaction_qty": 4089,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Our Old Time Diner Blend Lg",
+    "Sales": 11991,
+    "transaction_qty": 3997,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Earl Grey Rg",
+    "Sales": 11770,
+    "transaction_qty": 4708,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Civet Cat",
+    "Sales": 11700,
+    "transaction_qty": 260,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Chocolate Croissant",
+    "Sales": 11625.980000000007,
+    "transaction_qty": 3096,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Morning Sunrise Chai Rg",
+    "Sales": 11607.5,
+    "transaction_qty": 4643,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Peppermint Rg",
+    "Sales": 11410,
+    "transaction_qty": 4564,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Columbian Medium Roast Rg",
+    "Sales": 11367.5,
+    "transaction_qty": 4547,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Traditional Blend Chai Rg",
+    "Sales": 11280,
+    "transaction_qty": 4512,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Serenity Green Tea Rg",
+    "Sales": 11192.5,
+    "transaction_qty": 4477,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Our Old Time Diner Blend Rg",
+    "Sales": 11025,
+    "transaction_qty": 4410,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Lemon Grass Rg",
+    "Sales": 10812.5,
+    "transaction_qty": 4325,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "Spicy Eye Opener Chai Rg",
+    "Sales": 10636.050000000185,
+    "transaction_qty": 4171,
+    "emphasized": false
+  },
+  {
+    "category": "Tea",
+    "product detail": "English Breakfast Rg",
+    "Sales": 10500,
+    "transaction_qty": 4200,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Jamaican Coffee River Sm",
+    "Sales": 9844.099999999828,
+    "transaction_qty": 4018,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Ethiopia Sm",
+    "Sales": 9752.599999999768,
+    "transaction_qty": 4433,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Brazilian Sm",
+    "Sales": 9481.999999999787,
+    "transaction_qty": 4310,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Our Old Time Diner Blend Sm",
+    "Sales": 8968,
+    "transaction_qty": 4484,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Scottish Cream Scone",
+    "Sales": 8949.449999999999,
+    "transaction_qty": 1985,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Ouro Brasileiro shot",
+    "Sales": 8902.200000000063,
+    "transaction_qty": 3262,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee",
+    "product detail": "Columbian Medium Roast Sm",
+    "Sales": 8356,
+    "transaction_qty": 4178,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Ginger Scone",
+    "Sales": 8011.60999999997,
+    "transaction_qty": 2540,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Jumbo Savory Scone",
+    "Sales": 7626.619999999991,
+    "transaction_qty": 2028,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Almond Croissant",
+    "Sales": 7168.129999999999,
+    "transaction_qty": 1911,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Croissant",
+    "Sales": 6861.880000000003,
+    "transaction_qty": 1954,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Cranberry Scone",
+    "Sales": 6818.44000000001,
+    "transaction_qty": 2092,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Chocolate Chip Biscotti",
+    "Sales": 6748.960000000002,
+    "transaction_qty": 1924,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Hazelnut Biscotti",
+    "Sales": 6608.010000000008,
+    "transaction_qty": 2028,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Ginger Biscotti",
+    "Sales": 6436.560000000001,
+    "transaction_qty": 1836,
+    "emphasized": false
+  },
+  {
+    "category": "Branded",
+    "product detail": "I Need My Bean! T-shirt",
+    "Sales": 6163,
+    "transaction_qty": 221,
+    "emphasized": false
+  },
+  {
+    "category": "Bakery",
+    "product detail": "Oatmeal Scone",
+    "Sales": 5460,
+    "transaction_qty": 1820,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Organic Decaf Blend",
+    "Sales": 4657.5,
+    "transaction_qty": 206,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Ethiopia",
+    "Sales": 4578,
+    "transaction_qty": 218,
+    "emphasized": false
+  },
+  {
+    "category": "Branded",
+    "product detail": "I Need My Bean! Latte cup",
+    "Sales": 4509,
+    "transaction_qty": 315,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Brazilian - Organic",
+    "Sales": 3852,
+    "transaction_qty": 214,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Our Old Time Diner Blend",
+    "Sales": 3294,
+    "transaction_qty": 183,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Primo Espresso Roast",
+    "Sales": 3067.499999999994,
+    "transaction_qty": 150,
+    "emphasized": false
+  },
+  {
+    "category": "Branded",
+    "product detail": "I Need My Bean! Diner mug",
+    "Sales": 2935,
+    "transaction_qty": 240,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Jamacian Coffee River",
+    "Sales": 2883.5,
+    "transaction_qty": 146,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Espresso Roast",
+    "Sales": 2492.75,
+    "transaction_qty": 169,
+    "emphasized": false
+  },
+  {
+    "category": "Flavours",
+    "product detail": "Sugar Free Vanilla syrup",
+    "Sales": 2323.9999999999536,
+    "transaction_qty": 2905,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Columbian Medium Roast",
+    "Sales": 2220,
+    "transaction_qty": 148,
+    "emphasized": false
+  },
+  {
+    "category": "Flavours",
+    "product detail": "Chocolate syrup",
+    "Sales": 2126.399999999945,
+    "transaction_qty": 2658,
+    "emphasized": false
+  },
+  {
+    "category": "Flavours",
+    "product detail": "Carmel syrup",
+    "Sales": 2060.7999999999506,
+    "transaction_qty": 2576,
+    "emphasized": false
+  },
+  {
+    "category": "Packaged Chocolate",
+    "product detail": "Chili Mayan",
+    "Sales": 1972.8399999999963,
+    "transaction_qty": 148,
+    "emphasized": false
+  },
+  {
+    "category": "Flavours",
+    "product detail": "Hazelnut syrup",
+    "Sales": 1897.5999999999542,
+    "transaction_qty": 2372,
+    "emphasized": false
+  },
+  {
+    "category": "Packaged Chocolate",
+    "product detail": "Sustainably Grown Organic",
+    "Sales": 1679.5999999999942,
+    "transaction_qty": 221,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Morning Sunrise Chai",
+    "Sales": 1596,
+    "transaction_qty": 168,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Serenity Green Tea",
+    "Sales": 1470.75,
+    "transaction_qty": 159,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "English Breakfast",
+    "Sales": 1440.9500000000041,
+    "transaction_qty": 161,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Traditional Blend Chai",
+    "Sales": 1369.3500000000038,
+    "transaction_qty": 153,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Peppermint",
+    "Sales": 1369.3500000000038,
+    "transaction_qty": 153,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Lemon Grass",
+    "Sales": 1360.4000000000037,
+    "transaction_qty": 152,
+    "emphasized": false
+  },
+  {
+    "category": "Coffee beans",
+    "product detail": "Guatemalan Sustainably Grown",
+    "Sales": 1340,
+    "transaction_qty": 134,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Spicy Eye Opener Chai",
+    "Sales": 1335.900000000003,
+    "transaction_qty": 122,
+    "emphasized": false
+  },
+  {
+    "category": "Loose Tea",
+    "product detail": "Earl Grey",
+    "Sales": 1270.9000000000033,
+    "transaction_qty": 142,
+    "emphasized": false
+  },
+  {
+    "category": "Packaged Chocolate",
+    "product detail": "Dark chocolate",
+    "Sales": 755.1999999999983,
+    "transaction_qty": 118,
+    "emphasized": false
+  }
+]

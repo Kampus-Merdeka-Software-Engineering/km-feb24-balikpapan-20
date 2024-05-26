@@ -1,0 +1,302 @@
+[
+      {
+        "date": "1 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 868.4
+      },
+      {
+        "date": "1 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 851.4499999999999
+      },
+      {
+        "date": "1 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 788.3500000000001
+      },
+      {
+        "date": "2 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 925.4999999999999
+      },
+      {
+        "date": "2 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 828.8000000000001
+      },
+      {
+        "date": "2 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 649.0500000000001
+      },
+      {
+        "date": "3 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 902.75
+      },
+      {
+        "date": "3 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 906.2499999999998
+      },
+      {
+        "date": "3 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 756
+      },
+      {
+        "date": "4 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 808.2500000000001
+      },
+      {
+        "date": "4 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 781.6500000000001
+      },
+      {
+        "date": "4 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 630.2
+      },
+      {
+        "date": "5 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 903.05
+      },
+      {
+        "date": "5 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 714.8999999999999
+      },
+      {
+        "date": "5 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 800.9000000000001
+      },
+      {
+        "date": "6 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 716.0500000000002
+      },
+      {
+        "date": "6 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 767.1999999999998
+      },
+      {
+        "date": "6 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 790.5999999999999
+      },
+      {
+        "date": "7 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 807.3000000000001
+      },
+      {
+        "date": "7 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1024.0999999999997
+      },
+      {
+        "date": "7 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 788.2499999999999
+      },
+      {
+        "date": "8 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 872.8299999999998
+      },
+      {
+        "date": "8 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 972.5500000000001
+      },
+      {
+        "date": "8 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 793.1500000000002
+      },
+      {
+        "date": "9 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 774.01
+      },
+      {
+        "date": "9 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 894.3999999999999
+      },
+      {
+        "date": "9 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1008.2
+      },
+      {
+        "date": "10 Jan 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 947
+      },
+      {
+        "date": "10 Jan 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 808.1000000000001
+      },
+      {
+        "date": "10 Jan 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 930.5499999999998
+      },
+      {
+        "date": "21 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1614.249999999998
+      },
+      {
+        "date": "21 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 2303.8299999999963
+      },
+      {
+        "date": "21 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1890.2999999999981
+      },
+      {
+        "date": "22 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1912.0499999999986
+      },
+      {
+        "date": "22 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1557.0999999999983
+      },
+      {
+        "date": "22 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 2145.9499999999975
+      },
+      {
+        "date": "23 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1864.399999999999
+      },
+      {
+        "date": "23 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1984.0799999999988
+      },
+      {
+        "date": "23 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1933.3799999999972
+      },
+      {
+        "date": "24 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 2117.5499999999993
+      },
+      {
+        "date": "24 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1690.7999999999988
+      },
+      {
+        "date": "24 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 2097.7499999999973
+      },
+      {
+        "date": "25 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1740.6999999999996
+      },
+      {
+        "date": "25 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1769.1999999999985
+      },
+      {
+        "date": "25 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 2244.9499999999975
+      },
+      {
+        "date": "26 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1975.0999999999997
+      },
+      {
+        "date": "26 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1746.0999999999988
+      },
+      {
+        "date": "26 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 2154.699999999999
+      },
+      {
+        "date": "27 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1861.5499999999988
+      },
+      {
+        "date": "27 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1676.6999999999948
+      },
+      {
+        "date": "27 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 2437.3999999999983
+      },
+      {
+        "date": "28 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1445.8499999999995
+      },
+      {
+        "date": "28 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1524.949999999999
+      },
+      {
+        "date": "28 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1758.1
+      },
+      {
+        "date": "29 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1852.749999999999
+      },
+      {
+        "date": "29 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1298.5499999999997
+      },
+      {
+        "date": "29 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1299.4499999999998
+      },
+      {
+        "date": "30 Jun 2023",
+        "store_location": "Astoria",
+        "sales transaksi": 1807.649999999998
+      },
+      {
+        "date": "30 Jun 2023",
+        "store_location": "Hell's Kitchen",
+        "sales transaksi": 1904.9299999999978
+      },
+      {
+        "date": "30 Jun 2023",
+        "store_location": "Lower Manhattan",
+        "sales transaksi": 1768.7399999999977
+      }
+]

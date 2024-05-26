@@ -1,0 +1,907 @@
+[
+  {
+    "Tanggal": "1 Jan 2023",
+    "Total Transaksi": 802,
+    "Sales Transaksi": 2508.2000000000003
+  },
+  {
+    "Tanggal": "2 Jan 2023",
+    "Total Transaksi": 790,
+    "Sales Transaksi": 2403.350000000001
+  },
+  {
+    "Tanggal": "3 Jan 2023",
+    "Total Transaksi": 823,
+    "Sales Transaksi": 2564.9999999999995
+  },
+  {
+    "Tanggal": "4 Jan 2023",
+    "Total Transaksi": 726,
+    "Sales Transaksi": 2220.1
+  },
+  {
+    "Tanggal": "5 Jan 2023",
+    "Total Transaksi": 778,
+    "Sales Transaksi": 2418.8500000000004
+  },
+  {
+    "Tanggal": "6 Jan 2023",
+    "Total Transaksi": 736,
+    "Sales Transaksi": 2273.850000000001
+  },
+  {
+    "Tanggal": "7 Jan 2023",
+    "Total Transaksi": 799,
+    "Sales Transaksi": 2619.6499999999996
+  },
+  {
+    "Tanggal": "8 Jan 2023",
+    "Total Transaksi": 806,
+    "Sales Transaksi": 2638.5299999999993
+  },
+  {
+    "Tanggal": "9 Jan 2023",
+    "Total Transaksi": 742,
+    "Sales Transaksi": 2676.61
+  },
+  {
+    "Tanggal": "10 Jan 2023",
+    "Total Transaksi": 855,
+    "Sales Transaksi": 2685.6499999999987
+  },
+  {
+    "Tanggal": "11 Jan 2023",
+    "Total Transaksi": 782,
+    "Sales Transaksi": 2555.749999999999
+  },
+  {
+    "Tanggal": "12 Jan 2023",
+    "Total Transaksi": 759,
+    "Sales Transaksi": 2327.6999999999994
+  },
+  {
+    "Tanggal": "13 Jan 2023",
+    "Total Transaksi": 950,
+    "Sales Transaksi": 3033.599999999997
+  },
+  {
+    "Tanggal": "14 Jan 2023",
+    "Total Transaksi": 771,
+    "Sales Transaksi": 2682.5099999999993
+  },
+  {
+    "Tanggal": "15 Jan 2023",
+    "Total Transaksi": 927,
+    "Sales Transaksi": 3167.7099999999973
+  },
+  {
+    "Tanggal": "16 Jan 2023",
+    "Total Transaksi": 855,
+    "Sales Transaksi": 2829.159999999999
+  },
+  {
+    "Tanggal": "17 Jan 2023",
+    "Total Transaksi": 762,
+    "Sales Transaksi": 3285.7999999999993
+  },
+  {
+    "Tanggal": "18 Jan 2023",
+    "Total Transaksi": 827,
+    "Sales Transaksi": 2735.9599999999978
+  },
+  {
+    "Tanggal": "19 Jan 2023",
+    "Total Transaksi": 858,
+    "Sales Transaksi": 2913.6799999999994
+  },
+  {
+    "Tanggal": "20 Jan 2023",
+    "Total Transaksi": 767,
+    "Sales Transaksi": 2603.7299999999996
+  },
+  {
+    "Tanggal": "21 Jan 2023",
+    "Total Transaksi": 878,
+    "Sales Transaksi": 3082.8499999999995
+  },
+  {
+    "Tanggal": "22 Jan 2023",
+    "Total Transaksi": 768,
+    "Sales Transaksi": 2367.33
+  },
+  {
+    "Tanggal": "23 Jan 2023",
+    "Total Transaksi": 885,
+    "Sales Transaksi": 2853.1499999999996
+  },
+  {
+    "Tanggal": "24 Jan 2023",
+    "Total Transaksi": 883,
+    "Sales Transaksi": 2868.950000000001
+  },
+  {
+    "Tanggal": "25 Jan 2023",
+    "Total Transaksi": 906,
+    "Sales Transaksi": 2846.5500000000015
+  },
+  {
+    "Tanggal": "26 Jan 2023",
+    "Total Transaksi": 887,
+    "Sales Transaksi": 2863.0300000000007
+  },
+  {
+    "Tanggal": "27 Jan 2023",
+    "Total Transaksi": 886,
+    "Sales Transaksi": 2742.0999999999995
+  },
+  {
+    "Tanggal": "28 Jan 2023",
+    "Total Transaksi": 672,
+    "Sales Transaksi": 2037.0999999999997
+  },
+  {
+    "Tanggal": "29 Jan 2023",
+    "Total Transaksi": 652,
+    "Sales Transaksi": 2060.75
+  },
+  {
+    "Tanggal": "30 Jan 2023",
+    "Total Transaksi": 693,
+    "Sales Transaksi": 2476.4100000000003
+  },
+  {
+    "Tanggal": "31 Jan 2023",
+    "Total Transaksi": 645,
+    "Sales Transaksi": 2334.1299999999997
+  },
+  {
+    "Tanggal": "1 Feb 2023",
+    "Total Transaksi": 796,
+    "Sales Transaksi": 2466.3000000000015
+  },
+  {
+    "Tanggal": "2 Feb 2023",
+    "Total Transaksi": 814,
+    "Sales Transaksi": 2506.9000000000005
+  },
+  {
+    "Tanggal": "3 Feb 2023",
+    "Total Transaksi": 834,
+    "Sales Transaksi": 2591.45
+  },
+  {
+    "Tanggal": "4 Feb 2023",
+    "Total Transaksi": 834,
+    "Sales Transaksi": 2551.7000000000007
+  },
+  {
+    "Tanggal": "5 Feb 2023",
+    "Total Transaksi": 748,
+    "Sales Transaksi": 2304.7000000000003
+  },
+  {
+    "Tanggal": "6 Feb 2023",
+    "Total Transaksi": 712,
+    "Sales Transaksi": 2203.4
+  },
+  {
+    "Tanggal": "7 Feb 2023",
+    "Total Transaksi": 769,
+    "Sales Transaksi": 2434.550000000001
+  },
+  {
+    "Tanggal": "8 Feb 2023",
+    "Total Transaksi": 844,
+    "Sales Transaksi": 2762.4299999999985
+  },
+  {
+    "Tanggal": "9 Feb 2023",
+    "Total Transaksi": 761,
+    "Sales Transaksi": 2610.629999999999
+  },
+  {
+    "Tanggal": "10 Feb 2023",
+    "Total Transaksi": 918,
+    "Sales Transaksi": 2901.6
+  },
+  {
+    "Tanggal": "11 Feb 2023",
+    "Total Transaksi": 784,
+    "Sales Transaksi": 2526.7399999999984
+  },
+  {
+    "Tanggal": "12 Feb 2023",
+    "Total Transaksi": 872,
+    "Sales Transaksi": 2893.999999999998
+  },
+  {
+    "Tanggal": "13 Feb 2023",
+    "Total Transaksi": 904,
+    "Sales Transaksi": 2845.479999999999
+  },
+  {
+    "Tanggal": "14 Feb 2023",
+    "Total Transaksi": 796,
+    "Sales Transaksi": 2673.93
+  },
+  {
+    "Tanggal": "15 Feb 2023",
+    "Total Transaksi": 878,
+    "Sales Transaksi": 2928.049999999997
+  },
+  {
+    "Tanggal": "16 Feb 2023",
+    "Total Transaksi": 872,
+    "Sales Transaksi": 3023.3299999999977
+  },
+  {
+    "Tanggal": "17 Feb 2023",
+    "Total Transaksi": 736,
+    "Sales Transaksi": 2300.750000000001
+  },
+  {
+    "Tanggal": "18 Feb 2023",
+    "Total Transaksi": 827,
+    "Sales Transaksi": 2865.4800000000014
+  },
+  {
+    "Tanggal": "19 Feb 2023",
+    "Total Transaksi": 948,
+    "Sales Transaksi": 3219.600000000001
+  },
+  {
+    "Tanggal": "20 Feb 2023",
+    "Total Transaksi": 861,
+    "Sales Transaksi": 2883.6299999999974
+  },
+  {
+    "Tanggal": "21 Feb 2023",
+    "Total Transaksi": 821,
+    "Sales Transaksi": 2783.529999999998
+  },
+  {
+    "Tanggal": "22 Feb 2023",
+    "Total Transaksi": 911,
+    "Sales Transaksi": 2928.7000000000016
+  },
+  {
+    "Tanggal": "23 Feb 2023",
+    "Total Transaksi": 834,
+    "Sales Transaksi": 2746.210000000001
+  },
+  {
+    "Tanggal": "24 Feb 2023",
+    "Total Transaksi": 932,
+    "Sales Transaksi": 2940.7000000000007
+  },
+  {
+    "Tanggal": "25 Feb 2023",
+    "Total Transaksi": 888,
+    "Sales Transaksi": 2823.550000000002
+  },
+  {
+    "Tanggal": "26 Feb 2023",
+    "Total Transaksi": 905,
+    "Sales Transaksi": 2956.7499999999995
+  },
+  {
+    "Tanggal": "27 Feb 2023",
+    "Total Transaksi": 1007,
+    "Sales Transaksi": 3159.9999999999973
+  },
+  {
+    "Tanggal": "28 Feb 2023",
+    "Total Transaksi": 744,
+    "Sales Transaksi": 2311.0999999999995
+  },
+  {
+    "Tanggal": "1 Mar 2023",
+    "Total Transaksi": 968,
+    "Sales Transaksi": 3040.2499999999995
+  },
+  {
+    "Tanggal": "2 Mar 2023",
+    "Total Transaksi": 963,
+    "Sales Transaksi": 2996.049999999999
+  },
+  {
+    "Tanggal": "3 Mar 2023",
+    "Total Transaksi": 1010,
+    "Sales Transaksi": 3155.149999999997
+  },
+  {
+    "Tanggal": "4 Mar 2023",
+    "Total Transaksi": 897,
+    "Sales Transaksi": 2781.9
+  },
+  {
+    "Tanggal": "5 Mar 2023",
+    "Total Transaksi": 952,
+    "Sales Transaksi": 2945.2999999999997
+  },
+  {
+    "Tanggal": "6 Mar 2023",
+    "Total Transaksi": 836,
+    "Sales Transaksi": 2618.0499999999997
+  },
+  {
+    "Tanggal": "7 Mar 2023",
+    "Total Transaksi": 883,
+    "Sales Transaksi": 2803.5
+  },
+  {
+    "Tanggal": "8 Mar 2023",
+    "Total Transaksi": 1039,
+    "Sales Transaksi": 3523.2599999999984
+  },
+  {
+    "Tanggal": "9 Mar 2023",
+    "Total Transaksi": 983,
+    "Sales Transaksi": 3459.9699999999957
+  },
+  {
+    "Tanggal": "10 Mar 2023",
+    "Total Transaksi": 1051,
+    "Sales Transaksi": 3441.5800000000004
+  },
+  {
+    "Tanggal": "11 Mar 2023",
+    "Total Transaksi": 1002,
+    "Sales Transaksi": 3211.6499999999983
+  },
+  {
+    "Tanggal": "12 Mar 2023",
+    "Total Transaksi": 947,
+    "Sales Transaksi": 3088.329999999998
+  },
+  {
+    "Tanggal": "13 Mar 2023",
+    "Total Transaksi": 1110,
+    "Sales Transaksi": 3627.6500000000005
+  },
+  {
+    "Tanggal": "14 Mar 2023",
+    "Total Transaksi": 918,
+    "Sales Transaksi": 3312.6600000000017
+  },
+  {
+    "Tanggal": "15 Mar 2023",
+    "Total Transaksi": 1000,
+    "Sales Transaksi": 3338.0299999999975
+  },
+  {
+    "Tanggal": "16 Mar 2023",
+    "Total Transaksi": 1037,
+    "Sales Transaksi": 3386.1099999999988
+  },
+  {
+    "Tanggal": "17 Mar 2023",
+    "Total Transaksi": 942,
+    "Sales Transaksi": 3181.749999999998
+  },
+  {
+    "Tanggal": "18 Mar 2023",
+    "Total Transaksi": 1001,
+    "Sales Transaksi": 3408.3599999999988
+  },
+  {
+    "Tanggal": "19 Mar 2023",
+    "Total Transaksi": 988,
+    "Sales Transaksi": 3340.0299999999997
+  },
+  {
+    "Tanggal": "20 Mar 2023",
+    "Total Transaksi": 988,
+    "Sales Transaksi": 3262.279999999998
+  },
+  {
+    "Tanggal": "21 Mar 2023",
+    "Total Transaksi": 949,
+    "Sales Transaksi": 3209.799999999998
+  },
+  {
+    "Tanggal": "22 Mar 2023",
+    "Total Transaksi": 1014,
+    "Sales Transaksi": 3284.110000000001
+  },
+  {
+    "Tanggal": "23 Mar 2023",
+    "Total Transaksi": 1040,
+    "Sales Transaksi": 3361.129999999999
+  },
+  {
+    "Tanggal": "24 Mar 2023",
+    "Total Transaksi": 1111,
+    "Sales Transaksi": 3586.1999999999985
+  },
+  {
+    "Tanggal": "25 Mar 2023",
+    "Total Transaksi": 1050,
+    "Sales Transaksi": 3380.950000000002
+  },
+  {
+    "Tanggal": "26 Mar 2023",
+    "Total Transaksi": 1038,
+    "Sales Transaksi": 3310.8299999999995
+  },
+  {
+    "Tanggal": "27 Mar 2023",
+    "Total Transaksi": 1177,
+    "Sales Transaksi": 3674.349999999997
+  },
+  {
+    "Tanggal": "28 Mar 2023",
+    "Total Transaksi": 897,
+    "Sales Transaksi": 2792.5499999999984
+  },
+  {
+    "Tanggal": "29 Mar 2023",
+    "Total Transaksi": 812,
+    "Sales Transaksi": 2492.0000000000014
+  },
+  {
+    "Tanggal": "30 Mar 2023",
+    "Total Transaksi": 917,
+    "Sales Transaksi": 2932.8199999999997
+  },
+  {
+    "Tanggal": "31 Mar 2023",
+    "Total Transaksi": 886,
+    "Sales Transaksi": 2888.08
+  },
+  {
+    "Tanggal": "1 Apr 2023",
+    "Total Transaksi": 1198,
+    "Sales Transaksi": 3699.8999999999987
+  },
+  {
+    "Tanggal": "2 Apr 2023",
+    "Total Transaksi": 1156,
+    "Sales Transaksi": 3575.8499999999995
+  },
+  {
+    "Tanggal": "3 Apr 2023",
+    "Total Transaksi": 1162,
+    "Sales Transaksi": 3604.9499999999985
+  },
+  {
+    "Tanggal": "4 Apr 2023",
+    "Total Transaksi": 1086,
+    "Sales Transaksi": 3327.2999999999984
+  },
+  {
+    "Tanggal": "5 Apr 2023",
+    "Total Transaksi": 1136,
+    "Sales Transaksi": 3552.699999999999
+  },
+  {
+    "Tanggal": "6 Apr 2023",
+    "Total Transaksi": 1053,
+    "Sales Transaksi": 3250.199999999998
+  },
+  {
+    "Tanggal": "7 Apr 2023",
+    "Total Transaksi": 1133,
+    "Sales Transaksi": 3682.800000000001
+  },
+  {
+    "Tanggal": "8 Apr 2023",
+    "Total Transaksi": 1327,
+    "Sales Transaksi": 4573.060000000002
+  },
+  {
+    "Tanggal": "9 Apr 2023",
+    "Total Transaksi": 1157,
+    "Sales Transaksi": 4088.879999999999
+  },
+  {
+    "Tanggal": "10 Apr 2023",
+    "Total Transaksi": 1286,
+    "Sales Transaksi": 4220.299999999998
+  },
+  {
+    "Tanggal": "11 Apr 2023",
+    "Total Transaksi": 1237,
+    "Sales Transaksi": 3852.859999999998
+  },
+  {
+    "Tanggal": "12 Apr 2023",
+    "Total Transaksi": 1239,
+    "Sales Transaksi": 4040.1800000000003
+  },
+  {
+    "Tanggal": "13 Apr 2023",
+    "Total Transaksi": 1294,
+    "Sales Transaksi": 4114.5300000000025
+  },
+  {
+    "Tanggal": "14 Apr 2023",
+    "Total Transaksi": 1114,
+    "Sales Transaksi": 4131.2500000000055
+  },
+  {
+    "Tanggal": "15 Apr 2023",
+    "Total Transaksi": 1245,
+    "Sales Transaksi": 4121.789999999998
+  },
+  {
+    "Tanggal": "16 Apr 2023",
+    "Total Transaksi": 1338,
+    "Sales Transaksi": 4500.390000000001
+  },
+  {
+    "Tanggal": "17 Apr 2023",
+    "Total Transaksi": 1117,
+    "Sales Transaksi": 4332.099999999998
+  },
+  {
+    "Tanggal": "18 Apr 2023",
+    "Total Transaksi": 1275,
+    "Sales Transaksi": 4354.070000000001
+  },
+  {
+    "Tanggal": "19 Apr 2023",
+    "Total Transaksi": 1270,
+    "Sales Transaksi": 4318.310000000005
+  },
+  {
+    "Tanggal": "20 Apr 2023",
+    "Total Transaksi": 1177,
+    "Sales Transaksi": 3924.7799999999997
+  },
+  {
+    "Tanggal": "21 Apr 2023",
+    "Total Transaksi": 1206,
+    "Sales Transaksi": 4005.3799999999997
+  },
+  {
+    "Tanggal": "22 Apr 2023",
+    "Total Transaksi": 1238,
+    "Sales Transaksi": 3961.5800000000004
+  },
+  {
+    "Tanggal": "23 Apr 2023",
+    "Total Transaksi": 1306,
+    "Sales Transaksi": 4321.290000000004
+  },
+  {
+    "Tanggal": "24 Apr 2023",
+    "Total Transaksi": 1342,
+    "Sales Transaksi": 4265.45
+  },
+  {
+    "Tanggal": "25 Apr 2023",
+    "Total Transaksi": 1335,
+    "Sales Transaksi": 4255.000000000004
+  },
+  {
+    "Tanggal": "26 Apr 2023",
+    "Total Transaksi": 1396,
+    "Sales Transaksi": 4559.450000000007
+  },
+  {
+    "Tanggal": "27 Apr 2023",
+    "Total Transaksi": 1477,
+    "Sales Transaksi": 4427.100000000005
+  },
+  {
+    "Tanggal": "28 Apr 2023",
+    "Total Transaksi": 1099,
+    "Sales Transaksi": 3373.799999999998
+  },
+  {
+    "Tanggal": "29 Apr 2023",
+    "Total Transaksi": 954,
+    "Sales Transaksi": 2953.5
+  },
+  {
+    "Tanggal": "30 Apr 2023",
+    "Total Transaksi": 1116,
+    "Sales Transaksi": 3552.3300000000004
+  },
+  {
+    "Tanggal": "1 May 2023",
+    "Total Transaksi": 1515,
+    "Sales Transaksi": 4731.4500000000035
+  },
+  {
+    "Tanggal": "2 May 2023",
+    "Total Transaksi": 1495,
+    "Sales Transaksi": 4625.499999999998
+  },
+  {
+    "Tanggal": "3 May 2023",
+    "Total Transaksi": 1523,
+    "Sales Transaksi": 4714.599999999999
+  },
+  {
+    "Tanggal": "4 May 2023",
+    "Total Transaksi": 1483,
+    "Sales Transaksi": 4589.699999999998
+  },
+  {
+    "Tanggal": "5 May 2023",
+    "Total Transaksi": 1507,
+    "Sales Transaksi": 4701.000000000001
+  },
+  {
+    "Tanggal": "6 May 2023",
+    "Total Transaksi": 1364,
+    "Sales Transaksi": 4205.15
+  },
+  {
+    "Tanggal": "7 May 2023",
+    "Total Transaksi": 1444,
+    "Sales Transaksi": 4542.700000000007
+  },
+  {
+    "Tanggal": "8 May 2023",
+    "Total Transaksi": 1694,
+    "Sales Transaksi": 5604.209999999999
+  },
+  {
+    "Tanggal": "9 May 2023",
+    "Total Transaksi": 1475,
+    "Sales Transaksi": 5100.970000000009
+  },
+  {
+    "Tanggal": "10 May 2023",
+    "Total Transaksi": 1643,
+    "Sales Transaksi": 5256.330000000005
+  },
+  {
+    "Tanggal": "11 May 2023",
+    "Total Transaksi": 1512,
+    "Sales Transaksi": 4850.060000000002
+  },
+  {
+    "Tanggal": "12 May 2023",
+    "Total Transaksi": 1493,
+    "Sales Transaksi": 4681.130000000001
+  },
+  {
+    "Tanggal": "13 May 2023",
+    "Total Transaksi": 1717,
+    "Sales Transaksi": 5511.530000000007
+  },
+  {
+    "Tanggal": "14 May 2023",
+    "Total Transaksi": 1439,
+    "Sales Transaksi": 5052.650000000008
+  },
+  {
+    "Tanggal": "15 May 2023",
+    "Total Transaksi": 1610,
+    "Sales Transaksi": 5384.980000000004
+  },
+  {
+    "Tanggal": "16 May 2023",
+    "Total Transaksi": 1657,
+    "Sales Transaksi": 5542.130000000001
+  },
+  {
+    "Tanggal": "17 May 2023",
+    "Total Transaksi": 1435,
+    "Sales Transaksi": 5418.000000000009
+  },
+  {
+    "Tanggal": "18 May 2023",
+    "Total Transaksi": 1659,
+    "Sales Transaksi": 5583.469999999999
+  },
+  {
+    "Tanggal": "19 May 2023",
+    "Total Transaksi": 1702,
+    "Sales Transaksi": 5657.880000000007
+  },
+  {
+    "Tanggal": "20 May 2023",
+    "Total Transaksi": 1593,
+    "Sales Transaksi": 5519.280000000008
+  },
+  {
+    "Tanggal": "21 May 2023",
+    "Total Transaksi": 1567,
+    "Sales Transaksi": 5370.810000000003
+  },
+  {
+    "Tanggal": "22 May 2023",
+    "Total Transaksi": 1729,
+    "Sales Transaksi": 5541.160000000007
+  },
+  {
+    "Tanggal": "23 May 2023",
+    "Total Transaksi": 1641,
+    "Sales Transaksi": 5242.910000000006
+  },
+  {
+    "Tanggal": "24 May 2023",
+    "Total Transaksi": 1682,
+    "Sales Transaksi": 5391.450000000003
+  },
+  {
+    "Tanggal": "25 May 2023",
+    "Total Transaksi": 1613,
+    "Sales Transaksi": 5230.850000000006
+  },
+  {
+    "Tanggal": "26 May 2023",
+    "Total Transaksi": 1661,
+    "Sales Transaksi": 5300.950000000007
+  },
+  {
+    "Tanggal": "27 May 2023",
+    "Total Transaksi": 1815,
+    "Sales Transaksi": 5559.150000000003
+  },
+  {
+    "Tanggal": "28 May 2023",
+    "Total Transaksi": 1402,
+    "Sales Transaksi": 4338.649999999998
+  },
+  {
+    "Tanggal": "29 May 2023",
+    "Total Transaksi": 1270,
+    "Sales Transaksi": 3959.499999999998
+  },
+  {
+    "Tanggal": "30 May 2023",
+    "Total Transaksi": 1465,
+    "Sales Transaksi": 4835.480000000005
+  },
+  {
+    "Tanggal": "31 May 2023",
+    "Total Transaksi": 1428,
+    "Sales Transaksi": 4684.130000000002
+  },
+  {
+    "Tanggal": "1 Jun 2023",
+    "Total Transaksi": 1676,
+    "Sales Transaksi": 5226.999999999999
+  },
+  {
+    "Tanggal": "2 Jun 2023",
+    "Total Transaksi": 1642,
+    "Sales Transaksi": 5056.5
+  },
+  {
+    "Tanggal": "3 Jun 2023",
+    "Total Transaksi": 1654,
+    "Sales Transaksi": 5166.649999999998
+  },
+  {
+    "Tanggal": "4 Jun 2023",
+    "Total Transaksi": 1619,
+    "Sales Transaksi": 4985.149999999998
+  },
+  {
+    "Tanggal": "5 Jun 2023",
+    "Total Transaksi": 1577,
+    "Sales Transaksi": 4911.150000000001
+  },
+  {
+    "Tanggal": "6 Jun 2023",
+    "Total Transaksi": 1494,
+    "Sales Transaksi": 4598.900000000001
+  },
+  {
+    "Tanggal": "7 Jun 2023",
+    "Total Transaksi": 1536,
+    "Sales Transaksi": 4883.100000000004
+  },
+  {
+    "Tanggal": "8 Jun 2023",
+    "Total Transaksi": 1788,
+    "Sales Transaksi": 6151.589999999999
+  },
+  {
+    "Tanggal": "9 Jun 2023",
+    "Total Transaksi": 1682,
+    "Sales Transaksi": 5867.159999999997
+  },
+  {
+    "Tanggal": "10 Jun 2023",
+    "Total Transaksi": 1708,
+    "Sales Transaksi": 5626.749999999999
+  },
+  {
+    "Tanggal": "11 Jun 2023",
+    "Total Transaksi": 1703,
+    "Sales Transaksi": 5418.6100000000015
+  },
+  {
+    "Tanggal": "12 Jun 2023",
+    "Total Transaksi": 1674,
+    "Sales Transaksi": 5328.700000000002
+  },
+  {
+    "Tanggal": "13 Jun 2023",
+    "Total Transaksi": 1938,
+    "Sales Transaksi": 6189.360000000005
+  },
+  {
+    "Tanggal": "14 Jun 2023",
+    "Total Transaksi": 1608,
+    "Sales Transaksi": 5836.520000000005
+  },
+  {
+    "Tanggal": "15 Jun 2023",
+    "Total Transaksi": 1728,
+    "Sales Transaksi": 5806.240000000008
+  },
+  {
+    "Tanggal": "16 Jun 2023",
+    "Total Transaksi": 1824,
+    "Sales Transaksi": 6011.4300000000085
+  },
+  {
+    "Tanggal": "17 Jun 2023",
+    "Total Transaksi": 1552,
+    "Sales Transaksi": 6117.600000000016
+  },
+  {
+    "Tanggal": "18 Jun 2023",
+    "Total Transaksi": 1780,
+    "Sales Transaksi": 6026.090000000008
+  },
+  {
+    "Tanggal": "19 Jun 2023",
+    "Total Transaksi": 1858,
+    "Sales Transaksi": 6403.910000000017
+  },
+  {
+    "Tanggal": "20 Jun 2023",
+    "Total Transaksi": 1644,
+    "Sales Transaksi": 5494.66000000001
+  },
+  {
+    "Tanggal": "21 Jun 2023",
+    "Total Transaksi": 1695,
+    "Sales Transaksi": 5808.380000000005
+  },
+  {
+    "Tanggal": "22 Jun 2023",
+    "Total Transaksi": 1770,
+    "Sales Transaksi": 5615.100000000008
+  },
+  {
+    "Tanggal": "23 Jun 2023",
+    "Total Transaksi": 1795,
+    "Sales Transaksi": 5781.860000000006
+  },
+  {
+    "Tanggal": "24 Jun 2023",
+    "Total Transaksi": 1846,
+    "Sales Transaksi": 5906.100000000005
+  },
+  {
+    "Tanggal": "25 Jun 2023",
+    "Total Transaksi": 1802,
+    "Sales Transaksi": 5754.850000000008
+  },
+  {
+    "Tanggal": "26 Jun 2023",
+    "Total Transaksi": 1837,
+    "Sales Transaksi": 5875.900000000006
+  },
+  {
+    "Tanggal": "27 Jun 2023",
+    "Total Transaksi": 1962,
+    "Sales Transaksi": 5975.650000000007
+  },
+  {
+    "Tanggal": "28 Jun 2023",
+    "Total Transaksi": 1531,
+    "Sales Transaksi": 4728.9000000000015
+  },
+  {
+    "Tanggal": "29 Jun 2023",
+    "Total Transaksi": 1429,
+    "Sales Transaksi": 4450.749999999995
+  },
+  {
+    "Tanggal": "30 Jun 2023",
+    "Total Transaksi": 1590,
+    "Sales Transaksi": 5481.320000000004
+  }
+]
