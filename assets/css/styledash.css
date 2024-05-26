@@ -44,6 +44,16 @@
     margin-right: 10px;
 }
 
+.bulan-filter-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sales-store-location {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 /*untuk tabel*/
 main.table {
 width: 100%;
