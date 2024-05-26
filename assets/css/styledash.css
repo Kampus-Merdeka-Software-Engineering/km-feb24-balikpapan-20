@@ -1,5 +1,5 @@
 body {
-    background-image: url('assets/images/bgdas.png');
+    background-image: url("assets/images/bgdas.png");
     background-size: cover; 
 }
 .chart-container {
