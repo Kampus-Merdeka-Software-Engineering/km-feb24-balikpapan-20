@@ -73,14 +73,25 @@
     <div class="chart-container">
         <div class="chart-box">
             <h2 class="chart-title">Sales by Month</h2>
-            <div>
+            <div class="bulan-filter-container">
+                <label for="bulan">Pilih Bulan:</label>
+                    <select id="bulan" name="bulan">
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                    </select>
+            </div>
+            <div class="sales-store-location">
                 <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
                 <label for="lowerManhattan">Lower Manhattan</label>
                 <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
                 <label for="hellsKitchen">Hell's Kitchen</label>
                 <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
                 <label for="astoria">Astoria</label>
-              </div>
+            </div>
             <canvas id="salesmonth"></canvas>
         </div>
         <div class="chart-box">
