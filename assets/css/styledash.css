@@ -1,7 +1,6 @@
 body {
-    background-image: url('assets/images/bgdas,png'); /* Ganti 'background.jpg' dengan URL atau path ke gambar yang ingin Anda gunakan sebagai latar belakang */
-    background-size: cover; /* Untuk mengatur gambar agar mencakup seluruh area body */
-    /* Anda dapat menambahkan properti lain seperti background-color, background-repeat, dll. sesuai kebutuhan */
+    background-image: url('assets/images/bgdas.png');
+    background-size: cover; 
 }
 .chart-container {
     display: flex;
