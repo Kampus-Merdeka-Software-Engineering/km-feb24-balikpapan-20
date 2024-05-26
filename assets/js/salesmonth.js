@@ -1,119 +1,112 @@
 let salesMonthChart;
-    let jsonData;
+let jsonData;
 
-    // Langkah 1: Lakukan permintaan untuk file JSON
-    fetch('assets/data/salesmonth.json')
-      .then(response => response.json())
-      .then(data => {
-        // Simpan data JSON untuk digunakan kembali saat filter berubah
-        jsonData = data;
+fetch('assets/data/salesmonth.json')
+  .then(response => response.json())
+  .then(data => {
+    jsonData = data;
+    updateChart();
+  });
 
-        // Inisialisasi chart pertama kali
-        updateChart();
-      });
+document.getElementById('bulan').addEventListener('change', updateChart); // Tambahkan event listener untuk filter bulan
 
-    // Fungsi untuk memperbarui chart berdasarkan filter yang dipilih
-    function updateChart() {
-      const selectedLocations = getSelectedLocations();
-      const transformedData = transformData(jsonData, selectedLocations);
+function updateChart() {
+  const selectedLocations = getSelectedLocations();
+  const selectedMonth = document.getElementById('bulan').value; // Dapatkan bulan yang dipilih
+  const transformedData = transformData(jsonData, selectedLocations, selectedMonth);
 
-      if (salesMonthChart) {
-        salesMonthChart.destroy();
-      }
+  if (salesMonthChart) {
+    salesMonthChart.destroy();
+  }
 
-      // Buat objek konfigurasi grafik dari data yang diubah
-      const config = {
-        type: 'bar',
-        data: transformedData,
-        options: {
-          responsive: true,
-          plugins: {},
-          scales: {
-            y: {
-              beginAtZero: true,
-              title: {
-                display: true,
-                text: 'Sales Transaksi'
-              }
-            },
-            x: {
-              title: {
-                display: true,
-                text: 'Date'
-              }
-            }
+  const config = {
+    type: 'bar',
+    data: transformedData,
+    options: {
+      responsive: true,
+      plugins: {},
+      scales: {
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Sales Transaksi'
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Date'
           }
         }
-      };
+      }
+    }
+  };
 
-      // Buat grafik menggunakan objek konfigurasi tersebut
-      salesMonthChart = new Chart(document.getElementById('salesmonth'), config);
+  salesMonthChart = new Chart(document.getElementById('salesmonth'), config);
+}
+
+function getSelectedLocations() {
+  const checkboxes = document.querySelectorAll('input[name="store_location"]:checked');
+  return Array.from(checkboxes).map(checkbox => checkbox.value);
+}
+
+document.querySelectorAll('input[name="store_location"]').forEach(checkbox => {
+  checkbox.addEventListener('change', updateChart);
+});
+
+function transformData(jsonData, selectedLocations, selectedMonth) {
+  const dataChart = {
+    labels: [],
+    datasets: []
+  };
+
+  const locationColors = {
+    'Lower Manhattan': '#ff6b6b',
+    "Hell's Kitchen": '#0461b1',
+    'Astoria': '#ffbb00'
+  };
+
+  const salesByLocation = {};
+
+  // Filter data berdasarkan bulan dan lokasi yang dipilih
+  const filteredData = jsonData.filter(entry => {
+    const date = new Date(entry.date);
+    const month = date.getMonth() + 1; // Bulan dimulai dari 0 (Januari) hingga 11 (Desember)
+    const location = entry.store_location;
+    return month === parseInt(selectedMonth) && selectedLocations.includes(location);
+  });
+
+  // Loop melalui data yang difilter
+  filteredData.forEach(entry => {
+    const date = entry.date;
+    const location = entry.store_location;
+    const sales = entry['sales transaksi'];
+
+    // Tambahkan tanggal ke labels jika belum ada
+    if (!dataChart.labels.includes(date)) {
+      dataChart.labels.push(date);
     }
 
-    // Fungsi untuk mendapatkan lokasi yang dipilih
-    function getSelectedLocations() {
-      const checkboxes = document.querySelectorAll('input[name="store_location"]:checked');
-      return Array.from(checkboxes).map(checkbox => checkbox.value);
+    // Tambahkan data penjualan ke setiap lokasi
+    if (!salesByLocation[location]) {
+      salesByLocation[location] = [];
     }
+    salesByLocation[location].push(sales);
+  });
 
-    // Event listener untuk checkbox
-    document.querySelectorAll('input[name="store_location"]').forEach(checkbox => {
-      checkbox.addEventListener('change', updateChart);
-    });
+  // Loop melalui setiap lokasi dan tambahkan dataset ke dataChart
+  Object.keys(salesByLocation).forEach(location => {
+    const dataset = {
+      label: location,
+      data: salesByLocation[location],
+      backgroundColor: locationColors[location],
+      borderColor: locationColors[location],
+      borderWidth: 2,
+      tension: 0.1
+    };
+    dataChart.datasets.push(dataset);
+  });
 
-    // Fungsi untuk mengubah data JSON menjadi format yang dapat digunakan oleh Chart.js
-    function transformData(jsonData, selectedLocations) {
-      // Inisialisasi objek dataChart untuk menyimpan data yang diubah
-      const dataChart = {
-        labels: [],
-        datasets: []
-      };
-
-      // Objek untuk menyimpan data sales transaksi berdasarkan lokasi toko
-      const salesByLocation = {};
-
-      // Loop melalui setiap objek dalam data JSON
-      jsonData.forEach(entry => {
-        const date = entry.date;
-        const location = entry.store_location;
-        const sales = entry['sales transaksi'];
-
-        // Jika lokasi tidak dipilih, lewati data ini
-        if (!selectedLocations.includes(location)) {
-          return;
-        }
-
-        // Jika label tanggal belum ada dalam array labels, tambahkan label tersebut
-        if (!dataChart.labels.includes(date)) {
-          dataChart.labels.push(date);
-        }
-
-        // Jika lokasi toko belum ada dalam objek salesByLocation, inisialisasi array kosong
-        if (!salesByLocation[location]) {
-          salesByLocation[location] = [];
-        }
-
-        // Tambahkan data sales transaksi ke array yang sesuai dengan lokasi toko
-        salesByLocation[location].push(sales);
-      });
-
-      // Definisikan warna dataset sesuai dengan yang ditentukan dalam data
-      const colors = ['#ff6b6b', '#0461b1', '#ffbb00'];
-      let colorIndex = 0;
-
-      // Loop melalui setiap lokasi toko dan tambahkan dataset ke dataChart
-      Object.entries(salesByLocation).forEach(([location, salesData]) => {
-        const dataset = {
-          label: location,
-          data: salesData,
-          backgroundColor: colors[colorIndex % colors.length],
-          borderColor: colors[colorIndex % colors.length],
-          borderWidth: 2,
-          tension: 0.1
-        };
-        colorIndex++;
-        dataChart.datasets.push(dataset);
-      });
-
-      return dataChart;
-    }
+  return dataChart;
+}
