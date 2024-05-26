@@ -1,3 +1,12 @@
+.header-dash {
+  background-image: url("/assets/images/kopibanner.png");
+  background-size: cover;
+  position: relative;
+  width: auto;
+  height: 498px;
+  left: 0px;
+  top: 0px;
+}
 }
 .chart-container {
     display: flex;
