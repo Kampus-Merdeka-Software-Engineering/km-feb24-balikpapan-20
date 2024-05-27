@@ -1,5 +1,6 @@
 .isi-chart {
   background-image: url("/assets/images/bgchart.png");
+  position: fixed;
 }
 .header-dash {
   background-image: url("/assets/images/kopibanner.png");
