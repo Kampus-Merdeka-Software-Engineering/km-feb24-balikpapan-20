@@ -18,14 +18,14 @@
     ></script>
     <script type="module" src="assets/js/index.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-      <script type="text/javascript">
+      <script type="text/javascript" defer>
       (function () {
         emailjs.init({
           publicKey: 'vuiJegTjAmp-ItsmN',
         });
       })();
       </script>
-      <script src="assets/js/app.js"></script>
+      <script src="assets/js/app.js" defer></script>
 </head>
 
 <body>
@@ -46,7 +46,14 @@
                     <a href="aboutus_revou.html">MSIB</a>
                   </div>
                 </div></li>
-              <li><a href="login.html" class="nav-link"><img src="assets/images/user.png" alt="Login" class="login-icon"></a></li>
+              <li><a class="nav-link" id="profile-img"></a>
+                <div class="dropdown-login">
+                  <img src="assets/images/user.png" alt="Login" class="login-icon">
+                      <div class="dropdown-content-login">
+                        <a href="">SiGN OUT</a>
+                      </div>
+                    </div></li>
+              <li><button class="button-login nav-link" id="login-btn">LOGIN</button></li>
             </ul>
           </nav> 
         </div>
@@ -312,7 +319,7 @@
           <h1><b>Contact Us!</b></h1>
           <p>Get e-mail update about our latest coffee and special offers. </p>
 
-          <form>
+          <form id="contact-form">
               <label for="name"><b>Name</b></label> 
               <input class="input-contact" id="sendername" type="text" required placeholder="Team 20">
 
@@ -325,7 +332,7 @@
               <label for="name"><b>Message</b></label>
               <textarea class="input-contact" id="message" rows="4" required placeholder="Type your message"></textarea>
 
-              <button class="submit-contact" onclick= "sendMail()" type="submit"><b>send</b></button>
+              <button class="submit-contact" type="submit"><b>send</b></button>
           </form>
       </div>
       </section>

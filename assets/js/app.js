@@ -1,9 +1,14 @@
+document.getElementById('contact-form').addEventListener('submit',function(event){
+  event.preventDefault();
+  sendMail();
+})
+
 function sendMail() {
   var params = {
-    sendername: document.querySelector("sendername").value,
-    to: document.querySelector("to").value,
-    subject: document.querySelector("subject").value,
-    message: document.querySelector("message").value,
+    sendername: document.getElementById("sendername").value,
+    to: document.getElementById("to").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
   };
 
   var serviceID = "service_azrhczj";
@@ -13,6 +18,9 @@ function sendMail() {
     .send(serviceID, templateID, params)
     .then((res) => {
       alert("Email Sent Successfully!");
+      console.log(res);
     })
-    .catch();
+    .catch((Error)=>{
+      console.log(Error);
+    });
 }
