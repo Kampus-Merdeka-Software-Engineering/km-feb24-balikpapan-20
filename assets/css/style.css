@@ -161,7 +161,7 @@ li {
   outline: none;
   border: none;
   /* display: none; */
-  display: inline-block;
+  /* display: inline-block; */
 }
 .button-login:hover{
   color: #ffbf00;
@@ -173,7 +173,7 @@ li {
   top: 16%;
   position: relative;
   /* display: inline-block; */
-  display: none;
+  /* display: none; */
 }
 .dropdown-login{
   position: relative;

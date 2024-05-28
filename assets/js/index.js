@@ -18,7 +18,8 @@ const db=getFirestore(app);
 
 
 
-const dasboard =document.getElementById('dashboard')
+const dasboard =document.getElementById('dashboard');
+const buttonDashboard =document.getElementById('button-dash');
 const closeL = document.querySelectorAll('.close')[0];
 const closeR = document.querySelectorAll('.close')[1];
 const openSignIn  =document.getElementById('loginModal')
@@ -27,66 +28,37 @@ const submitLogin = document.getElementById('submitLogin');
 const submitRegister = document.getElementById('submitRegister');
 
 
-//close modal login register
-closeL.addEventListener('click', function() {
-  openSignIn.style.display = 'none';
-});
-
-
-closeR.addEventListener('click', function() {
-  openSignup.style.display = 'none';
-});
-
-window.addEventListener('click', function(event) {
-  if (event.target === openSignIn) {
-    openSignIn.style.display = 'none';
-  }else if(event.target === openSignup){
-    openSignup.style.display = 'none';
-  }
-});
-
-
-
 // open modal login jika belum login
-dasboard.addEventListener('click', function(){
+// dasboard.addEventListener('click', function(){
   onAuthStateChanged(auth, (user)=>{
     const loggedInUserId = localStorage.getItem('loggedInUserId');
     if(loggedInUserId){
-      console.log(user);
+      document.getElementById('login-btn').style.display='none'
       const docRef = doc(db,"users",loggedInUserId);
       getDoc(docRef)
       .then((docSnap)=>{
         
           const userData= docSnap.data();
-          if(userData.role == 'admin'){
-            window.location.href='dashboard.html'
+          if(userData){
+            // window.location.href='dashboard.html'
+            document.querySelector('.dropdown-login').style.display='inline-block'
           }else{
             localStorage.removeItem('loggedInUserId');
             signOut(auth);
-            alert('anda bukan admin')
           }
       })
       .catch((error)=>{
         console.log(error);
       })
     }else{
+      document.querySelector('.dropdown-login').style.display='none'
+      document.getElementById('login-btn').style.display = 'inline-block'
        openSignIn.style.display = 'block'
        openSignup.style.display = 'none'
     }
   })
   
-})
-
-
-
-
-
-//open modal register
-document.getElementById('openRegisterModal').addEventListener('click',function(){
-  console.log('open modal');
-  openSignIn.style.display = 'none'
-  openSignup.style.display= 'block'
-})
+// })
 
 
 //submit register create account
@@ -134,13 +106,14 @@ submitRegister.addEventListener("click",function(event) {
   
 })
 
+
 //submit login
 submitLogin.addEventListener("click",function (event) {   
   event.preventDefault();
   
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
-  const auth=getAuth();
+  const auth=getAuth(app);
 
 
 signInWithEmailAndPassword (auth, email, password)
@@ -154,15 +127,14 @@ signInWithEmailAndPassword (auth, email, password)
   const docRef = doc(db,"users",user.uid);
   getDoc(docRef)
   .then((docSnap)=>{
-      const role = docSnap.data().role
-      if(role == 'admin'){
+      const data = docSnap.data()
+      if(data){
         window.location.href='dashboard.html'
       }else{
-        alert('maaf anda bukan admin')
+        alert('error')
       }
 
   })
-  
 })
 .catch((error) => {
    const errorCode = error.code;
@@ -175,3 +147,54 @@ signInWithEmailAndPassword (auth, email, password)
 });
 
 })
+
+
+//open modal register
+document.getElementById('openRegisterModal').addEventListener('click',function(){
+  console.log('open modal');
+  openSignIn.style.display = 'none'
+  openSignup.style.display= 'block'
+})
+
+//close modal login register
+closeL.addEventListener('click', function() {
+  openSignIn.style.display = 'none';
+});
+
+
+closeR.addEventListener('click', function() {
+  openSignup.style.display = 'none';
+});
+
+window.addEventListener('click', function(event) {
+  if (event.target === openSignIn) {
+    openSignIn.style.display = 'none';
+  }else if(event.target === openSignup){
+    openSignup.style.display = 'none';
+  }
+});
+
+
+//akses ke dashboard
+function accesDashboard() {
+  const loggedInUserId = localStorage.getItem('loggedInUserId');
+    if(loggedInUserId){
+      window.location.href='dashboard.html'
+      
+    }else{
+      openSignIn.style.display = 'block'
+      openSignup.style.display = 'none'
+    }
+}
+
+dasboard.addEventListener('click',function(){
+  accesDashboard();
+});
+
+buttonDashboard.addEventListener('click',function(){
+  accesDashboard();
+});
+
+
+
+
