@@ -20,12 +20,14 @@ const db=getFirestore(app);
 
 const dasboard =document.getElementById('dashboard');
 const buttonDashboard =document.getElementById('button-dash');
+const buttonLogin =document.getElementById('login-btn');
 const closeL = document.querySelectorAll('.close')[0];
 const closeR = document.querySelectorAll('.close')[1];
 const openSignIn  =document.getElementById('loginModal')
 const openSignup  =document.getElementById('registerModal')
 const submitLogin = document.getElementById('submitLogin');
 const submitRegister = document.getElementById('submitRegister');
+const signout = document.getElementById('sign-out');
 
 
 // open modal login jika belum login
@@ -59,6 +61,15 @@ const submitRegister = document.getElementById('submitRegister');
   })
   
 // })
+
+//tombol login
+buttonLogin.addEventListener("click",function(){
+  
+  document.querySelector('.dropdown-login').style.display='none'
+  document.getElementById('login-btn').style.display = 'inline-block'
+  openSignIn.style.display = 'block'
+  openSignup.style.display = 'none'
+})
 
 
 //submit register create account
@@ -196,5 +207,8 @@ buttonDashboard.addEventListener('click',function(){
 });
 
 
-
-
+//signout
+signout.addEventListener('click',function(){
+  localStorage.removeItem('loggedInUserId');
+  signOut(auth);
+})
