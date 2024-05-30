@@ -1,252 +1,15 @@
-/*ukuran desktop max-width: 1366px, 
-ukuran tablet max-width: 758px, 
+/*ukuran tablet max-width: 768px, 
 ukuran mobile max-width: 450px */
 
-/*UKURAN DESKTOP*/
-@media (max-width: 1366px) {
-  .more-info-button {
-    margin-top: 40px;
-    padding: 0 20px;
-  }
-
-  .navbar {
-    max-width: 100%;
-    flex-wrap: wrap;
-    padding-right: 80px;
-  }
-
-  .company-name {
-    position: absolute;
-    width: auto;
-    top: 250px;
-    font-weight: 800;
-    font-size: 100px;
-    text-align: center;
-    color: #ffbf00;
-  }
-
-  .company-description {
-    position: absolute;
-    top: 561px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-  }
-  .more-info-button {
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    width: 157px;
-    height: 34px;
-    left: 440px;
-    top: 645px;
-  }
-
-  .header-black-title {
-    position: absolute;
-    max-width: 100%;
-    left: 360px;
-  }
-
-  .header-black-description {
-    position: absolute;
-    max-width: 100%;
-    left: 230px;
-  }
-
-  /*OUTLETS*/
-  .outlets-title {
-    max-width: 100%;
-  }
-
-  .outlets-container {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-
-  .outlets-grid {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0px;
-  }
-
-  .outlet-column {
-    width: 100%;
-  }
-
-  .outlet-card {
-    margin-top: 40px;
-  }
-
-  .outlet-column-2 {
-    width: 100%;
-  }
-
-  .outlet-details-2 {
-    padding: 0 20px;
-  }
-
-  .outlet-column-3 {
-    width: 100%;
-  }
-
-  .outlet-description-3 {
-    margin: 0 10px;
-  }
-  /*END OUTLETS*/
-
-  /* START INFORMATION SECTION */
-  .information-section {
-    max-width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
-  }
-
-  .content-wrapper {
-    max-width: 100%;
-  }
-
-  .content-container {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-
-  .column {
-    width: 100%;
-  }
-
-  .business-background {
-    max-width: 100%;
-    margin-top: 39px;
-  }
-
-  .information-label {
-    white-space: initial;
-  }
-
-  .business-background-content {
-    max-width: 100%;
-    margin-top: 40px;
-    padding-left: 20px;
-  }
-
-  .business-background-title {
-    max-width: 100%;
-  }
-
-  .business-background-description {
-    max-width: 100%;
-  }
-
-  .project-details {
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  .project-capstone {
-    max-width: 100%;
-    margin-top: 39px;
-  }
-
-  .project-capstone-content {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-
-  .project-capstone-title {
-    max-width: 100%;
-  }
-
-  .project-capstone-description {
-    max-width: 100%;
-  }
-
-  .dashboard {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  /* END INFORMATION SEC*/
-
-  /* START MEMBER TEAM */
-  .team-members {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-
-  .team-members-grid {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .team-member {
-    width: 100%;
-  }
-
-  .team-member-card {
-    margin-top: 40px;
-  }
-
-  .team-member-image {
-    margin: 0 10px;
-  }
-  /* END MEMBER TEAM */
-
-  /*START FOOTER*/
-  .footer {
-    padding: 0 20px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .social-media {
-    width: 100%;
-  }
-
-  .social-media-content {
-    margin-top: 40px;
-    margin-left: 40px;
-  }
-
-  .social-media-icons {
-    padding-right: 20px;
-  }
-
-  .contact-info {
-    width: 100%;
-  }
-
-  .contact-details {
-    margin-right: 30px;
-  }
-
-  .contact-info-content {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-  }
-
-  .copyright {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-  }
-  /*END FOOTER*/
-}
-
-/*UKURAN TABLET max-width: 758px*/
+/*UKURAN TABLET max-width: 768px*/
 
 @media (max-width: 768px) {
   .more-info-button {
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 0 10px;
     width: 150px;
     height: 40px;
-    left: 55%;
+    left: 50%;
     transform: translateX(-50%);
     top: 550px;
   }
@@ -258,19 +21,20 @@ ukuran mobile max-width: 450px */
 
   .company-name {
     top: 260px;
-    padding-left: 70px;
-    margin-left: 0;
-    font-size: 65px;
+    margin-left: -30px;
+    line-height: 90px;
+    font-size: 80px;
     text-align: center;
     justify-content: center;
   }
 
   .company-description {
-    top: 450px;
-    line-height: 20px;
+    top: 460px;
+    line-height: 23px;
     text-align: center;
     justify-content: center;
-    padding-left: 0px;
+    font-size: 18px;
+    margin-left: -45px;
   }
 
   .header-black-title {
@@ -283,8 +47,42 @@ ukuran mobile max-width: 450px */
     font-size: 17px;
   }
 
+  .outlets-title {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .outlets-container {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .outlets-grid {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    gap: 40px;
+  }
+
+  .outlet-card {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .outlet-details {
+    width: auto;
+    padding-left: 0px 0px;
+    align-items: center;
+    margin-left: -5px;
+  }
+
   .background-image {
-    height: 290px;
+    width: 100%;
   }
 
   .business-background {
@@ -293,33 +91,31 @@ ukuran mobile max-width: 450px */
     padding: 0;
   }
 
-  .project-capstone-title {
+  .business-background-title {
+    margin-top: -30px;
+  }
+
+  .business-background-description {
     margin-top: 20px;
+    text-indent: 0%;
+  }
+
+  .project-capstone-title {
+    margin-top: 50px;
+  }
+
+  .project-capstone-description {
+    text-indent: 0%;
+    margin: 30px;
   }
 
   .dashboard-title {
     margin-top: 20px;
   }
 
-  .outlets-container,
-  .information-section,
-  .project-capstone-content,
-  .dashboard,
-  .footer {
-    padding: 0 10px;
-  }
-
-  .outlet-card,
-
-
-  .team-member-card a {
-    margin-top: 20px;
-    padding-left: 30px;
-  }
-
-  .team-member-image,
-  .outlet-description-3 {
-    margin: 0 5px;
+  .dashboard-description {
+    text-indent: 0%;
+    margin: 30px;
   }
 
   .social-media-content {
@@ -336,13 +132,13 @@ ukuran mobile max-width: 450px */
     margin-top: 20px;
     margin-bottom: 15px;
     margin-left: -10px;
-    margin-right: 30px;
+    margin-right: 10px;
   }
 
   .copyright {
     margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-bottom: 0px;
   }
 
   .containers.modal-content {
@@ -352,8 +148,6 @@ ukuran mobile max-width: 450px */
 
 /*UKURAN TABLET*/
 
-
-
 /*UKURAN MOBILE : 450 px*/
 @media (max-width: 450px) {
   * {
@@ -361,9 +155,10 @@ ukuran mobile max-width: 450px */
     margin: 0;
     padding: 0;
   }
-  
-  html, body {
-    overflow-x: hidden
+
+  html,
+  body {
+    overflow-x: hidden;
   }
   .navbar {
     background-size: cover;
@@ -426,7 +221,7 @@ ukuran mobile max-width: 450px */
   }
 
   /*.header-black-title*/
-  .header-black{
+  .header-black {
     width: 100%;
   }
 
@@ -480,22 +275,20 @@ ukuran mobile max-width: 450px */
     padding-left: 0px 0px;
     align-items: center;
     margin-left: -5px;
-  } 
+  }
 
-  .outlet-details-3{
+  .outlet-details-3 {
     width: auto;
     padding-left: 0px 0px;
     align-items: center;
     margin-left: -10px;
   }
 
-  .outlet-column
-  .outlet-column-2
-  .outlet-column-3 {
+  .outlet-column .outlet-column-2 .outlet-column-3 {
     width: 100%;
   }
 
-  .information-section{
+  .information-section {
     width: 100%;
     margin: -18px;
     margin-top: 100px;
@@ -506,7 +299,7 @@ ukuran mobile max-width: 450px */
     margin-right: 10px;
   }
 
-  .content-wrapper{
+  .content-wrapper {
     width: auto;
     height: 6%;
     margin: auto;
@@ -543,19 +336,19 @@ ukuran mobile max-width: 450px */
     height: 400px;
   }
 
-  .project-details{
+  .project-details {
     padding: 0 10px;
   }
 
-  .project-capstone-content{
+  .project-capstone-content {
     height: 50%;
   }
-  .project-capstone-title{
+  .project-capstone-title {
     top: -100px;
     font-size: 15px;
   }
 
-  .project-capstone-description{
+  .project-capstone-description {
     top: -100px;
     width: 70%;
     font-size: 12px;
@@ -610,7 +403,7 @@ ukuran mobile max-width: 450px */
     padding-left: 0%;
   }
 
-  .social-media-content{
+  .social-media-content {
     width: 80%;
     margin-top: 10px;
   }
@@ -636,17 +429,15 @@ ukuran mobile max-width: 450px */
     height: 35px;
   }
 
-
-  .team-member-card{
+  .team-member-card {
     margin-top: 20px;
-
   }
 
   .team-member-image {
     margin: 0 5px;
   }
 
-  .contact-details{
+  .contact-details {
     margin-left: 0px;
   }
 
@@ -669,7 +460,7 @@ ukuran mobile max-width: 450px */
   }
 
   .information-label {
-  white-space: initial
+    white-space: initial;
   }
 
   .business-background {
@@ -692,10 +483,9 @@ ukuran mobile max-width: 450px */
   .img-revou p {
     font-size: 12;
   }
-   .description-revou {
+  .description-revou {
     font-size: 15px;
     margin: 20px 20px 20px 10px;
-   }
-/*END | UKURAN MOBILE*/ }
-
-
+  }
+  /*END | UKURAN MOBILE*/
+}
