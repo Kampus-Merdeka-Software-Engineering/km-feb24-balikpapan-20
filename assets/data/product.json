@@ -1,2074 +1,562 @@
 [
   {
-    "store_location": "Lower Manhattan",
-    "id": 32,
+    "id_product": 32,
     "price": 3,
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Ethiopia Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 57,
+    "id_product": 57,
     "price": "3,1",
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Spicy Eye Opener Chai Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 59,
+    "id_product": 59,
     "price": "4,5",
     "category": "Drinking Chocolate",
     "type": "Hot chocolate",
     "product": "Dark chocolate Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 22,
+    "id_product": 22,
     "price": 2,
     "category": "Coffee",
     "type": "Drip coffee",
     "product": "Our Old Time Diner Blend Sm"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 77,
+    "id_product": 77,
     "price": 3,
     "category": "Bakery",
     "type": "Scone",
     "product": "Oatmeal Scone"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 28,
+    "id_product": 28,
     "price": 2,
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Columbian Medium Roast Sm"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 39,
+    "id_product": 39,
     "price": "4,25",
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Latte Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 58,
+    "id_product": 58,
     "price": "3,5",
     "category": "Drinking Chocolate",
     "type": "Hot chocolate",
     "product": "Dark chocolate Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 56,
+    "id_product": 56,
     "price": "2,55",
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Spicy Eye Opener Chai Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 33,
+    "id_product": 33,
     "price": "3,5",
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Ethiopia Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 51,
+    "id_product": 51,
     "price": 3,
     "category": "Tea",
     "type": "Brewed Black tea",
     "product": "Earl Grey Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 87,
+    "id_product": 87,
     "price": 3,
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Ouro Brasileiro shot"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 47,
+    "id_product": 47,
     "price": 3,
     "category": "Tea",
     "type": "Brewed Green tea",
     "product": "Serenity Green Tea Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 79,
+    "id_product": 79,
     "price": "3,75",
     "category": "Bakery",
     "type": "Scone",
     "product": "Jumbo Savory Scone"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 42,
+    "id_product": 42,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed herbal tea",
     "product": "Lemon Grass Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 59,
-    "price": "4,5",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Dark chocolate Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 61,
+    "id_product": 61,
     "price": "4,75",
     "category": "Drinking Chocolate",
     "type": "Hot chocolate",
     "product": "Sustainably Grown Organic Lg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 33,
-    "price": "3,5",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 69,
+    "id_product": 69,
     "price": "3,25",
     "category": "Bakery",
     "type": "Biscotti",
     "product": "Hazelnut Biscotti"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 56,
-    "price": "2,55",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Spicy Eye Opener Chai Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 40,
+    "id_product": 40,
     "price": "3,75",
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Cappuccino"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 43,
+    "id_product": 43,
     "price": 3,
     "category": "Tea",
     "type": "Brewed herbal tea",
     "product": "Lemon Grass Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 76,
+    "id_product": 76,
     "price": "3,5",
     "category": "Bakery",
     "type": "Biscotti",
     "product": "Chocolate Chip Biscotti"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 45,
+    "id_product": 45,
     "price": 3,
     "category": "Tea",
     "type": "Brewed herbal tea",
     "product": "Peppermint Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 71,
+    "id_product": 71,
     "price": "3,75",
     "category": "Bakery",
     "type": "Pastry",
     "product": "Chocolate Croissant"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 38,
+    "id_product": 38,
     "price": "3,75",
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Latte"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 26,
+    "id_product": 26,
     "price": 3,
     "category": "Coffee",
     "type": "Organic brewed coffee",
     "product": "Brazilian Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 27,
+    "id_product": 27,
     "price": "3,5",
     "category": "Coffee",
     "type": "Organic brewed coffee",
     "product": "Brazilian Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 29,
+    "id_product": 29,
     "price": "2,5",
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Columbian Medium Roast Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 54,
+    "id_product": 54,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Morning Sunrise Chai Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 55,
+    "id_product": 55,
     "price": 4,
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Morning Sunrise Chai Lg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 45,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Peppermint Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 24,
+    "id_product": 24,
     "price": 3,
     "category": "Coffee",
     "type": "Drip coffee",
     "product": "Our Old Time Diner Blend Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 60,
+    "id_product": 60,
     "price": "3,75",
     "category": "Drinking Chocolate",
     "type": "Hot chocolate",
     "product": "Sustainably Grown Organic Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 78,
+    "id_product": 78,
     "price": "4,5",
     "category": "Bakery",
     "type": "Scone",
     "product": "Scottish Cream Scone"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 44,
+    "id_product": 44,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed herbal tea",
     "product": "Peppermint Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 48,
+    "id_product": 48,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed Black tea",
     "product": "English Breakfast Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 23,
+    "id_product": 23,
     "price": "2,5",
     "category": "Coffee",
     "type": "Drip coffee",
     "product": "Our Old Time Diner Blend Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 46,
+    "id_product": 46,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed Green tea",
     "product": "Serenity Green Tea Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 32,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 25,
+    "id_product": 25,
     "price": "2,2",
     "category": "Coffee",
     "type": "Organic brewed coffee",
     "product": "Brazilian Sm"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 38,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Latte"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 34,
+    "id_product": 34,
     "price": "2,45",
     "category": "Coffee",
     "type": "Premium brewed coffee",
     "product": "Jamaican Coffee River Sm"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 36,
+    "id_product": 36,
     "price": "3,75",
     "category": "Coffee",
     "type": "Premium brewed coffee",
     "product": "Jamaican Coffee River Lg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 74,
+    "id_product": 74,
     "price": "3,5",
     "category": "Bakery",
     "type": "Biscotti",
     "product": "Ginger Biscotti"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 53,
+    "id_product": 53,
     "price": 3,
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Traditional Blend Chai Lg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 41,
+    "id_product": 41,
     "price": "4,25",
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Cappuccino Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 41,
-    "price": "4,25",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Cappuccino Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 54,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Morning Sunrise Chai Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 24,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 37,
+    "id_product": 37,
     "price": 3,
     "category": "Coffee",
     "type": "Barista Espresso",
     "product": "Espresso shot"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 50,
+    "id_product": 50,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed Black tea",
     "product": "Earl Grey Rg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 47,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Green tea",
-    "product": "Serenity Green Tea Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 72,
+    "id_product": 72,
     "price": "3,25",
     "category": "Bakery",
     "type": "Scone",
     "product": "Ginger Scone"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 35,
+    "id_product": 35,
     "price": "3,1",
     "category": "Coffee",
     "type": "Premium brewed coffee",
     "product": "Jamaican Coffee River Rg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 23,
-    "price": "2,5",
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 22,
-    "price": 2,
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Sm"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 74,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Ginger Biscotti"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 35,
-    "price": "3,1",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 70,
+    "id_product": 70,
     "price": "3,25",
     "category": "Bakery",
     "type": "Scone",
     "product": "Cranberry Scone"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 60,
-    "price": "3,75",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Sustainably Grown Organic Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 36,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 51,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "Earl Grey Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 61,
-    "price": "4,75",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Sustainably Grown Organic Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 73,
+    "id_product": 73,
     "price": "3,75",
     "category": "Bakery",
     "type": "Pastry",
     "product": "Almond Croissant"
   },
   {
-    "store_location": "Astoria",
-    "id": 22,
-    "price": 2,
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 38,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Latte"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 75,
+    "id_product": 75,
     "price": "3,5",
     "category": "Bakery",
     "type": "Pastry",
     "product": "Croissant"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 75,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Croissant"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 39,
-    "price": "4,25",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Latte Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 59,
-    "price": "4,5",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Dark chocolate Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 47,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Green tea",
-    "product": "Serenity Green Tea Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 79,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Jumbo Savory Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 46,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Green tea",
-    "product": "Serenity Green Tea Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 43,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Lemon Grass Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 45,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Peppermint Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 60,
-    "price": "3,75",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Sustainably Grown Organic Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 31,
+    "id_product": 31,
     "price": "2,2",
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Ethiopia Sm"
   },
   {
-    "store_location": "Astoria",
-    "id": 49,
+    "id_product": 49,
     "price": 3,
     "category": "Tea",
     "type": "Brewed Black tea",
     "product": "English Breakfast Lg"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 40,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Cappuccino"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 44,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Peppermint Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 33,
-    "price": "3,5",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 78,
-    "price": "4,5",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Scottish Cream Scone"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 72,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Ginger Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 52,
+    "id_product": 52,
     "price": "2,5",
     "category": "Tea",
     "type": "Brewed Chai tea",
     "product": "Traditional Blend Chai Rg"
   },
   {
-    "store_location": "Astoria",
-    "id": 25,
-    "price": "2,2",
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 30,
+    "id_product": 30,
     "price": 3,
     "category": "Coffee",
     "type": "Gourmet brewed coffee",
     "product": "Columbian Medium Roast Lg"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 50,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "Earl Grey Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 26,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 36,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 37,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Espresso shot"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 50,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "Earl Grey Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 35,
-    "price": "3,1",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 44,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Peppermint Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 27,
-    "price": "3,5",
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 46,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Green tea",
-    "product": "Serenity Green Tea Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 28,
-    "price": 2,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 24,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 54,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Morning Sunrise Chai Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 29,
-    "price": "2,5",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 31,
-    "price": "2,2",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Sm"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 49,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "English Breakfast Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 53,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Traditional Blend Chai Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 56,
-    "price": "2,55",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Spicy Eye Opener Chai Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 23,
-    "price": "2,5",
-    "category": "Coffee",
-    "type": "Drip coffee",
-    "product": "Our Old Time Diner Blend Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 30,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 32,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 29,
-    "price": "2,5",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 37,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Espresso shot"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 26,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 61,
-    "price": "4,75",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Sustainably Grown Organic Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 30,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 25,
-    "price": "2,2",
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 58,
-    "price": "3,5",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Dark chocolate Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 55,
-    "price": 4,
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Morning Sunrise Chai Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 55,
-    "price": 4,
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Morning Sunrise Chai Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 75,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Croissant"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 42,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Lemon Grass Rg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 52,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Traditional Blend Chai Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 69,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Hazelnut Biscotti"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 57,
-    "price": "3,1",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Spicy Eye Opener Chai Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 53,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Traditional Blend Chai Lg"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 42,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Lemon Grass Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 48,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "English Breakfast Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 41,
-    "price": "4,25",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Cappuccino Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 71,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Chocolate Croissant"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 49,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "English Breakfast Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 34,
-    "price": "2,45",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 34,
-    "price": "2,45",
-    "category": "Coffee",
-    "type": "Premium brewed coffee",
-    "product": "Jamaican Coffee River Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 39,
-    "price": "4,25",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Latte Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 70,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Cranberry Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 31,
-    "price": "2,2",
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Ethiopia Sm"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 76,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Chocolate Chip Biscotti"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 87,
-    "price": 3,
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Ouro Brasileiro shot"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 27,
-    "price": "3,5",
-    "category": "Coffee",
-    "type": "Organic brewed coffee",
-    "product": "Brazilian Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 40,
-    "price": "3,75",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Cappuccino"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 58,
-    "price": "3,5",
-    "category": "Drinking Chocolate",
-    "type": "Hot chocolate",
-    "product": "Dark chocolate Rg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 28,
-    "price": 2,
-    "category": "Coffee",
-    "type": "Gourmet brewed coffee",
-    "product": "Columbian Medium Roast Sm"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 77,
-    "price": 3,
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Oatmeal Scone"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 76,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Chocolate Chip Biscotti"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 71,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Chocolate Croissant"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 52,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Traditional Blend Chai Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 74,
-    "price": "3,5",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Ginger Biscotti"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 78,
-    "price": "4,5",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Scottish Cream Scone"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 57,
-    "price": "3,1",
-    "category": "Tea",
-    "type": "Brewed Chai tea",
-    "product": "Spicy Eye Opener Chai Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 43,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed herbal tea",
-    "product": "Lemon Grass Lg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 51,
-    "price": 3,
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "Earl Grey Lg"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 79,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Jumbo Savory Scone"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 70,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Cranberry Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 77,
-    "price": 3,
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Oatmeal Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 72,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Ginger Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 48,
-    "price": "2,5",
-    "category": "Tea",
-    "type": "Brewed Black tea",
-    "product": "English Breakfast Rg"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 73,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Almond Croissant"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 69,
-    "price": "3,25",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Hazelnut Biscotti"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 73,
-    "price": "3,75",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Almond Croissant"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 64,
+    "id_product": 64,
     "price": "0,8",
     "category": "Flavours",
     "type": "Regular syrup",
     "product": "Hazelnut syrup"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 12,
+    "id_product": 12,
     "price": "8,95",
     "category": "Loose Tea",
     "type": "Herbal tea",
     "product": "Peppermint"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 63,
+    "id_product": 63,
     "price": "0,8",
     "category": "Flavours",
     "type": "Regular syrup",
     "product": "Carmel syrup"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 6,
+    "id_product": 6,
     "price": 21,
     "category": "Coffee beans",
     "type": "Gourmet Beans",
     "product": "Ethiopia"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 9,
+    "id_product": 9,
     "price": 28,
     "category": "Coffee beans",
     "type": "Organic Beans",
     "product": "Organic Decaf Blend"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 65,
+    "id_product": 65,
     "price": "0,8",
     "category": "Flavours",
     "type": "Sugar free syrup",
     "product": "Sugar Free Vanilla syrup"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 65,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Sugar free syrup",
-    "product": "Sugar Free Vanilla syrup"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 64,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Hazelnut syrup"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 84,
+    "id_product": 84,
     "price": "0,8",
     "category": "Flavours",
     "type": "Regular syrup",
     "product": "Chocolate syrup"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 84,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Chocolate syrup"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 63,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Carmel syrup"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 19,
+    "id_product": 19,
     "price": "6,4",
     "category": "Packaged Chocolate",
     "type": "Drinking Chocolate",
     "product": "Dark chocolate"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 7,
+    "id_product": 7,
     "price": "19,75",
     "category": "Coffee beans",
     "type": "Premium Beans",
     "product": "Jamacian Coffee River"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 9,
-    "price": 12,
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Organic Decaf Blend"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 1,
+    "id_product": 1,
     "price": 18,
     "category": "Coffee beans",
     "type": "Organic Beans",
     "product": "Brazilian - Organic"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 17,
+    "id_product": 17,
     "price": "9,5",
     "category": "Loose Tea",
     "type": "Chai tea",
     "product": "Morning Sunrise Chai"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 10,
+    "id_product": 10,
     "price": 10,
     "category": "Coffee beans",
     "type": "Green beans",
     "product": "Guatemalan Sustainably Grown"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 4,
+    "id_product": 4,
     "price": "20,45",
     "category": "Coffee beans",
     "type": "Espresso Beans",
     "product": "Primo Espresso Roast"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 19,
-    "price": "6,4",
-    "category": "Packaged Chocolate",
-    "type": "Drinking Chocolate",
-    "product": "Dark chocolate"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 1,
-    "price": 18,
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Brazilian - Organic"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 15,
+    "id_product": 15,
     "price": "9,25",
     "category": "Loose Tea",
     "type": "Green tea",
     "product": "Serenity Green Tea"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 16,
+    "id_product": 16,
     "price": "8,95",
     "category": "Loose Tea",
     "type": "Chai tea",
     "product": "Traditional Blend Chai"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 9,
-    "price": "22,5",
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Organic Decaf Blend"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 3,
+    "id_product": 3,
     "price": "14,75",
     "category": "Coffee beans",
     "type": "Espresso Beans",
     "product": "Espresso Roast"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 20,
+    "id_product": 20,
     "price": "7,6",
     "category": "Packaged Chocolate",
     "type": "Organic Chocolate",
     "product": "Sustainably Grown Organic"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 83,
+    "id_product": 83,
     "price": 14,
     "category": "Branded",
     "type": "Housewares",
     "product": "I Need My Bean! Latte cup"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 15,
-    "price": "9,25",
-    "category": "Loose Tea",
-    "type": "Green tea",
-    "product": "Serenity Green Tea"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 3,
-    "price": "14,75",
-    "category": "Coffee beans",
-    "type": "Espresso Beans",
-    "product": "Espresso Roast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 16,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Traditional Blend Chai"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 18,
+    "id_product": 18,
     "price": "10,95",
     "category": "Loose Tea",
     "type": "Chai tea",
     "product": "Spicy Eye Opener Chai"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 21,
+    "id_product": 21,
     "price": "13,33",
     "category": "Packaged Chocolate",
     "type": "Drinking Chocolate",
     "product": "Chili Mayan"
   },
   {
-    "store_location": "Hell's Kitchen",
-    "id": 13,
+    "id_product": 13,
     "price": "8,95",
     "category": "Loose Tea",
     "type": "Black tea",
     "product": "English Breakfast"
   },
   {
-    "store_location": "Astoria",
-    "id": 11,
+    "id_product": 11,
     "price": "8,95",
     "category": "Loose Tea",
     "type": "Herbal tea",
     "product": "Lemon Grass"
   },
   {
-    "store_location": "Astoria",
-    "id": 1,
-    "price": 18,
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Brazilian - Organic"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 5,
+    "id_product": 5,
     "price": 15,
     "category": "Coffee beans",
     "type": "Gourmet Beans",
     "product": "Columbian Medium Roast"
   },
   {
-    "store_location": "Astoria",
-    "id": 10,
-    "price": 10,
-    "category": "Coffee beans",
-    "type": "Green beans",
-    "product": "Guatemalan Sustainably Grown"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 83,
-    "price": 14,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Latte cup"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 12,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Herbal tea",
-    "product": "Peppermint"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 75,
-    "price": "4,38",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Croissant"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 13,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Black tea",
-    "product": "English Breakfast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 20,
-    "price": "7,6",
-    "category": "Packaged Chocolate",
-    "type": "Organic Chocolate",
-    "product": "Sustainably Grown Organic"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 70,
-    "price": "4,06",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Cranberry Scone"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 69,
-    "price": "4,06",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Hazelnut Biscotti"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 6,
-    "price": 21,
-    "category": "Coffee beans",
-    "type": "Gourmet Beans",
-    "product": "Ethiopia"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 2,
+    "id_product": 2,
     "price": 18,
     "category": "Coffee beans",
     "type": "House blend Beans",
     "product": "Our Old Time Diner Blend"
   },
   {
-    "store_location": "Astoria",
-    "id": 4,
-    "price": "20,45",
-    "category": "Coffee beans",
-    "type": "Espresso Beans",
-    "product": "Primo Espresso Roast"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 76,
-    "price": "4,38",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Chocolate Chip Biscotti"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 21,
-    "price": "13,33",
-    "category": "Packaged Chocolate",
-    "type": "Drinking Chocolate",
-    "product": "Chili Mayan"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 81,
+    "id_product": 81,
     "price": 28,
     "category": "Branded",
     "type": "Clothing",
     "product": "I Need My Bean! T-shirt"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 14,
+    "id_product": 14,
     "price": "8,95",
     "category": "Loose Tea",
     "type": "Black tea",
     "product": "Earl Grey"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 78,
-    "price": "5,63",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Scottish Cream Scone"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 79,
-    "price": "4,69",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Jumbo Savory Scone"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 71,
-    "price": "4,69",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Chocolate Croissant"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 21,
-    "price": "13,33",
-    "category": "Packaged Chocolate",
-    "type": "Drinking Chocolate",
-    "product": "Chili Mayan"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 9,
-    "price": "22,5",
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Organic Decaf Blend"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 72,
-    "price": "4,06",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Ginger Scone"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 12,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Herbal tea",
-    "product": "Peppermint"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 7,
-    "price": "19,75",
-    "category": "Coffee beans",
-    "type": "Premium Beans",
-    "product": "Jamacian Coffee River"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 74,
-    "price": "4,38",
-    "category": "Bakery",
-    "type": "Biscotti",
-    "product": "Ginger Biscotti"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 5,
-    "price": 15,
-    "category": "Coffee beans",
-    "type": "Gourmet Beans",
-    "product": "Columbian Medium Roast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 13,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Black tea",
-    "product": "English Breakfast"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 3,
-    "price": "14,75",
-    "category": "Coffee beans",
-    "type": "Espresso Beans",
-    "product": "Espresso Roast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 17,
-    "price": "9,5",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Morning Sunrise Chai"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 4,
-    "price": "20,45",
-    "category": "Coffee beans",
-    "type": "Espresso Beans",
-    "product": "Primo Espresso Roast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 64,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Hazelnut syrup"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 63,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Carmel syrup"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 65,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Sugar free syrup",
-    "product": "Sugar Free Vanilla syrup"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 20,
-    "price": "7,6",
-    "category": "Packaged Chocolate",
-    "type": "Organic Chocolate",
-    "product": "Sustainably Grown Organic"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 84,
-    "price": "0,8",
-    "category": "Flavours",
-    "type": "Regular syrup",
-    "product": "Chocolate syrup"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 8,
+    "id_product": 8,
     "price": 45,
     "category": "Coffee beans",
     "type": "Premium Beans",
     "product": "Civet Cat"
   },
   {
-    "store_location": "Lower Manhattan",
-    "id": 16,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Traditional Blend Chai"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 82,
+    "id_product": 82,
     "price": 12,
     "category": "Branded",
     "type": "Housewares",
     "product": "I Need My Bean! Diner mug"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 82,
-    "price": 12,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Diner mug"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 82,
-    "price": 12,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Diner mug"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 14,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Black tea",
-    "product": "Earl Grey"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 2,
-    "price": 18,
-    "category": "Coffee beans",
-    "type": "House blend Beans",
-    "product": "Our Old Time Diner Blend"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 81,
-    "price": 28,
-    "category": "Branded",
-    "type": "Clothing",
-    "product": "I Need My Bean! T-shirt"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 17,
-    "price": "9,5",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Morning Sunrise Chai"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 8,
-    "price": 45,
-    "category": "Coffee beans",
-    "type": "Premium Beans",
-    "product": "Civet Cat"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 18,
-    "price": "10,95",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Spicy Eye Opener Chai"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 18,
-    "price": "10,95",
-    "category": "Loose Tea",
-    "type": "Chai tea",
-    "product": "Spicy Eye Opener Chai"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 11,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Herbal tea",
-    "product": "Lemon Grass"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 6,
-    "price": 21,
-    "category": "Coffee beans",
-    "type": "Gourmet Beans",
-    "product": "Ethiopia"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 7,
-    "price": "19,75",
-    "category": "Coffee beans",
-    "type": "Premium Beans",
-    "product": "Jamacian Coffee River"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 81,
-    "price": 28,
-    "category": "Branded",
-    "type": "Clothing",
-    "product": "I Need My Bean! T-shirt"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 9,
-    "price": "22,5",
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Organic Decaf Blend"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 83,
-    "price": 23,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Latte cup"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 10,
-    "price": 10,
-    "category": "Coffee beans",
-    "type": "Green beans",
-    "product": "Guatemalan Sustainably Grown"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 2,
-    "price": 18,
-    "category": "Coffee beans",
-    "type": "House blend Beans",
-    "product": "Our Old Time Diner Blend"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 87,
-    "price": "2,1",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Ouro Brasileiro shot"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 8,
-    "price": 45,
-    "category": "Coffee beans",
-    "type": "Premium Beans",
-    "product": "Civet Cat"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 11,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Herbal tea",
-    "product": "Lemon Grass"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 83,
-    "price": 14,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Latte cup"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 5,
-    "price": 15,
-    "category": "Coffee beans",
-    "type": "Gourmet Beans",
-    "product": "Columbian Medium Roast"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 14,
-    "price": "8,95",
-    "category": "Loose Tea",
-    "type": "Black tea",
-    "product": "Earl Grey"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 15,
-    "price": "9,25",
-    "category": "Loose Tea",
-    "type": "Green tea",
-    "product": "Serenity Green Tea"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 87,
-    "price": "2,1",
-    "category": "Coffee",
-    "type": "Barista Espresso",
-    "product": "Ouro Brasileiro shot"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 72,
-    "price": "2,65",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Ginger Scone"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 82,
-    "price": 23,
-    "category": "Branded",
-    "type": "Housewares",
-    "product": "I Need My Bean! Diner mug"
-  },
-  {
-    "store_location": "Hell's Kitchen",
-    "id": 72,
-    "price": "2,65",
-    "category": "Bakery",
-    "type": "Scone",
-    "product": "Ginger Scone"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 9,
-    "price": 23,
-    "category": "Coffee beans",
-    "type": "Organic Beans",
-    "product": "Organic Decaf Blend"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 19,
-    "price": "6,4",
-    "category": "Packaged Chocolate",
-    "type": "Drinking Chocolate",
-    "product": "Dark chocolate"
-  },
-  {
-    "store_location": "Astoria",
-    "id": 81,
-    "price": 23,
-    "category": "Branded",
-    "type": "Clothing",
-    "product": "I Need My Bean! T-shirt"
-  },
-  {
-    "store_location": "Lower Manhattan",
-    "id": 73,
-    "price": "4,69",
-    "category": "Bakery",
-    "type": "Pastry",
-    "product": "Almond Croissant"
   }
 ]
