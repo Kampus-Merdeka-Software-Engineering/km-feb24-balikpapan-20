@@ -59,5 +59,8 @@ buttonLogin.addEventListener("click",function(){
   })
 
   signout.addEventListener('click',function(){
+    
+    alert("click")
     localStorage.removeItem('loggedInUserId');
+    signOut(auth);
   })
