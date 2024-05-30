@@ -167,3 +167,67 @@
     background-color: #4CAF50;
     color: white;
 }
+/* Custom CSS for DataTables */
+
+/* Gaya umum untuk tabel */
+#listproduct {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Gaya header tabel */
+#listproduct th {
+    background-color: #f2f2f2; /* Warna latar header */
+    padding: 10px; /* Padding header */
+    text-align: left; /* Aligment teks header */
+}
+
+/* Gaya baris ganjil */
+#listproduct tr:nth-child(odd) {
+    background-color: #e9e9e9; /* Warna latar baris ganjil */
+}
+
+/* Gaya baris genap */
+#listproduct tr:nth-child(even) {
+    background-color: #ffffff; /* Warna latar baris genap */
+}
+
+/* Gaya sel di dalam tabel */
+#listproduct td {
+    padding: 8px; /* Padding sel */
+}
+
+/* Gaya hover saat kursor di atas baris */
+#listproduct tbody tr:hover {
+    background-color: #d3d3d3; /* Warna latar saat hover */
+}
+
+/* Gaya paginasi */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 5px 10px; /* Padding tombol paginasi */
+    margin: 0 5px; /* Margin antara tombol paginasi */
+    border-radius: 5px; /* Border radius tombol paginasi */
+    background-color: #007bff; /* Warna latar tombol paginasi */
+    color: #ffffff; /* Warna teks tombol paginasi */
+    border: none; /* Menghapus border tombol paginasi */
+}
+
+/* Gaya paginasi saat aktif */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #0056b3; /* Warna latar tombol paginasi aktif */
+}
+
+/* Gaya jumlah entri per halaman */
+.dataTables_wrapper .dataTables_length select {
+    padding: 5px; /* Padding select box */
+    border-radius: 5px; /* Border radius select box */
+    border: 1px solid #ccc; /* Border select box */
+}
+
+/* Gaya pencarian */
+.dataTables_wrapper .dataTables_filter input {
+    padding: 5px; /* Padding input pencarian */
+    border-radius: 5px; /* Border radius input pencarian */
+    border: 1px solid #ccc; /* Border input pencarian */
+}
