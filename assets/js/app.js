@@ -1,12 +1,14 @@
-document.getElementById('contact-form').addEventListener('submit',function(event){
-  event.preventDefault();
-  sendMail();
-})
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    sendMail();
+  });
 
 function sendMail() {
   var params = {
     sendername: document.getElementById("sendername").value,
-    to: document.getElementById("to").value,
+    senderemail: document.getElementById("senderemail").value,
     subject: document.getElementById("subject").value,
     message: document.getElementById("message").value,
   };
@@ -20,7 +22,7 @@ function sendMail() {
       alert("Email Sent Successfully!");
       console.log(res);
     })
-    .catch((Error)=>{
+    .catch((Error) => {
       console.log(Error);
     });
 }
