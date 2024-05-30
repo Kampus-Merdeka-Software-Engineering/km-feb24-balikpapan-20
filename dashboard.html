@@ -49,11 +49,11 @@
 
     <!-- Tab Navigation -->
     <div class="tab-navigation">
-        <button onclick="showTab('bagian1')">Bagian 1</button>
-        <button onclick="showTab('bagian2')">Bagian 2</button>
-        <button onclick="showTab('bagian3')">Bagian 3</button>
-        <button onclick="showTab('bagian4')">Bagian 4</button>
-        <button onclick="showTab('bagian5')">Bagian 5</button>
+        <button onclick="showTab('bagian1')">Sales and Transaction</button>
+        <button onclick="showTab('bagian2')">Sales and Total</button>
+        <button onclick="showTab('bagian3')">Rush Hour and Day</button>
+        <button onclick="showTab('bagian4')">Top Product and Category</button>
+        <button onclick="showTab('bagian5')">Product List</button>
     </div>
 
     <!--MAIN DASHBOARD-->
@@ -80,28 +80,6 @@
                     <button id="clearButton">Clear</button>
                 </div>
                 <canvas id="salestransaksi"></canvas>
-            </div>
-            <div class="chart-box">
-                <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
-                <div class="checkbox-container">
-                    <label>
-                        <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
-                    </label>
-                    <label>
-                        <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
-                    </label>
-                </div>
-                <div class="date-filter-container">
-                    <label for="startDate">Start Date:</label>
-                    <input type="date" id="startDate">
-                    <label for="endDate">End Date:</label>
-                    <input type="date" id="endDate">
-                </div>
-                <div class="filter-button-container">
-                    <button id="filterButton">Filter</button>
-                    <button id="clearButton">Clear</button>
-                </div>
-                <canvas id="salestransaksibar"></canvas>
             </div>
         </div>
     </section>
@@ -176,7 +154,6 @@
                                     <th>Category</th>
                                     <th>Price</th>
                                     <th>Product Type</th>
-                                    <th>Store Location</th>
                                 </tr>
                             </thead>
                             <tbody>
