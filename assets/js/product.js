@@ -13,7 +13,7 @@
                     "dataSrc": ""
                 },
                 "columns": [
-                    { "data": "id" },
+                    { "data": "id_product" },
                     { "data": "product" },
                     { "data": "category" },
                     { 
