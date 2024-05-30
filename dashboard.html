@@ -13,9 +13,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 </head>
-
-<body>
+<body style="background-color: #eddccd">
     <!-- START NAVBAR-->
     <section class="header-dash">
         <div class="navbar">
@@ -38,44 +40,77 @@
                 </ul>
             </nav>        
         </div>
-        <h1 class="header-black-title">DASHBOARD</h1>
-        <p class="header-black-description">
+        <h1 class="header-dash-title">DASHBOARD</h1>
+        <p class="header-dash-description">
             Dengan menggunakan data dari bulan Januari - Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
         </p>
     </section>
     <!--END NAVBAR-->
 
-    <!--MAIN DASHBOARD-->
-    <section class="isi-chart">
-    <div class="chart-container">
-        <div class="chart-box sales-chart-box">
-            <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
-            <div class="checkbox-container">
-                <label>
-                    <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
-                </label>
-                <label>
-                    <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
-                </label>
-            </div>
-            <div class="date-filter-container">
-                <label for="startDate">Start Date:</label>
-                <input type="date" id="startDate">
-                <label for="endDate">End Date:</label>
-                <input type="date" id="endDate">
-            </div>
-            <div class="filter-button-container">
-                <button id="filterButton">Filter</button>
-                <button id="clearButton">Clear</button>
-            </div>
-            <canvas id="salestransaksi"></canvas>
-        </div>
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+        <button onclick="showTab('bagian1')">Bagian 1</button>
+        <button onclick="showTab('bagian2')">Bagian 2</button>
+        <button onclick="showTab('bagian3')">Bagian 3</button>
+        <button onclick="showTab('bagian4')">Bagian 4</button>
+        <button onclick="showTab('bagian5')">Bagian 5</button>
     </div>
-    <div class="chart-container">
-        <div class="chart-box">
-            <h2 class="chart-title">Sales by Month</h2>
-            <div class="bulan-filter-container">
-                <label for="bulan">Pilih Bulan:</label>
+
+    <!--MAIN DASHBOARD-->
+    <section id="bagian1" class="tab-content active chart-bagian1">
+        <div class="chart-container">
+            <div class="chart-box">
+                <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
+                    </label>
+                    <label>
+                        <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
+                    </label>
+                </div>
+                <div class="date-filter-container">
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate">
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate">
+                </div>
+                <div class="filter-button-container">
+                    <button id="filterButton">Filter</button>
+                    <button id="clearButton">Clear</button>
+                </div>
+                <canvas id="salestransaksi"></canvas>
+            </div>
+            <div class="chart-box">
+                <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
+                    </label>
+                    <label>
+                        <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
+                    </label>
+                </div>
+                <div class="date-filter-container">
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate">
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate">
+                </div>
+                <div class="filter-button-container">
+                    <button id="filterButton">Filter</button>
+                    <button id="clearButton">Clear</button>
+                </div>
+                <canvas id="salestransaksibar"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="bagian2" class="tab-content bagian2">
+        <div class="chart-container">
+            <div class="chart-box">
+                <h2 class="chart-title">Sales by Month</h2>
+                <div class="bulan-filter-container">
+                    <label for="bulan">Pilih Bulan:</label>
                     <select id="bulan" name="bulan">
                         <option value="01">January</option>
                         <option value="02">February</option>
@@ -84,112 +119,96 @@
                         <option value="05">May</option>
                         <option value="06">June</option>
                     </select>
+                </div>
+                <div class="sales-store-location">
+                    <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
+                    <label for="lowerManhattan">Lower Manhattan</label>
+                    <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
+                    <label for="hellsKitchen">Hell's Kitchen</label>
+                    <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
+                    <label for="astoria">Astoria</label>
+                </div>
+                <canvas id="salesmonth"></canvas>
             </div>
-            <div class="sales-store-location">
-                <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
-                <label for="lowerManhattan">Lower Manhattan</label>
-                <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
-                <label for="hellsKitchen">Hell's Kitchen</label>
-                <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
-                <label for="astoria">Astoria</label>
+            <div class="chart-box">
+                <h2 class="chart-title">Total Sales by 6 Month</h2>
+                <canvas id="sales6month"></canvas>
             </div>
-            <canvas id="salesmonth"></canvas>
         </div>
-        <div class="chart-box">
-            <h2 class="chart-title">Total Sales by 6 Month</h2>
-            <canvas id="sales6month"></canvas>
+    </section>
+    <section id="bagian3" class="tab-content">
+        <div class="chart-container">
+            <div class="chart-box">
+                <h2 class="chart-title">Rush Hour</h2>
+                <canvas id="rushhour"></canvas>
+            </div>
+            <div class="chart-box">
+                <h2 class="chart-title">Rush Day</h2>
+                <canvas id="rushday"></canvas>
+            </div>
         </div>
-    </div>
-    <div class="chart-container">
-        <div class="chart-box">
-            <h2 class="chart-title">Rush Hour</h2>
-            <canvas id="rushhour"></canvas>
+    </section>
+    <section id="bagian4" class="tab-content">
+        <div class="chart-container">
+            <div class="chart-box">
+                <h2 class="chart-title">Top Category Product by Sales</h2>
+                <canvas id="kategori"></canvas>
+            </div>
+            <div class="chart-box">
+                <h2 class="chart-title">Top Product by Sales & Transaction</h2>
+                <canvas id="topproduct"></canvas>
+            </div>
         </div>
-        <div class="chart-box">
-            <h2 class="chart-title">Rush Day</h2>
-            <canvas id="rushday"></canvas>
+    </section>
+    <section id="bagian5" class="tab-content">
+        <div class="chart-container">
+            <div class="chart-box">
+                <main class="table">
+                    <section class="table_header">
+                        <h1>List Menu</h1>
+                    </section>
+                    <section class="table_body">
+                        <table id="listproduct" class="display">
+                            <thead>
+                                <tr>
+                                    <th>ID Product</th>
+                                    <th>Product</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>Product Type</th>
+                                    <th>Store Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Data akan dimuat dari JSON menggunakan AJAX -->
+                            </tbody>
+                        </table>
+                    </section>
+                </main>
+            </div>
         </div>
-    </div>
-    <div class="chart-container">
-        <div class="chart-box">
-            <h2 class="chart-title">Top Category Product by Sales</h2>
-            <canvas id="kategori"></canvas>
-        </div>
-        <div class="chart-box">
-            <h2 class="chart-title">Top Product by Sales & Transaction</h2>
-            <canvas id="topproduct"></canvas>
-        </div>
-    </div>
-
-    <div class="chart-container">
-        <div class="chart-box">
-        <main class="table">
-            <section class="table_header">
-                <h1>Recent Order</h1>
-            </section>
-            <section class="table_body">
-                <table>
-                    <thead>
-                        <tr>
-                            <th> No </th>
-                            <th> Product </th>
-                            <th> Price </th>
-                            <th> Payment </th>
-                            <th> Status </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td> 1 </td>
-                            <td> Espresso </td>
-                            <td> $4</td>
-                            <td> Paid </td>
-                            <td> 
-                                <p class="status delivered">Delivered</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> 2 </td>
-                            <td> Cappuccino </td>
-                            <td> $5 </td>
-                            <td> Due </td>
-                            <td> 
-                                <p class="status pending">Pending</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> 3 </td>
-                            <td> Americano </td>
-                            <td> $3 </td>
-                            <td> Paid </td>
-                            <td> 
-                                <p class="status cancelled">Cancelled</p>
-                            </td>
-                        </tr>
-                        <td> 4 </td>
-                            <td> Latte </td>
-                            <td> $5 </td>
-                            <td> Due </td>
-                            <td> 
-                                <p class="status inprogress">In Progress</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-        </div>
-    </div>
+    </section>    
 
     <script src="assets/js/salestransaksi.js"></script>
+    <script src="assets/js/salestransaksibar.js"></script>
     <script src="assets/js/salesmonth.js"></script>
     <script src="assets/js/sales6month.js"></script>
     <script src="assets/js/rushhour.js"></script>
     <script src="assets/js/rushday.js"></script>
     <script src="assets/js/kategori.js"></script>
     <script src="assets/js/topproduct.js"></script>
+    <script src="assets/js/product.js"></script>
 
-    </section>
+    <script>
+        function showTab(tabId) {
+            var tabs = document.getElementsByClassName('tab-content');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+            }
+            document.getElementById(tabId).classList.add('active');
+        }
+    </script>
+
     <!--END MAIN DASHBOARD-->
 
     <!--FOOTER SECTION-->
