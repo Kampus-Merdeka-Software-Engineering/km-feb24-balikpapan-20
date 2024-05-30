@@ -3,7 +3,7 @@ $(document).ready(function() {
     function setColumnWidths() {
         $('#listproduct thead th').each(function() {
             var textWidth = $(this).textWidth();
-            $(this).width(textWidth + 20); // Tambahkan padding tambahan jika diperlukan
+            $(this).width(textWidth + 60); // Tambahkan padding tambahan jika diperlukan
         });
     }
 
