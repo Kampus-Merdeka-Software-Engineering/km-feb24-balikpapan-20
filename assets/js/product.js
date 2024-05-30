@@ -22,8 +22,7 @@
                             return "$" + data; // Menambahkan dollar sign ($) di depan harga
                         }
                     },
-                    { "data": "type" },
-                    { "data": "store_location" }
+                    { "data": "type" }
                 ]
             });
         });
