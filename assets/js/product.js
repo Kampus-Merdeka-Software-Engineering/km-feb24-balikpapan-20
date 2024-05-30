@@ -5,7 +5,11 @@
             "dataSrc": ""
         },
         "columns": [
-            {   "data": "id_product" },
+            {   "data": "id_product" 
+                "render": function (data, type, row) {
+                    return "ID-" + data;
+                }
+            },
             {   "data": "product" },
             {   "data": "category" },
             { 
