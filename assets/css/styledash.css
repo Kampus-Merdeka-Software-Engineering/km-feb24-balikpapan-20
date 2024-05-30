@@ -181,6 +181,7 @@
     background-color: #f2f2f2; /* Warna latar header */
     padding: 10px; /* Padding header */
     text-align: left; /* Aligment teks header */
+    width: 100%;
 }
 
 /* Gaya baris ganjil */
