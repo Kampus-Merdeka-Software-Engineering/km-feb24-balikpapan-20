@@ -1,6 +1,6 @@
 .bagian5 {
   padding: 30px;
-  background-image: url("assets/images/kopiben.jpg");
+  background-image: url("../images/kopiben.jpg");
   background-size: contain; /* Menjaga background agar menutupi seluruh layar */
   background-repeat: repeat; /* Agar gambar tidak berulang */
   background-position: center;
@@ -8,7 +8,7 @@
   }
 .bagian4 {
   padding: 30px;
-  background-image: url("assets/images/kopiben.jpg");
+  background-image: url("../images/kopiben.jpg");
   background-size: contain; /* Menjaga background agar menutupi seluruh layar */
   background-repeat: repeat; /* Agar gambar tidak berulang */
   background-position: center;
@@ -16,7 +16,7 @@
   }
 .bagian3 {
   padding: 30px;
-  background-image: url("assets/images/kopiben.jpg");
+  background-image: url("../images/kopiben.jpg");
   background-size: contain; /* Menjaga background agar menutupi seluruh layar */
   background-repeat: repeat; /* Agar gambar tidak berulang */
   background-position: center;
@@ -24,7 +24,7 @@
   }
 .bagian2 {
     padding: 30px;
-    background-image: url("assets/images/kopiben.jpg");
+    background-image: url("../images/kopiben.jpg");
     background-size: contain; /* Menjaga background agar menutupi seluruh layar */
     background-repeat: repeat; /* Agar gambar tidak berulang */
     background-position: center;
@@ -32,7 +32,7 @@
   }
 .chart-bagian1 {
   padding: 30px;
-  background-image: url("assets/images/kopiben.jpg");
+  background-image: url("../images/kopiben.jpg");
   background-size: contain; /* Menjaga background agar menutupi seluruh layar */
   background-repeat: repeat; /* Agar gambar tidak berulang */
   background-position: center;
