@@ -127,73 +127,15 @@
   color: #d2d2d2;
 }
 
-/* Custom CSS for DataTables */
-.table-container {
-  overflow-x: auto;
-  width: 100%;
+.tablebox{
+    width: 100%;
 }
-.dataTables_wrapper {
-  width: 100%;
+#datatable_wrapper {
+    text-align: center; /* Posisikan tabel di tengah */
 }
-#listproduct {
-  width: 100%;
-  table-layout: auto; /* Memastikan tabel mengambil lebar penuh */
+
+#datatable {
+    margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
 }
-#listproduct thead th {
-    white-space: nowrap;
-    font-size: 16px;
-    padding: 10px;
-    text-align: left;
-    background-color: #f2f2f2;
-  }
-  #listproduct tbody td {
-    white-space: nowrap;
-  }
-  .dataTables_scrollBody {
-    overflow: auto;
-  }
-  .dataTables_scrollHeadInner, .dataTables_scrollBody table {
-    width: 100% !important;
-  }
-  #listproduct th {
-    background-color: #f2f2f2;
-  }
-  #listproduct tr:nth-child(odd) {
-    background-color: #e9e9e9;
-  }
-  #listproduct tr:nth-child(even) {
-    background-color: #ffffff;
-  }
-  #listproduct td {
-    padding: 8px;
-  }
-  #listproduct tbody tr:hover {
-    background-color: #d3d3d3;
-  }
-  .dataTables_wrapper .dataTables_paginate .paginate_button {
-    padding: 5px 10px;
-    margin: 0 5px;
-    border-radius: 5px;
-    background-color: #ffba00;
-    color: #ffffff;
-    border: none;
-  }
-  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
-    background-color: #0056b3;
-  }
-  .dataTables_wrapper .dataTables_length select {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  .dataTables_wrapper .dataTables_filter input {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  /* Kontainer tabel */
-  .tablebox {
-    width: auto;
-  }
+
   
