@@ -127,37 +127,6 @@
   color: #d2d2d2;
 }
 
-/* Tabel pesanan */
-.listorder {
-  font-family: Arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  table-layout: auto; /* Mengatur tata letak tabel menjadi otomatis */
-}
-.listorder td, .listorder th {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: left; /* Menyelaraskan teks ke kiri */
-}
-.listorder th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #4CAF50;
-  color: white;
-}
-.listorder tr:nth-child(odd) {
-  background-color: #e9e9e9;
-}
-.listorder tr:nth-child(even) {
-  background-color: #ffffff;
-}
-.listorder td {
-  padding: 8px;
-}
-.listorder tbody tr:hover {
-  background-color: #d3d3d3;
-}
-
 /* Custom CSS for DataTables */
 .table-container {
   overflow-x: auto;
