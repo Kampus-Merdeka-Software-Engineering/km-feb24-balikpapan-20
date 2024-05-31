@@ -4,6 +4,51 @@ ukuran mobile max-width: 450px */
 /*UKURAN TABLET max-width: 768px*/
 
 @media (max-width: 768px) {
+  /* update navbar hamburger */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.nav-links ul li {
+  padding: 10px 0;
+}
+
+.hamburger-menu {
+  display: block;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-content {
+  position: static;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+}
+
+.nav-links.active {
+  display: block; /* Show as block on smaller screens when active */
+}
+  /*end update navbar hamburger */
   .more-info-button {
     margin-top: 40px;
     padding: 0 10px;

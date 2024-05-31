@@ -246,6 +246,18 @@ li {
   display: block;
 }
 /* END DROPDOWN */
+/* hamburger menu */
+.nav-links {
+  display: flex;
+}
+
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
 /*END NAVBAR*/
 
 /*START FOOTER*/
