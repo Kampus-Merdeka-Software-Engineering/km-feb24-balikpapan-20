@@ -1,175 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maven Roaster</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/icon Maven Roaster.ico"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/dashboard.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/styledash.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/styledash.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-</head>
-<body style="background-color: #eddccd">
+    <script src="./assets/js/dashboardSignOut.js" type="module"></script>
+  </head>
+  <body style="background-color: #eddccd">
     <!-- START NAVBAR-->
     <section class="header-dash">
-        <div class="navbar">
-            <a href="index.html"><img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
-            <nav class="nav-links">
-                <ul>
-                    <li><a href="index.html" class="nav-link">HOME</a></li>
-                    <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
-                    <li><a class="nav-link"></a>
-                        <div class="dropdown">
-                           <span>ABOUT US </span>
-                                <img src="assets/images/dropdown.png" alt="icon dropdown" class="icon-dropdown" />
-                            <div class="dropdown-content">
-                                <a href="aboutus.html">TEAM</a>
-                                <a href="aboutus_revou.html">MSIB</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="login.html" class="nav-link"><img src="assets/images/user.png" alt="Login" class="login-icon"></a></li>
-                </ul>
-            </nav>        
-        </div>
-        <h1 class="header-dash-title">DASHBOARD</h1>
-        <p class="header-dash-description">
-            Dengan menggunakan data dari bulan Januari - Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
-        </p>
+      <div class="navbar">
+        <a href="index.html"
+          ><img
+            src="assets/images/Maven Roaster Logo (3).png"
+            alt="Company Logo"
+            class="company-logo"
+        /></a>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
+            <li>
+              <a class="nav-link"></a>
+              <div class="dropdown">
+                <span>ABOUT US </span>
+                <img
+                  src="assets/images/dropdown.png"
+                  alt="icon dropdown"
+                  class="icon-dropdown"
+                />
+                <div class="dropdown-content">
+                  <a href="aboutus.html">TEAM</a>
+                  <a href="aboutus_revou.html">MSIB</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" id="profile-img"></a>
+              <div class="dropdown-login">
+                <img
+                  src="assets/images/user.png"
+                  alt="Login"
+                  class="login-icon"
+                />
+                <div class="dropdown-content-login">
+                  <a href="#" id="sign-out">SiGN OUT</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="header-dash-title">DASHBOARD</h1>
+      <p class="header-dash-description">
+        Dengan menggunakan data dari bulan Januari - Juni keseluruhan penjualan
+        dan fokus pada data product kategori dan detail product untuk
+        mengevaluasi tren dan potensial pasar.
+      </p>
     </section>
     <!--END NAVBAR-->
 
     <!-- Tab Navigation -->
     <div class="tab-navigation">
-        <button onclick="showTab('bagian1')">Sales and Transaction</button>
-        <button onclick="showTab('bagian2')">Sales and Total</button>
-        <button onclick="showTab('bagian3')">Rush Hour and Day</button>
-        <button onclick="showTab('bagian4')">Top Product and Category</button>
-        <button onclick="showTab('bagian5')">Product List</button>
+      <button onclick="showTab('bagian1')">Sales and Transaction</button>
+      <button onclick="showTab('bagian2')">Sales and Total</button>
+      <button onclick="showTab('bagian3')">Rush Hour and Day</button>
+      <button onclick="showTab('bagian4')">Top Product and Category</button>
+      <button onclick="showTab('bagian5')">Product List</button>
     </div>
 
     <!--MAIN DASHBOARD-->
     <section id="bagian1" class="tab-content active chart-bagian1">
-        <div class="chart-container">
-            <div class="chart-box">
-                <h2 class="chart-title">Sales and Transaction in 6 Month</h2>
-                <div class="checkbox-container">
-                    <label>
-                        <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transaksi
-                    </label>
-                    <label>
-                        <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transaksi
-                    </label>
-                </div>
-                <div class="date-filter-container">
-                    <label for="startDate">Start Date:</label>
-                    <input type="date" id="startDate">
-                    <label for="endDate">End Date:</label>
-                    <input type="date" id="endDate">
-                </div>
-                <div class="filter-button-container">
-                    <button id="filterButton">Filter</button>
-                    <button id="clearButton">Clear</button>
-                </div>
-                <canvas id="salestransaksi"></canvas>
-            </div>
+      <div class="chart-container">
+        <div class="chart-box">
+          <h2 class="chart-title">
+            Sales and Transaction in 6 Month on January - June 2023
+          </h2>
+          <div class="checkbox-container">
+            <label>
+              <input type="checkbox" id="totalTransaksiCheckbox" checked />
+              Total Transaksi
+            </label>
+            <label>
+              <input type="checkbox" id="salesTransaksiCheckbox" checked />
+              Sales Transaksi
+            </label>
+          </div>
+          <div class="date-filter-container">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" />
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" />
+          </div>
+          <div class="filter-button-container">
+            <button id="filterButton">Filter</button>
+            <button id="clearButton">Clear</button>
+          </div>
+          <canvas id="salestransaksi"></canvas>
         </div>
+      </div>
     </section>
     <section id="bagian2" class="tab-content bagian2">
-        <div class="chart-container">
-            <div class="chart-box">
-                <h2 class="chart-title">Sales by Month</h2>
-                <div class="bulan-filter-container">
-                    <label for="bulan">Pilih Bulan:</label>
-                    <select id="bulan" name="bulan">
-                        <option value="01">January</option>
-                        <option value="02">February</option>
-                        <option value="03">March</option>
-                        <option value="04">April</option>
-                        <option value="05">May</option>
-                        <option value="06">June</option>
-                    </select>
-                </div>
-                <div class="sales-store-location">
-                    <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
-                    <label for="lowerManhattan">Lower Manhattan</label>
-                    <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
-                    <label for="hellsKitchen">Hell's Kitchen</label>
-                    <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
-                    <label for="astoria">Astoria</label>
-                </div>
-                <canvas id="salesmonth"></canvas>
-            </div>
-            <div class="chart-box">
-                <h2 class="chart-title">Total Sales by 6 Month</h2>
-                <canvas id="sales6month"></canvas>
-            </div>
+      <div class="chart-container">
+        <div class="chart-box">
+          <h2 class="chart-title">Sales by Month</h2>
+          <div class="bulan-filter-container">
+            <label for="bulan">Pilih Bulan:</label>
+            <select id="bulan" name="bulan">
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+            </select>
+          </div>
+          <div class="sales-store-location">
+            <input
+              type="checkbox"
+              id="lowerManhattan"
+              name="store_location"
+              value="Lower Manhattan"
+              checked
+            />
+            <label for="lowerManhattan">Lower Manhattan</label>
+            <input
+              type="checkbox"
+              id="hellsKitchen"
+              name="store_location"
+              value="Hell's Kitchen"
+              checked
+            />
+            <label for="hellsKitchen">Hell's Kitchen</label>
+            <input
+              type="checkbox"
+              id="astoria"
+              name="store_location"
+              value="Astoria"
+              checked
+            />
+            <label for="astoria">Astoria</label>
+          </div>
+          <canvas id="salesmonth"></canvas>
         </div>
+        <div class="chart-box">
+          <h2 class="chart-title">Total Sales by 6 Month</h2>
+          <canvas id="sales6month"></canvas>
+        </div>
+      </div>
     </section>
     <section id="bagian3" class="tab-content bagian3">
-        <div class="chart-container">
-            <div class="chart-box">
-                <h2 class="chart-title">Rush Hour</h2>
-                <canvas id="rushhour"></canvas>
-            </div>
-            <div class="chart-box">
-                <h2 class="chart-title">Rush Day</h2>
-                <canvas id="rushday"></canvas>
-            </div>
+      <div class="chart-container">
+        <div class="chart-box">
+          <h2 class="chart-title">Rush Hour</h2>
+          <canvas id="rushhour"></canvas>
         </div>
+        <div class="chart-box">
+          <h2 class="chart-title">Rush Day</h2>
+          <canvas id="rushday"></canvas>
+        </div>
+      </div>
     </section>
     <section id="bagian4" class="tab-content bagian4">
-        <div class="chart-container">
-            <div class="chart-box">
-                <h2 class="chart-title">Top Category Product by Sales</h2>
-                <canvas id="kategori"></canvas>
-            </div>
-            <div class="chart-box">
-                <h2 class="chart-title">Top Product by Sales & Transaction</h2>
-                <canvas id="topproduct"></canvas>
-            </div>
+      <div class="chart-container">
+        <div class="chart-box">
+          <h2 class="chart-title">Top Category Product by Sales</h2>
+          <canvas id="kategori"></canvas>
         </div>
+        <div class="chart-box">
+          <h2 class="chart-title">Top Product by Sales & Transaction</h2>
+          <canvas id="topproduct"></canvas>
+        </div>
+      </div>
     </section>
     <section id="bagian5" class="tab-content bagian5">
-        <div class="chart-container">
-            <div class="chart-box tablebox">
-                <section class="table_header">
-                    <h1>List Menu</h1>
-                </section>
-                <section class="table_body">
-                    <table id="datatable" class="listorder">
-                        <thead>
-                            <tr>
-                                <th>No</th>
-                                <th>Date</th>
-                                <th>Time</th>
-                                <th>Quantity</th>
-                                <th>Store ID</th>
-                                <th>Store Location</th>
-                                <th>Product ID</th>
-                                <th>Price</th>
-                                <th>Category</th>
-                                <th>Type</th>
-                                <th>Product Details</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Data akan dimuat dari JSON menggunakan AJAX -->
-                        </tbody>
-                    </table>
-                </section>
-            </div>
+      <div class="chart-container">
+        <div class="chart-box tablebox">
+          <section class="table_header">
+            <h1>List Menu</h1>
+          </section>
+          <section class="table_body">
+            <table id="datatable" class="listorder">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Quantity</th>
+                  <th>Store ID</th>
+                  <th>Store Location</th>
+                  <th>Product ID</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Type</th>
+                  <th>Product Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Data akan dimuat dari JSON menggunakan AJAX -->
+              </tbody>
+            </table>
+          </section>
         </div>
+      </div>
     </section>
-    
 
     <script src="assets/js/salestransaksi.js"></script>
     <script src="assets/js/salestransaksibar.js"></script>
@@ -182,13 +238,13 @@
     <script src="assets/js/product.js"></script>
 
     <script>
-        function showTab(tabId) {
-            var tabs = document.getElementsByClassName('tab-content');
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].classList.remove('active');
-            }
-            document.getElementById(tabId).classList.add('active');
+      function showTab(tabId) {
+        var tabs = document.getElementsByClassName("tab-content");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].classList.remove("active");
         }
+        document.getElementById(tabId).classList.add("active");
+      }
     </script>
 
     <!--END MAIN DASHBOARD-->
@@ -198,13 +254,29 @@
       <div class="footer-content">
         <div class="social-media">
           <div class="social-media-content">
-            <img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
+            <img
+              src="assets/images/Maven Roaster Logo (3).png"
+              alt="Company Logo"
+              class="logo"
+            />
             <div class="social-media-text">
               <h3 class="social-media-title">Follow us on Social Media</h3>
               <div class="social-media-icons">
-                <img src="assets/images/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
-                <img src="assets/images/twitter.png" alt="Twitter Icon" class="social-media-icon" />
-                <img src="assets/images/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
+                <img
+                  src="assets/images/Facebook.png"
+                  alt="Facebook Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/twitter.png"
+                  alt="Twitter Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/Instagram.png"
+                  alt="Instagram Icon"
+                  class="social-media-icon"
+                />
               </div>
             </div>
           </div>
@@ -223,5 +295,5 @@
       </div>
     </footer>
     <!--END FOOTER SECTION-->
-</body>
+  </body>
 </html>
