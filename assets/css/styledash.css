@@ -1,49 +1,29 @@
-.bagian5 {
+/* Mengatur box-sizing untuk memastikan padding dan border termasuk dalam ukuran total elemen */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Gaya umum untuk bagian halaman dengan gambar latar */
+.bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
   padding: 30px;
   background-image: url("../images/kopiben.jpg");
-  background-size: contain; /* Menjaga background agar menutupi seluruh layar */
-  background-repeat: repeat; /* Agar gambar tidak berulang */
-  background-position: center;
-  background-attachment: fixed;
-  }
-.bagian4 {
-  padding: 30px;
-  background-image: url("../images/kopiben.jpg");
-  background-size: contain; /* Menjaga background agar menutupi seluruh layar */
-  background-repeat: repeat; /* Agar gambar tidak berulang */
-  background-position: center;
-  background-attachment: fixed;
-  }
-.bagian3 {
-  padding: 30px;
-  background-image: url("../images/kopiben.jpg");
-  background-size: contain; /* Menjaga background agar menutupi seluruh layar */
-  background-repeat: repeat; /* Agar gambar tidak berulang */
-  background-position: center;
-  background-attachment: fixed;
-  }
-.bagian2 {
-    padding: 30px;
-    background-image: url("../images/kopiben.jpg");
-    background-size: contain; /* Menjaga background agar menutupi seluruh layar */
-    background-repeat: repeat; /* Agar gambar tidak berulang */
-    background-position: center;
-    background-attachment: fixed;
-  }
-.chart-bagian1 {
-  padding: 30px;
-  background-image: url("../images/kopiben.jpg");
-  background-size: contain; /* Menjaga background agar menutupi seluruh layar */
-  background-repeat: repeat; /* Agar gambar tidak berulang */
+  background-size: contain;
+  background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
 }
+
+/* Gaya untuk konten tab */
 .tab-content {
   display: none;
 }
 .tab-content.active {
   display: block;
 }
+
+/* Navigasi tab */
 .tab-navigation {
   margin-top: 30px;
   display: flex;
@@ -55,6 +35,8 @@
   padding: 10px 20px;
   cursor: pointer;
 }
+
+/* Header dashboard */
 .header-dash {
   background-image: url("../images/kopibanner.png");
   background-size: cover;
@@ -64,192 +46,185 @@
   left: 0px;
   top: 0px;
 }
+
+/* Kontainer chart */
 .chart-container {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center; /* Center the container */
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 40px;
-    gap: 20px; /* Add gap between items */
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  gap: 20px;
 }
+
+/* Kotak chart */
 .chart-box {
-    position: relative;
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #ddd; /* Add a border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
-    border-radius: 10px; /* Rounded corners */
-    background-color: #fff; /* Background color */
-    margin: 30px;
+  position: relative;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 30px;
 }
-
 .chart-box canvas {
-    height: 300px; /* Set a fixed height */
-    width: 100%; /* Set width to 100% of the container */
+  height: 300px;
+  width: 100%;
 }
 
-
+/* Judul chart */
 .chart-title {
-    background-color: #fdd55e; /* Warna latar belakang kuning */
-    padding: 10px; /* Padding untuk membuat judul lebih berjarak dari tepi */
-    color: #333; /* Warna teks */
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 20px;
+  background-color: #fdd55e;
+  padding: 10px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
+
+/* Kontainer filter */
 .checkbox-container, .date-filter-container, .filter-button-container {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
-
 .checkbox-container label, .date-filter-container label {
-    display: inline-block;
-    margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.bulan-filter-container, .sales-store-location {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.bulan-filter-container {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.sales-store-location {
-    text-align: center;
-    margin-bottom: 10px;
-}
+/* Judul dan deskripsi header dashboard */
 .header-dash-title {
-    position: absolute;
-    width: 309px;
-    height: 58px;
-    left: 50%; /* Menggeser elemen ke tengah */
-    top: 50%; /* Menggeser elemen ke tengah */
-    transform: translate(-50%, -50%); /* Menggeser elemen ke tengah secara tepat */
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-    color: #ffbf00;
-  }
-  .header-dash-description {
-    margin-top: 30px;
-    position: absolute;
-    width: 576px;
-    height: 86px;
-    left: 50%; /* Menggeser elemen ke tengah */
-    top: 60%; /* Anda bisa menyesuaikan nilai top sesuai kebutuhan */
-    transform: translate(-50%, -50%); /* Menggeser elemen ke tengah secara tepat */
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #d2d2d2;
-  }
-/*untuk tabel*/
+  position: absolute;
+  width: 309px;
+  height: 58px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffbf00;
+}
+.header-dash-description {
+  margin-top: 30px;
+  position: absolute;
+  width: 576px;
+  height: 86px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+/* Tabel pesanan */
 .listorder {
-    font-family: Arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto; /* Mengatur tata letak tabel menjadi otomatis */
 }
-
 .listorder td, .listorder th {
-    border: 1px solid #dddddd;
-    padding: 8px;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left; /* Menyelaraskan teks ke kiri */
 }
-
-.listorder tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
 .listorder th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
 }
+.listorder tr:nth-child(odd) {
+  background-color: #e9e9e9;
+}
+.listorder tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.listorder td {
+  padding: 8px;
+}
+.listorder tbody tr:hover {
+  background-color: #d3d3d3;
+}
+
 /* Custom CSS for DataTables */
-
-/* Gaya umum untuk tabel */
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+.dataTables_wrapper {
+  width: 100%;
+}
 #listproduct {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
+  width: 100%;
+  table-layout: auto; /* Memastikan tabel mengambil lebar penuh */
 }
-
-/* Gaya header tabel */
-#listproduct th {
-    background-color: #f2f2f2; /* Warna latar header */
-    padding: 10px; /* Padding header */
-    text-align: left; /* Aligment teks header */
-    width: 100%;
-}
-
-/* Gaya baris ganjil */
-#listproduct tr:nth-child(odd) {
-    background-color: #e9e9e9; /* Warna latar baris ganjil */
-}
-
-/* Gaya baris genap */
-#listproduct tr:nth-child(even) {
-    background-color: #ffffff; /* Warna latar baris genap */
-}
-
-/* Gaya sel di dalam tabel */
-#listproduct td {
-    padding: 8px; /* Padding sel */
-}
-
-/* Gaya hover saat kursor di atas baris */
-#listproduct tbody tr:hover {
-    background-color: #d3d3d3; /* Warna latar saat hover */
-}
-
-/* Gaya paginasi */
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-    padding: 5px 10px; /* Padding tombol paginasi */
-    margin: 0 5px; /* Margin antara tombol paginasi */
-    border-radius: 5px; /* Border radius tombol paginasi */
-    background-color: #ffba00; /* Warna latar tombol paginasi */
-    color: #ffffff; /* Warna teks tombol paginasi */
-    border: none; /* Menghapus border tombol paginasi */
-}
-
-/* Gaya paginasi saat aktif */
-.dataTables_wrapper .dataTables_paginate .paginate_button.current {
-    background-color: #0056b3; /* Warna latar tombol paginasi aktif */
-}
-
-/* Gaya jumlah entri per halaman */
-.dataTables_wrapper .dataTables_length select {
-    padding: 5px; /* Padding select box */
-    border-radius: 5px; /* Border radius select box */
-    border: 1px solid #ccc; /* Border select box */
-}
-
-/* Gaya pencarian */
-.dataTables_wrapper .dataTables_filter input {
-    padding: 5px; /* Padding input pencarian */
-    border-radius: 5px; /* Border radius input pencarian */
-    border: 1px solid #ccc; /* Border input pencarian */
-}
-
-/* Mengatur lebar kolom */
-#listproduct th:nth-child(1) {
-    width: 100px; /* Lebar kolom ID Product */
-}
-
-#listproduct th:nth-child(2) {
-    width: 200px; /* Lebar kolom Product */
-}
-
-#listproduct th:nth-child(3) {
-    width: 150px; /* Lebar kolom Category */
-}
-
-#listproduct th:nth-child(4) {
-    width: 100px; /* Lebar kolom Price */
-}
-
-#listproduct th:nth-child(5) {
-    width: 150px; /* Lebar kolom Product Type */
-}
+#listproduct thead th {
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  #listproduct tbody td {
+    white-space: nowrap;
+  }
+  .dataTables_scrollBody {
+    overflow: auto;
+  }
+  .dataTables_scrollHeadInner, .dataTables_scrollBody table {
+    width: 100% !important;
+  }
+  #listproduct th {
+    background-color: #f2f2f2;
+  }
+  #listproduct tr:nth-child(odd) {
+    background-color: #e9e9e9;
+  }
+  #listproduct tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  #listproduct td {
+    padding: 8px;
+  }
+  #listproduct tbody tr:hover {
+    background-color: #d3d3d3;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #ffba00;
+    color: #ffffff;
+    border: none;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #0056b3;
+  }
+  .dataTables_wrapper .dataTables_length select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .dataTables_wrapper .dataTables_filter input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Kontainer tabel */
+  .tablebox {
+    width: auto;
+  }
+  
