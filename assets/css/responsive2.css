@@ -80,6 +80,7 @@
         
       }
 
+     
       .outlets-container {
         flex-direction: column;
         align-items: center;
@@ -98,6 +99,49 @@
       .outlet-column {
         min-width: 100%;
       }
+      .content-container {
+        flex-direction: column;
+      }
+    
+      .column {
+        min-width: 100%;
+        box-sizing: border-box;
+      }
+    
+      .business-background-title,
+      .project-capstone-title,
+      .dashboard-title {
+        font-size: 20px;
+      }
+      
+      .business-background-description,
+      .project-capstone-description,
+      .dashboard-description {
+        font-size: 14px;
+        text-align: start;
+        letter-spacing: 0;
+        margin-right: 0;
+        padding-left: 0;
+      }
+      .business-background-title,.business-background-description{
+        padding-left: 30px;
+      }
+      
+      .business-background-content,
+      .project-capstone-content {
+        padding: 10px;
+      }
+      
+      .background-image {
+        width: 100%;
+        height: auto;
+      }
+      
+      .project-details{
+        width: 100%;
+        margin-left: 0px;
+      }
+    
     }
 
      
@@ -160,6 +204,7 @@
       display: block;
       margin: 10px 0;
     }
+    
   }
 
   /* untuk css ini jangan diutak-atik ges */
