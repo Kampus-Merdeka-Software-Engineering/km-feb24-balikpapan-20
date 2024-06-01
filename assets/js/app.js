@@ -1,3 +1,9 @@
+(function () {
+  emailjs.init({
+    publicKey: 'vuiJegTjAmp-ItsmN',
+  });
+})();
+
 document
   .getElementById("contact-form")
   .addEventListener("submit", function (event) {

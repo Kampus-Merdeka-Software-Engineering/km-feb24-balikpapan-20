@@ -49,6 +49,11 @@ ukuran mobile max-width: 450px */
     display: block; /* Show as block on smaller screens when active */
   }
   /*end update navbar hamburger */
+
+  .company-logo {
+    width: 60px;
+  }
+
   .more-info-button {
     margin-top: 40px;
     padding: 0 10px;
@@ -60,6 +65,7 @@ ukuran mobile max-width: 450px */
   }
 
   .navbar {
+    padding-top: 15px;
     padding-right: 30px;
     margin-left: -90px;
   }
@@ -129,41 +135,41 @@ ukuran mobile max-width: 450px */
     width: 80%;
   }
 
+  .content-container {
+    min-height: 100px;
+    gap: 40px;
+    flex-direction: column;
+  }
+   
+  .column {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .business-background-title,
+  .project-capstone-title,
+  .dashboard-title {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  
+  .business-background-description,
+  .project-capstone-description,
+  .dashboard-description {
+    font-size: 14px;
+    text-align:justify;
+    letter-spacing: 0;
+    margin-right: 50px;
+    padding-left: 30px;
+  }
   .background-image {
     width: 100%;
+    height: 100%;
   }
-
-  .business-background {
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-  }
-
-  .business-background-title {
-    margin-top: -30px;
-  }
-
-  .business-background-description {
-    margin-top: 20px;
-    text-indent: 0%;
-  }
-
-  .project-capstone-title {
-    margin-top: 50px;
-  }
-
-  .project-capstone-description {
-    text-indent: 0%;
-    margin: 30px;
-  }
-
-  .dashboard-title {
-    margin-top: 20px;
-  }
-
-  .dashboard-description {
-    text-indent: 0%;
-    margin: 30px;
+  
+  .project-details{
+    width: 100%;
+    margin-left: 0px;
   }
 
   .social-media-content {
@@ -182,8 +188,12 @@ ukuran mobile max-width: 450px */
     height: 50%;
   }
 
+  .input-contact {
+    width: 94%;
+  }
+
   .submit-contact {
-    width: 106%;
+    width: 100%;
   }
 
   .contact-info-content {
@@ -207,7 +217,7 @@ ukuran mobile max-width: 450px */
 
   .logo {
     width: 60px;
-    height: 0px;
+    height: 60px;
   }
 
   .social-media-icons {
@@ -404,105 +414,59 @@ ukuran mobile max-width: 450px */
     width: 100%;
   }
 
-  .information-section {
-    width: 100%;
-    margin-top: 100px;
-  }
-
-  .column {
-    gap: 0px;
-    margin-left: 40px;
-    margin-right: 10px;
-  }
-
-  .content-wrapper {
-    width: auto;
-    height: 6%;
-    margin: auto;
-    margin-left: -50px;
-    margin-top: 5px;
-  }
-
-  .content-wrapper img {
-    width: 100%;
-    height: 45%;
-    margin-left: -20px;
-  }
-
   .information-label {
-    width: auto;
+    white-space: initial;
   }
 
   .content-container {
-    display: flex;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    min-height: 100px;
+    flex-direction: column;
+
   }
 
-  .business-background-content {
-    width: 200%;
-    margin-top: 20px;
-    padding: 0px;
+ .business-background-title
+  {
+    font-size: 15px;
   }
 
-  .business-background-title {
-    font-size: 11px;
-    margin-top: 5px;
-  }
-
-  .business-background-description {
-    width: 50%;
-    font-size: 10px;
-    text-align: left;
-  }
-
-  .background-image {
-    width: 100%;
-    margin-top: 40px;
-  }
-
-  .project-details {
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .project-capstone-content {
-    padding-top: 30px;
-  }
-
-  .project-capstone-title {
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 12px;
-    padding-bottom: 5px;
-  }
-
-  .project-capstone-description {
-    margin: 0;
-    width: 90%;
-    font-size: 10px;
-    padding-left: 5px;
-  }
-
-  .dashboard {
-    margin-top: 0px;
+  .project-capstone-title
+   {
+    font-size: 15px;
+    margin-top: 30px;
   }
 
   .dashboard-title {
-    margin: 0;
-    font-size: 12px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    font-size: 15px;
+    margin-top: 30px;
   }
 
+  .business-background-description,
+  .project-capstone-description,
   .dashboard-description {
-    margin: 0;
-    width: 90%;
-    font-size: 10px;
-    padding-left: 10px;
+    font-size: 12px;
+    text-align:justify;
+    letter-spacing: 0;
+    margin-right: 50px;
+    /* padding-left: 30px; */
   }
+
+  .project-capstone-description {
+    margin-bottom: 40px;
+  }
+
+  .project-capstone-content {
+    min-height: 20px;
+  }
+
+  .business-background {
+    margin-top: 20px;
+    min-height: 100px;
+  }
+
+  .business-background-content {
+    margin-top: 70px;
+  } 
+
 
   .contact {
     margin-top: 30px;
@@ -519,12 +483,16 @@ ukuran mobile max-width: 450px */
     margin-left: 15px;
   }
 
+  .input-contact {
+    width: 90%;
+  }
+
   .contact form {
     font-size: 12px;
   }
 
   .submit-contact {
-    width: 109%;
+    width: 100%;
   }
 
   .social-media-content {
@@ -607,17 +575,8 @@ ukuran mobile max-width: 450px */
     font-size: 10px;
   }
 
-  .information-label {
-    white-space: initial;
-  }
 
-  .business-background {
-    margin-top: 20px;
-  }
 
-  .business-background-content {
-    padding-left: 10px;
-  }
 
   .team-member-image {
     width: 85%;
