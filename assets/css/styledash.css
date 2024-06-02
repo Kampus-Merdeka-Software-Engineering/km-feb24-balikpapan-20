@@ -1,0 +1,141 @@
+/* Mengatur box-sizing untuk memastikan padding dan border termasuk dalam ukuran total elemen */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Gaya umum untuk bagian halaman dengan gambar latar */
+.bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
+  padding: 30px;
+  background-image: url("../images/kopiben.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Gaya untuk konten tab */
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+
+/* Navigasi tab */
+.tab-navigation {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tab-navigation button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Header dashboard */
+.header-dash {
+  background-image: url("../images/kopibanner.png");
+  background-size: cover;
+  position: relative;
+  width: auto;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+}
+
+/* Kontainer chart */
+.chart-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  gap: 20px;
+}
+
+/* Kotak chart */
+.chart-box {
+  position: relative;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 30px;
+}
+.chart-box canvas {
+  height: 300px;
+  width: 100%;
+}
+
+/* Judul chart */
+.chart-title {
+  background-color: #fdd55e;
+  padding: 10px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Kontainer filter */
+.checkbox-container, .date-filter-container, .filter-button-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.checkbox-container label, .date-filter-container label {
+  display: inline-block;
+  margin-right: 10px;
+}
+.bulan-filter-container, .sales-store-location {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Judul dan deskripsi header dashboard */
+.header-dash-title {
+  position: absolute;
+  width: 309px;
+  height: 58px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffbf00;
+}
+.header-dash-description {
+  margin-top: 30px;
+  position: absolute;
+  width: 576px;
+  height: 86px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+.tablebox{
+    width: 100%;
+}
+#datatable_wrapper {
+    text-align: center; /* Posisikan tabel di tengah */
+}
+
+#datatable {
+    margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
+}
+
+  

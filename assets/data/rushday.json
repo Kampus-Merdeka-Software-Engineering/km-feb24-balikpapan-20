@@ -1,0 +1,107 @@
+[
+  {
+    "day": "Minggu",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 9931
+  },
+  {
+    "day": "Minggu",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10270
+  },
+  {
+    "day": "Minggu",
+    "store_location": "Astoria",
+    "total transaksi": 9981
+  },
+  {
+    "day": "Senin",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10748
+  },
+  {
+    "day": "Senin",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10121
+  },
+  {
+    "day": "Senin",
+    "store_location": "Astoria",
+    "total transaksi": 10362
+  },
+  {
+    "day": "Selasa",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10123
+  },
+  {
+    "day": "Selasa",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10583
+  },
+  {
+    "day": "Selasa",
+    "store_location": "Astoria",
+    "total transaksi": 9743
+  },
+  {
+    "day": "Rabu",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10088
+  },
+  {
+    "day": "Rabu",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10078
+  },
+  {
+    "day": "Rabu",
+    "store_location": "Astoria",
+    "total transaksi": 10459
+  },
+  {
+    "day": "Kamis",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10433
+  },
+  {
+    "day": "Kamis",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10345
+  },
+  {
+    "day": "Kamis",
+    "store_location": "Astoria",
+    "total transaksi": 10384
+  },
+  {
+    "day": "Jumat",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10298
+  },
+  {
+    "day": "Jumat",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 10567
+  },
+  {
+    "day": "Jumat",
+    "store_location": "Astoria",
+    "total transaksi": 10342
+  },
+  {
+    "day": "Sabtu",
+    "store_location": "Lower Manhattan",
+    "total transaksi": 10121
+  },
+  {
+    "day": "Sabtu",
+    "store_location": "Hell's Kitchen",
+    "total transaksi": 9773
+  },
+  {
+    "day": "Sabtu",
+    "store_location": "Astoria",
+    "total transaksi": 9720
+  }
+]

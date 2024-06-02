@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maven Store</title>
+    <title>Maven Roasters</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/icon Maven Roaster.ico"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/revou.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="./assets/js/aboutus.js" type="module"></script>
   </head>
   <body>
     <!-- START NAVBAR-->
@@ -21,10 +28,13 @@
             alt="Company Logo"
             class="company-logo"
         /></a>
-        <nav class="nav-links">
+        <button class="hamburger-menu" id="hamburger-menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <nav class="nav-links" id="nav-links">
           <ul>
             <li><a href="index.html" class="nav-link">HOME</a></li>
-            <li><a href="dashboard.html" class="nav-link">DASHBOARD</a></li>
+            <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
             <li>
               <a class="nav-link"></a>
               <div class="dropdown">
@@ -39,6 +49,24 @@
                   <a href="aboutus_revou.html">MSIB</a>
                 </div>
               </div>
+            </li>
+            <li>
+              <a class="nav-link" id="profile-img"></a>
+              <div class="dropdown-login">
+                <img
+                  src="assets/images/user.png"
+                  alt="Login"
+                  class="login-icon"
+                />
+                <div class="dropdown-content-login">
+                  <a href="" id="sign-out">SIGN OUT</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <button class="button-login nav-link" id="login-btn">
+                LOGIN
+              </button>
             </li>
           </ul>
         </nav>
@@ -57,10 +85,11 @@
         src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png"
         alt="Gambar_RevoU"
       />
-      <p><b>RevoU Tech Academy</b></p>
+      <h2><b>RevoU Tech Academy</b></h2>
       <p>Learn Data Analytics & Software Development With AI</p>
     </div>
 
+<<<<<<< HEAD
     <div class="revou_is">
       <p>Salah satu program mitra RevoU yang memberikan materi Studi Indepentent MSIB Batch 6 dengan
         pendekatan komprehensif untuk mempersiapkan peserta dalam menghadapi tantangan di dunia
@@ -74,6 +103,24 @@
       <img 
       src="https://journal.revou.co/content/images/size/w692/2022/10/10072022---Journal-Refresh-Banner-Kenalan.png" 
       alt="Gambar_RevoU_2">
+=======
+    <div class="description-revou">
+      <p>
+        Salah satu program mitra RevoU yang memberikan materi Studi Indepentent
+        MSIB Batch 6 dengan pendekatan komprehensif untuk mempersiapkan peserta
+        dalam menghadapi tantangan di dunia teknologi. Program ini membangun
+        fondasi yang kuat dalam tiga modul utama: Software Engineering, Data
+        Analytics, dan Career Development, sambil menjadikan AI readiness
+        sebagai bagian integral dalam setiap modul.
+      </p>
+    </div>
+
+    <div class="img-revou-2">
+      <img
+        src="https://journal.revou.co/content/images/size/w692/2022/10/10072022---Journal-Refresh-Banner-Kenalan.png"
+        alt="Gambar_RevoU_2"
+      />
+>>>>>>> 9fcb556640c19ee10434d9fd4ae92e0ef7d85721
     </div>
     <!-- END REVOU -->
 
@@ -83,7 +130,7 @@
         <div class="social-media">
           <div class="social-media-content">
             <img
-              src="/assets/images/Maven Roaster Logo (3).png"
+              src="assets/images/Maven Roaster Logo (3).png"
               alt="Company Logo"
               class="logo"
             />
@@ -91,17 +138,17 @@
               <h3 class="social-media-title">Follow us on Social Media</h3>
               <div class="social-media-icons">
                 <img
-                  src="/assets/images/Facebook.png"
+                  src="assets/images/Facebook.png"
                   alt="Facebook Icon"
                   class="social-media-icon"
                 />
                 <img
-                  src="/assets/images/twitter.png"
+                  src="assets/images/twitter.png"
                   alt="Twitter Icon"
                   class="social-media-icon"
                 />
                 <img
-                  src="/assets/images/Instagram.png"
+                  src="assets/images/Instagram.png"
                   alt="Instagram Icon"
                   class="social-media-icon"
                 />

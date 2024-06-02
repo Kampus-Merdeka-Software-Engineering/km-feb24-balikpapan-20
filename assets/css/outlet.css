@@ -1,0 +1,73 @@
+.outlets-coffee-shop {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.outlets-title {
+  color: #000;
+  align-self: center;
+  font: 800;
+  font-size: 40px;
+}
+
+.outlets-container {
+  margin-top: 87px;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+}
+
+.outlets-grid {
+  gap: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outlet-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0%;
+}
+
+.outlet-card {
+  border-radius: 20px;
+  background-color: #000;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 61px;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.outlet-image {
+  aspect-ratio: 1.09;
+  object-fit: cover;
+  width: 100%;
+  z-index: 10;
+}
+
+.outlet-details {
+  display: flex;
+  margin-top: 21px;
+  flex-direction: column;
+  padding: 0 18px;
+}
+
+.outlet-name {
+  font: 700 25px Poppins, sans-serif;
+}
+
+.outlet-description {
+  margin-top: 20px;
+  font: 400 15px Poppins, sans-serif;
+}

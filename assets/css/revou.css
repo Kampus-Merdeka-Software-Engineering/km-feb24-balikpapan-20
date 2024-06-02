@@ -1,0 +1,31 @@
+.img_revou {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img_revou img {
+  height: 493px;
+  width: 493px;
+  margin: 30px;
+}
+
+.img_revou p {
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+}
+
+.description-revou p {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.img-revou-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

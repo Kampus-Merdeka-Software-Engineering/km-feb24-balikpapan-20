@@ -1,0 +1,48 @@
+.contact {
+  width: 50%;
+  height: 601px;
+  background: white;
+  margin: 10px auto;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+
+  font-family: sans-serif;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact h1 {
+  margin-bottom: 5px;
+}
+
+.contact p {
+  width: 350px;
+  text-align: center;
+}
+
+.input-contact {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-color: #aaa;
+  border-radius: 10px;
+}
+
+.submit-contact {
+  width: 105%;
+  height: 9%;
+  margin-top: 8px;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: #ffbf00;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  justify-content: center;
+}

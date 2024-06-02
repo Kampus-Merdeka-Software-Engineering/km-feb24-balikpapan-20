@@ -1,243 +1,648 @@
-/*ukuran desktop max-width: 1366px, 
-ukuran tablet max-width: 758px, 
+/*ukuran tablet max-width: 768px, 
 ukuran mobile max-width: 450px */
 
-/*UKURAN DESKTOP*/
-@media (max-width: 1366px) {
-  .more-info-button {
-    margin-top: 40px;
-    padding: 0 20px;
+/*UKURAN TABLET max-width: 768px*/
+
+@media (max-width: 768px) {
+  /* update navbar hamburger */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-links ul li {
+    padding: 10px 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+    color: white;
   }
 
   .navbar {
-    max-width: 100%;
-    flex-wrap: wrap;
-    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dropdown-content {
+    position: static;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+  }
+
+  .nav-links.active {
+    display: block; /* Show as block on smaller screens when active */
+  }
+  /*end update navbar hamburger */
+
+  .company-logo {
+    width: 60px;
+  }
+
+  .more-info-button {
+    margin-top: 40px;
+    padding: 0 10px;
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 550px;
+  }
+
+  .navbar {
+    padding-top: 15px;
+    padding-right: 30px;
+    margin-left: -90px;
   }
 
   .company-name {
-    position: absolute;
-    width: auto;
-    top: 250px;
-    font-weight: 800;
-    font-size: 100px;
+    width: 100%;
+    top: 260px;
+    left: 10px;
+    line-height: 90px;
+    font-size: 80px;
     text-align: center;
-    color: #ffbf00;
+    justify-content: center;
   }
 
   .company-description {
-    position: absolute;
-    top: 561px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #ffffff;
-  }
-  .more-info-button {
-    position: absolute;
+    width: 80%;
+    top: 460px;
+    line-height: 23px;
     text-align: center;
     justify-content: center;
-    width: 157px;
-    height: 34px;
-    left: 440px;
-    top: 645px;
+    left: 80px;
   }
 
   .header-black-title {
-    position: absolute;
-    max-width: 100%;
-    left: 360px;
+    left: 30%;
+    font-size: 40px;
   }
 
   .header-black-description {
-    position: absolute;
-    max-width: 100%;
-    left: 230px;
+    left: 10%;
+    font-size: 17px;
   }
 
-  /*OUTLETS*/
   .outlets-title {
     max-width: 100%;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-size: 30px;
   }
 
+  .outlets-coffee-shop {
+    padding: 0%;
+  }
   .outlets-container {
+    max-width: 50%;
+    margin-top: 20px;
+  }
+
+  .outlets-grid {
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .outlet-details {
+    width: auto;
+    padding-left: 0px 0px;
+    align-items: center;
+    margin-left: -5px;
+  }
+
+  .outlet-column {
+    width: 80%;
+  }
+
+  .content-container {
+    min-height: 100px;
+    gap: 40px;
+    flex-direction: column;
+  }
+   
+  .column {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .business-background-title,
+  .project-capstone-title,
+  .dashboard-title {
+    font-size: 20px;
+    
+  }
+  
+  .business-background-description,
+  .project-capstone-description,
+  .dashboard-description {
+    font-size: 14px;
+    text-align:start;
+    letter-spacing: 0;
+    margin-right: 50px;
+    
+  }
+  .background-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-details{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .social-media-content {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .contact-details {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .contact {
+    margin-top: 30px;
+    width: 50%;
+    height: 50%;
+  }
+
+  .input-contact {
+    width: 94%;
+  }
+
+  .submit-contact {
+    width: 100%;
+  }
+
+  .contact-info-content {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .team-member-image {
+    width: 85%;
+  }
+
+  .footer {
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-media-icons {
+    padding-right: 5px;
+    margin-top: 8px;
+  }
+
+  .social-media-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .social-media-title {
+    font-size: 10px;
+  }
+
+  .copyright {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
+  .contact-info-content span {
+    font-size: 10px;
+  }
+  
+  .img_revou h2 {
+    font-size: 30px;
+  }
+
+  .img_revou p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .img_revou img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description-revou p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 40px 50px 40px;
+  }
+
+  .img-revou-2 img {
+    width: 80%;
+  }
+  #copyright{
+    font-size: 10px;
+  }
+}
+
+/*UKURAN TABLET*/
+
+/*UKURAN MOBILE : 450 px*/
+@media (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    background-size: cover;
     max-width: 100%;
-    margin-top: 40px;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: -30%;
+  }
+
+  .navbar ul {
+    width: 100%;
+    margin-left: 75px;
+    justify-content: center;
+  }
+
+  .icon-dropdown {
+    position: relative;
+    left: 10px;
+  }
+
+  .dropdown-content {
+    position: static;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+  }
+
+  .nav-links.active {
+    display: block; /* Show as block on smaller screens when active */
+  }
+  /*end update navbar hamburger */
+
+  .more-info-button {
+    margin-top: -191px;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 155px;
+    height: 43px;
+    left: 52%;
+    top: 700px;
+  }
+
+  .company-name {
+    width: 100%;
+    font-size: 50px;
+    top: 250px;
+    left: 0px;
+  }
+
+  .company-description {
+    top: 500px;
+    left: 50px;
+    right: 50px;
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .more-info-button {
+    top: 860px;
+    justify-content: center;
+  }
+
+  /*.header-black-title*/
+  .header-black {
+    width: 100%;
+  }
+
+  .header-black-description,
+  .header-dash-description {
+    width: 80%;
+    top: 280px;
+    font-size: 14px;
+  }
+
+  .header-black-title,
+  .header-dash-title {
+    top: 200px;
+    left: 10px;
+    font-size: 32px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .outlets-coffee-shop {
+    padding: 0%;
+  }
+
+  .outlets-title {
+    max-width: 100%;
+    text-align: center;
+    margin: 0px;
+    margin-top: -30px;
+    font-size: 25px;
+  }
+  .outlets-container {
+    max-width: 50%;
+    margin-top: 20px;
+  }
+
+  .outlet-name {
+    margin-top: 0px;
+    padding-left: 8px;
+    font-size: 14px;
+  }
+
+  .outlet-description {
+    font-size: 10px;
+    padding-right: 8px;
   }
 
   .outlets-grid {
     flex-direction: column;
-    align-items: stretch;
-    gap: 0px;
+    gap: 40px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .outlet-details {
+    margin-top: 5px;
+    align-items: center;
+    margin-left: -5px;
   }
 
   .outlet-column {
     width: 100%;
   }
 
-  .outlet-card {
-    margin-top: 40px;
-  }
-
-  .outlet-column-2 {
-    width: 100%;
-  }
-
-  .outlet-details-2 {
-    padding: 0 20px;
-  }
-
-  .outlet-column-3 {
-    width: 100%;
-  }
-
-  .outlet-description-3 {
-    margin: 0 10px;
-  }
-  /*END OUTLETS*/
-
-  /* START INFORMATION SECTION */
-  .information-section {
-    max-width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
-  }
-
-  .content-wrapper {
-    max-width: 100%;
-  }
-
-  .content-container {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-
-  .column {
-    width: 100%;
-  }
-
-  .business-background {
-    max-width: 100%;
-    margin-top: 39px;
-  }
-
   .information-label {
     white-space: initial;
   }
 
-  .business-background-content {
-    max-width: 100%;
-    margin-top: 40px;
-    padding-left: 20px;
+  .content-container {
+    min-height: 100px;
+    flex-direction: column;
+
   }
 
-  .business-background-title {
-    max-width: 100%;
+ .business-background-title
+  {
+    font-size: 15px;
   }
 
-  .business-background-description {
-    max-width: 100%;
+  .project-capstone-title
+   {
+    font-size: 15px;
+    margin-top: 30px;
   }
 
-  .project-details {
-    width: 100%;
-    margin-left: 0%;
+  .dashboard-title {
+    font-size: 15px;
+    margin-top: 30px;
   }
 
-  .project-capstone {
-    max-width: 100%;
-    margin-top: 39px;
-  }
-
-  .project-capstone-content {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-
-  .project-capstone-title {
-    max-width: 100%;
+  .business-background-description,
+  .project-capstone-description,
+  .dashboard-description {
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-right: 50px;
+    /* padding-left: 30px; */
   }
 
   .project-capstone-description {
-    max-width: 100%;
+    margin-bottom: 40px;
   }
 
-  .dashboard {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  /* END INFORMATION SEC*/
-
-  /* START MEMBER TEAM */
-  .team-members {
-    max-width: 100%;
-    margin-top: 40px;
+  .project-capstone-content {
+    min-height: 20px;
   }
 
-  .team-members-grid {
-    flex-direction: column;
-    gap: 0;
+  .business-background {
+    margin-top: 20px;
+    min-height: 100px;
   }
 
-  .team-member {
-    width: 100%;
+  .business-background-content {
+    margin-top: 70px;
+  } 
+
+
+  .contact {
+    margin-top: 30px;
+    width: 50%;
+    height: 50%;
   }
 
-  .team-member-card {
-    margin-top: 40px;
+  .contact h1 {
+    font-size: 23px;
   }
 
-  .team-member-image {
-    margin: 0 10px;
-  }
-  /* END MEMBER TEAM */
-
-  /*START FOOTER*/
-  .footer {
-    padding: 0 20px;
+  .contact p {
+    font-size: 14px;
+    margin-left: 15px;
   }
 
-  .footer-content {
-    flex-direction: column;
-    gap: 0;
+  .input-contact {
+    width: 90%;
   }
 
-  .social-media {
+  .contact form {
+    font-size: 12px;
+  }
+
+  .submit-contact {
     width: 100%;
   }
 
   .social-media-content {
-    margin-top: 40px;
-    margin-left: 40px;
+    width: 80%;
+    margin-top: 10px;
   }
 
-  .social-media-icons {
-    padding-right: 20px;
+  .social-media img {
+    box-sizing: 20px;
   }
 
   .contact-info {
-    width: 100%;
+    max-width: 80%;
+    margin-top: 5px;
+    padding: 0 5px;
+    margin-left: -12px;
+    padding-left: 10px;
+  }
+
+  .input-contact input {
+    height: 10px;
+    width: 70%;
+  }
+
+  .input-contact textarea {
+    height: 35px;
   }
 
   .contact-details {
-    margin-right: 30px;
+    margin-left: 0px;
+    padding-right: 5px;
   }
 
   .contact-info-content {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    margin-top: 0px;
+    column-span: none;
+    margin-right: 15px;
+    margin-left: 0px;
+  }
+
+  .contact-info-content span {
+    font-size: 10px;
+    padding-right: 10px;
+  }
+
+  .social-media-icons {
+    padding-right: 5px;
+  }
+
+  .footer {
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-media-icons {
+    padding-right: 5px;
+    margin-top: 8px;
+  }
+
+  .social-media-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .social-media-title {
+    font-size: 10px;
   }
 
   .copyright {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 10px;
   }
-  /*END FOOTER*/
+
+
+
+
+  .team-member-image {
+    width: 85%;
+  }
+
+  /* .modal-content {
+    width: 50%;
+    height: 50%;
+  } */
+  .modal-content, .rmodal-content {
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  .input-contact, .submit-contact {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .modal-content form {
+    padding: 20px;
+  }
+
+  .modal-content h2, .rmodal-content h2 {
+    font-size: 24px;
+  }
+
+  .input-fields {
+    width: 100%;
+  }
+
+  .underline {
+    width: 100%;
+  }
+
+  .modal-content button, .rmodal-content button {
+    width: 100%;
+  }
+  div.containers{
+    min-height: 50vh;
+  }
+
+  .social-field {
+    width: 95%;
+  }
+
+  .img_revou h2 {
+    font-size: 30px;
+  }
+
+  .img_revou p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .img_revou img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description-revou p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 40px 50px 40px;
+  }
+
+  .img-revou-2 img {
+    width: 80%;
+  }
+  /*END | UKURAN MOBILE*/
 }
-
-/*UKURAN TABLET*/
-
-/*UKURAN TABLET*/
