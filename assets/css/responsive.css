@@ -150,17 +150,17 @@ ukuran mobile max-width: 450px */
   .project-capstone-title,
   .dashboard-title {
     font-size: 20px;
-    padding-left: 30px;
+    
   }
   
   .business-background-description,
   .project-capstone-description,
   .dashboard-description {
     font-size: 14px;
-    text-align:justify;
+    text-align:start;
     letter-spacing: 0;
     margin-right: 50px;
-    padding-left: 30px;
+    
   }
   .background-image {
     width: 100%;
@@ -243,10 +243,6 @@ ukuran mobile max-width: 450px */
 
   .contact-info-content span {
     font-size: 10px;
-  }
-
-  .containers.modal-content {
-    width: 40%;
   }
   
   .img_revou h2 {
@@ -444,7 +440,6 @@ ukuran mobile max-width: 450px */
   .project-capstone-description,
   .dashboard-description {
     font-size: 12px;
-    text-align:justify;
     letter-spacing: 0;
     margin-right: 50px;
     /* padding-left: 30px; */
@@ -582,9 +577,41 @@ ukuran mobile max-width: 450px */
     width: 85%;
   }
 
-  .modal-content {
+  /* .modal-content {
     width: 50%;
     height: 50%;
+  } */
+  .modal-content, .rmodal-content {
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  .input-contact, .submit-contact {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .modal-content form {
+    padding: 20px;
+  }
+
+  .modal-content h2, .rmodal-content h2 {
+    font-size: 24px;
+  }
+
+  .input-fields {
+    width: 100%;
+  }
+
+  .underline {
+    width: 100%;
+  }
+
+  .modal-content button, .rmodal-content button {
+    width: 100%;
+  }
+  div.containers{
+    min-height: 50vh;
   }
 
   .social-field {
