@@ -370,8 +370,9 @@ li {
 background-color: #FFBF00;
 }
 
-.img_revou_2 img {
+.img-revou-2 img {
   text-align: center;
+  padding-bottom: 20px;
 }
 /* ABOUT US REVOU */
 
