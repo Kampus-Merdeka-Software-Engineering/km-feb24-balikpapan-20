@@ -268,6 +268,9 @@ ukuran mobile max-width: 450px */
   .img-revou-2 img {
     width: 80%;
   }
+  #copyright{
+    font-size: 10px;
+  }
 }
 
 /*UKURAN TABLET*/
