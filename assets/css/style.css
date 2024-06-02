@@ -345,3 +345,10 @@ li {
   text-decoration: underline;
 }
 /*END FOOTER*/
+
+#copyright {
+  color: rgb(206, 197, 197);
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+}
