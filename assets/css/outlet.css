@@ -47,6 +47,15 @@
   color: #fff;
   width: 100%;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: scroll;
+  transition: 0.3s;
+}
+
+.outlet-card:hover {
+  width: 100%;
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2),
+    0 12px 100px 0 rgba(0, 0, 0, 0.19);
 }
 
 .outlet-image {

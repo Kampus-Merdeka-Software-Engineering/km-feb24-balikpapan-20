@@ -35,7 +35,7 @@
 }
 
 .submit-contact {
-  width: 105%;
+  width: 104%;
   height: 9%;
   margin-top: 8px;
   padding: 10px 0;
@@ -45,4 +45,25 @@
   border-radius: 10px;
   transition: 0.5s;
   justify-content: center;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.submit-contact:hover {
+  background-color: #ebb000;
+}
+
+.submit-contact:active {
+  background-color: #ebb000;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
 }
