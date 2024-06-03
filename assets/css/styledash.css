@@ -119,13 +119,14 @@
 
 .pusat {
   display: flex;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .sidebar {
   background-color: #111827;
   width: 260px;
   padding: 24px;
+  align-items: center;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -134,6 +135,11 @@
 .main-content {
   background-color: #eeeeee;
   flex-grow: 1;
+  /* background-image: url("../images/BgFix.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed; */
 }
 
 .sidebar .description-sidebar {
@@ -161,8 +167,8 @@
 .sidebar .header-sidebar .illustration {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 200px;
+  align-items: center;
+  width: 150px;
   position: center;
   margin: 10px 0 22px 0;
   box-sizing: border-box;
@@ -196,4 +202,259 @@
 .sidebar .main-sidebar .list-item:hover {
   background-color: #ff9900;
   transition: all ease-in .2s;
+}
+
+.footer {
+  background-color: #000;
+  padding: 35px 80px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media {
+  width: 26%;
+}
+
+.social-media-content {
+  display: flex;
+  gap: 17px;
+  flex-grow: 1;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+}
+
+.social-media-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.social-media-title {
+  color: #fff;
+  font: 300 16px Inter, sans-serif;
+}
+.social-media-icons {
+  display: flex;
+  margin-top: 18px;
+  gap: 8px;
+}
+
+.social-media-icon {
+  width: 16px;
+}
+
+.contact-info {
+  width: 74%;
+  margin-left: 20px;
+}
+
+.contact-info-content {
+  display: flex;
+  margin-top: 31px;
+  align-items: flex-start;
+  gap: 20px;
+  font-weight: 400;
+}
+
+.copyright {
+  color: #797979;
+  align-self: end;
+  margin-top: 50px;
+  margin-left: 100px;
+  flex-grow: 1;
+  font: 15px Inter, sans-serif;
+}
+
+.contact-details {
+  color: #fff;
+  text-align: right;
+  align-self: start;
+  width: 240px;
+  font: 16px Inter, sans-serif;
+}
+
+.phone {
+  font-weight: 300;
+}
+
+.email {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+.footer {
+  background-color: #000;
+  padding: 35px 80px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media {
+  width: 26%;
+}
+
+.social-media-content {
+  display: flex;
+  gap: 17px;
+  flex-grow: 1;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+}
+
+.social-media-text {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.social-media-title {
+  color: #fff;
+  font: 300 16px Inter, sans-serif;
+}
+.social-media-icons {
+  display: flex;
+  margin-top: 18px;
+  gap: 8px;
+}
+
+.social-media-icon {
+  width: 16px;
+}
+
+.contact-info {
+  width: 74%;
+  margin-left: 20px;
+}
+
+.contact-info-content {
+  display: flex;
+  margin-top: 31px;
+  align-items: flex-start;
+  gap: 20px;
+  font-weight: 400;
+}
+
+.copyright {
+  color: #797979;
+  align-self: end;
+  margin-top: 50px;
+  margin-left: 100px;
+  flex-grow: 1;
+  font: 15px Inter, sans-serif;
+}
+
+.contact-details {
+  color: #fff;
+  text-align: right;
+  align-self: start;
+  width: 240px;
+  font: 16px Inter, sans-serif;
+}
+
+.phone {
+  font-weight: 300;
+}
+
+.email {
+  font-weight: 300;
+  text-decoration: underline;
+}
+/*END FOOTER*/
+
+#copyright {
+  color: rgb(206, 197, 197);
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100%;
+  padding-left: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.social-media-icons {
+  padding-right: 5px;
+  margin-top: 8px;
+}
+
+.social-media-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.social-media-title {
+  font-size: 10px;
+}
+
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 10px;
+}
+
+.contact-info-content span {
+  font-size: 10px;
+}
+
+#copyright {
+  font-size: 10px;
+}
+}
+
+@media (max-width: 450px) {
+  .footer {
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-media-icons {
+    padding-right: 5px;
+    margin-top: 8px;
+  }
+
+  .social-media-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .social-media-title {
+    font-size: 10px;
+  }
+
+  .copyright {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
 }

@@ -106,6 +106,7 @@ body {
 
 /* START NAVBAR */
 .navbar {
+  z-index: 1000;
   display: flex;
   padding-right: 150px;
   padding-left: 150px;
