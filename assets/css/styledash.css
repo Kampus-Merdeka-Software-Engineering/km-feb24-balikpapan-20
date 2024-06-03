@@ -8,33 +8,13 @@
 /* Gaya umum untuk bagian halaman dengan gambar latar */
 .bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
   padding: 30px;
-  background-image: url("../images/kopiben.jpg");
+  background-image: url("../images/BgFix.jpg");
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
 }
 
-/* Gaya untuk konten tab */
-.tab-content {
-  display: none;
-}
-.tab-content.active {
-  display: block;
-}
-
-/* Navigasi tab */
-.tab-navigation {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-.tab-navigation button {
-  margin: 0 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
 
 /* Header dashboard */
 .header-dash {
@@ -61,7 +41,7 @@
 /* Kotak chart */
 .chart-box {
   position: relative;
-  width: 50%;
+  width: 80%;
   padding: 20px;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -126,7 +106,6 @@
   text-align: center;
   color: #d2d2d2;
 }
-
 .tablebox{
     width: 100%;
 }
@@ -138,4 +117,83 @@
     margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
 }
 
-  
+.pusat {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #111827;
+  width: 260px;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main-content {
+  background-color: #eeeeee;
+  flex-grow: 1;
+}
+
+.sidebar .description-sidebar {
+  font-weight: 700;
+  font-style: 18px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar .header-sidebar .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 8px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar .header-sidebar .illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  position: center;
+  margin: 10px 0 22px 0;
+  box-sizing: border-box;
+}
+
+.sidebar .main-sidebar .list-item .description-menu {
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sidebar .main-sidebar .list-item .icon{
+  margin-right: 10px;
+  width: 20px;
+  color: #FFFFFF;
+  padding: 0%;
+}
+
+.sidebar .main-sidebar .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 8px;
+  width: 212px;
+  box-sizing: border-box;
+}
+
+.sidebar .main-sidebar .list-item:hover {
+  background-color: #ff9900;
+  transition: all ease-in .2s;
+}
