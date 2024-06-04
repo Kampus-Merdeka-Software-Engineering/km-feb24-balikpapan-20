@@ -135,11 +135,11 @@
 .main-content {
   background-color: #eeeeee;
   flex-grow: 1;
-  /* background-image: url("../images/BgFix.jpg");
+  background-image: url("../images/BgFix.jpg");
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
-  background-attachment: fixed; */
+  background-attachment: fixed; 
 }
 
 .sidebar .description-sidebar {
