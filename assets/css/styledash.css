@@ -1,8 +1,14 @@
 /* Mengatur box-sizing untuk memastikan padding dan border termasuk dalam ukuran total elemen */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
+} */
+
+html, body {
+  width: auto;
+  height: auto;
+  overflow-y: scroll;
 }
 
 /* Gaya umum untuk bagian halaman dengan gambar latar */
@@ -135,11 +141,11 @@
 .main-content {
   background-color: #eeeeee;
   flex-grow: 1;
-  /* background-image: url("../images/BgFix.jpg");
+  background-image: url("../images/BgFix.jpg");
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .sidebar .description-sidebar {
@@ -206,7 +212,7 @@
 
 .footer {
   background-color: #000;
-  padding: 35px 80px;
+  padding: 35px 35px;
 }
 
 .footer-content {
@@ -291,7 +297,10 @@
 @media (max-width: 768px) {
 .footer {
   background-color: #000;
-  padding: 35px 80px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
 }
 
 .footer-content {
@@ -310,8 +319,8 @@
 }
 
 .logo {
-  width: 96px;
-  height: 96px;
+  width: 60px;
+  height: 60px;
 }
 
 .social-media-text {
@@ -322,44 +331,52 @@
 
 .social-media-title {
   color: #fff;
-  font: 300 16px Inter, sans-serif;
+  font: 300 12px Inter, sans-serif;
 }
 .social-media-icons {
   display: flex;
-  margin-top: 18px;
   gap: 8px;
+  padding-right: 5px;
+  margin-top: 8px;
 }
 
 .social-media-icon {
-  width: 16px;
+  width: 10px;
+  height: 10px;
 }
 
 .contact-info {
-  width: 74%;
+  width: 100%;
   margin-left: 20px;
 }
 
 .contact-info-content {
   display: flex;
-  margin-top: 31px;
+  margin-top: 15px;
   align-items: flex-start;
   gap: 20px;
   font-weight: 400;
 }
 
+.contact-info-content span {
+  font-size: 12px;
+}
+
 .copyright {
   color: #797979;
   align-self: end;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-bottom: 10px;
   flex-grow: 1;
-  font: 15px Inter, sans-serif;
+  font: 12px Inter, sans-serif;
 }
 
 .contact-details {
   color: #fff;
   text-align: right;
   align-self: start;
+  margin-right: 40px;
   width: 240px;
   font: 16px Inter, sans-serif;
 }
@@ -372,16 +389,16 @@
   font-weight: 300;
   text-decoration: underline;
 }
-/*END FOOTER*/
 
 #copyright {
   color: rgb(206, 197, 197);
   text-align: center;
   font-weight: 300;
   margin-top: 20px;
+  font-size: 10px;
 }
 
-.footer {
+/* .footer {
   width: 100%;
   padding-left: 2%;
   padding-top: 20px;
@@ -420,15 +437,120 @@
 
 #copyright {
   font-size: 10px;
-}
+} */
 }
 
 @media (max-width: 450px) {
+
+  .sidebar {
+    width: 150px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 10px;
+    padding-top: 30px;
+    color: #FFFFFF;
+  }
+
+  .description-sidebar {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .header-sidebar .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .list-item {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .logi-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sidebar .header-sidebar .illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    position: center;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+  }
+  
+  .sidebar .main-sidebar .description-menu {
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .sidebar .main-sidebar .icon{
+    margin-right: 10px;
+    width: 20px;
+    color: #FFFFFF;
+    padding: 0%;
+  }
+  
+  .sidebar .main-sidebar .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar .main-sidebar .list-item:hover {
+    background-color: #ff9900;
+    transition: all ease-in .2s;
+  }
+
   .footer {
     width: 100%;
-    padding-left: 2%;
+    padding-left: 15px;
+    margin-right: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 0px;
+    padding-right: 10px;
+  }
+
+  .social-media-content {
+    display: flex;
+    gap: 7px;
+    flex-grow: 1;
   }
 
   .logo {
@@ -442,19 +564,62 @@
   }
 
   .social-media-icon {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
   }
 
   .social-media-title {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding-right: 30px;
+  }
+  
+  .contact-info-content {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 40px;
+    gap: 0px;
+    font-weight: 400;
+  }
+  
+  .contact-info-content span {
+    font-size: 8px;
+  }
+
+  .contact-details {
+    color: #fff;
+    text-align: right;
+    align-self: start;
+    padding-right: 30px;
+    font: 9px Inter, sans-serif;
+  }
+  
+  .phone {
+    font-weight: 300;
+  }
+  
+  .email {
+    font-weight: 300;
+    text-decoration: underline;
   }
 
   .copyright {
-    margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 0px;
-    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 8px;
+    font-weight: 300;
   }
+
+  /* #copyright {
+    color: rgb(206, 197, 197);
+    text-align: center;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 9px;
+  } */
 
 }
