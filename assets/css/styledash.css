@@ -82,12 +82,10 @@ html, body {
 
 #datatable_wrapper {
   text-align: center; /* Posisikan tabel di tengah */
-  margin-top: 20px;
 }
 
 #datatable {
   margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
-  margin-top: 20px;
 }
 
 .dataTables_paginate {
@@ -106,7 +104,6 @@ html, body {
   background-color: #fdd55e; /* Warna latar belakang judul kolom */
   color: #333; /* Warna teks judul kolom */
   padding: 10px; /* Padding untuk judul kolom */
-  margin-top: 20px;
 }
 
 #datatable td {
