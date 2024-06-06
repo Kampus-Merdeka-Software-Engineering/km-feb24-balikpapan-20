@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maven Roaster</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
-    <!-- <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/dashboard.css">
-    <link rel="stylesheet" href="assets/css/responsive.css"> -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/styledash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
@@ -18,65 +18,95 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
-    <div class="pusat">
-    <!-- Tab Navigation -->
-    <div class="sidebar">
-        <div class="header-sidebar">
-            <div class="list-item" data-tab="bagian1">
-                <a href="#">
-                  <a href="#" style="padding-right: 5px;">
-                    <img src="assets/images/Maven Roaster Logo (3).png" style="width: 40px;" class=""> </a> 
-                    <span class="description-sidebar">DASHBOARD</span>
-                </a>
-            </div>
-
-            <div class="illustration">
-              <img src="assets/images/user.png" alt="Login" class="login-icon">
-                <!-- <img src="assets/images/Maven Roaster Logo (3).png" alt="" class="illustration"> -->
-            </div>
+    <header class="header-dash">
+        <div class="header-content">
+            <!-- Tombol untuk membuka sidebar -->
+            <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
         </div>
-
-        <div class="main-sidebar">
-            <div class="list-item" data-tab="bagian1">
-                <a href="#">
-                    <img src="assets/images/dasbor.svg" alt="" class="icon">
-                    <span class="description-menu">Sales & Transaction</span>
-                </a>
-            </div>
-            <div class="list-item" data-tab="bagian2">
-                <a href="#">
-                    <img src="assets/images/dasbor.svg" alt="" class="icon">
-                    <span class="description-menu">Sales & Total</span>
-                </a>
-            </div>
-            <div class="list-item" data-tab="bagian3">
-                <a href="#">
-                    <img src="assets/images/dasbor.svg" alt="" class="icon">
-                    <span class="description-menu">Rush Hour & Day</span>
-                </a>
-            </div>
-            <div class="list-item" data-tab="bagian4">
-                <a href="#">
-                    <img src="assets/images/dasbor.svg" alt="" class="icon">
-                    <span class="description-menu">Top Product</span>
-                </a>
-            </div>
-            <div class="list-item" data-tab="bagian5">
-                <a href="#">
-                    <img src="assets/images/dasbor.svg" alt="" class="icon">
-                    <span class="description-menu">Transaction</span>
-                </a>
-            </div>
-            <div class="list-item">
-              <a href="index.html">
-                  <img src="assets/images/dasbor.svg" alt="" class="icon">
-                  <span class="description-menu">Log Out</span>
-              </a>
+        <div class="navbar">
+            <a href="index.html"
+              ><img
+                src="assets/images/Maven Roaster Logo (3).png"
+                alt="Company Logo"
+                class="company-logo"
+            /></a>
+            <nav class="nav-links">
+              <ul>
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
+                <li><a class="nav-link"></a>
+                    <div class="dropdown">
+                       <span>ABOUT US</span>
+                       <img src="assets/images/dropdown.png" alt="icon dropdown" class="icon-dropdown" />
+                       <div class="dropdown-content">
+                        <a href="aboutus.html">TEAM</a>
+                        <a href="aboutus_revou.html">MSIB</a>
+                      </div>
+                    </div></li>
+                    <li><a class="nav-link" id="profile-img"></a>
+                      <div class="dropdown-login">
+                        <img src="assets/images/user.png" alt="Login" class="login-icon">
+                            <div class="dropdown-content-login">
+                              <a href="" id="sign-out" >SiGN OUT</a>
+                            </div>
+                          </div></li>
+                    <li><button class="button-login nav-link" id="login-btn">LOGIN</button></li>
+              </ul>
+            </nav>
           </div>
-        </div>
-    </div>
+        </section>
+    </header>
+    <!-- START NAVBAR-->
+    <section class="header-black">
+        
+      <!--END NAVBAR-->
+    <div class="pusat">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="header-sidebar">
+                <div class="illustration">
+                    <a href="index.html">
+                    <img src="assets/images/Maven Roaster Logo (3).png" alt="" class="illustration">
+                    </a>
+                </div>
+            </div>
 
-    <!-- Main Dashboard Content -->
+            <div class="main-sidebar">
+                <div class="list-item" data-tab="bagian1">
+                    <a href="#">
+                        <img src="assets/images/salesicon.png" alt="" class="icon">
+                        <span class="description-menu">Sales & Total</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian2">
+                    <a href="#">
+                        <img src="assets/images/monthicon.png" alt="" class="icon">
+                        <span class="description-menu">Monthly Data</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian3">
+                    <a href="#">
+                        <img src="assets/images/rushicon.png" alt="" class="icon">
+                        <span class="description-menu">Rush Day & Hour</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian4">
+                    <a href="#">
+                        <img src="assets/images/producticon.png" alt="" class="icon">
+                        <span class="description-menu">Top Product</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian5">
+                    <a href="#">
+                        <img src="assets/images/tabelicon.png" alt="" class="icon">
+                        <span class="description-menu">Transaction</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Konten Utama Dashboard -->
+        <!-- Main Dashboard Content -->
     <div class="main-content">
         <section id="bagian1" class="tab-content active chart-bagian1">
             <div class="chart-container">
@@ -100,7 +130,9 @@
                         <button id="filterButton">Filter</button>
                         <button id="clearButton">Clear</button>
                     </div>
-                    <canvas id="salestransaksi"></canvas>
+                    <canvas id="salestransaksi">  
+                
+                    </canvas>
                 </div>
             </div>
         </section>
@@ -162,9 +194,6 @@
         <section id="bagian5" class="tab-content bagian5">
             <div class="chart-container">
                 <div class="chart-box tablebox">
-                    <section class="table_header">
-                        <h1>List Menu</h1>
-                    </section>
                     <section class="table_body">
                         <table id="datatable" class="display">
                             <thead>
@@ -192,6 +221,8 @@
         </section>
     </div>
     </div>
+    </div>
+
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-content">
@@ -232,31 +263,6 @@
     <script src="assets/js/kategori.js"></script>
     <script src="assets/js/topproduct.js"></script>
     <script src="assets/js/product.js"></script>
-    <script>
-        function showTab(tabId) {
-            // Get all tab contents
-            var tabs = document.querySelectorAll('.tab-content');
-            // Hide all tab contents
-            tabs.forEach(function(tab) {
-                tab.style.display = 'none';
-            });
-            // Show the selected tab
-            document.getElementById(tabId).style.display = 'block';
-        }
-
-        // Event listener for tab navigation
-        document.querySelectorAll('.list-item').forEach(function(tabLink) {
-            tabLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                var tabId = this.getAttribute('data-tab');
-                showTab(tabId);
-            });
-        });
-
-        // Display the first tab by default
-        document.addEventListener('DOMContentLoaded', function() {
-            showTab('bagian1');
-        });
-    </script>
+    <script src="assets/js/sidebar.js"></script>
 </body>
 </html>
