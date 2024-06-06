@@ -1,9 +1,9 @@
-/* Mengatur box-sizing untuk memastikan padding dan border termasuk dalam ukuran total elemen */
-/* *,
+/* General */
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 html, body {
   width: auto;
@@ -11,29 +11,32 @@ html, body {
   overflow-y: scroll;
 }
 
-/* Gaya umum untuk bagian halaman dengan gambar latar */
 .bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
   padding: 30px;
-  background-image: url("../images/BgFix.jpg");
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #FFFFFF;
+  background-size: auto;
 }
 
-
-/* Header dashboard */
 .header-dash {
-  background-image: url("../images/kopibanner.png");
-  background-size: cover;
+  background-color: #111827;
   position: relative;
   width: auto;
-  height: 500px;
+  height: 100px;
   left: 0px;
   top: 0px;
 }
 
-/* Kontainer chart */
+.navbar-dash {
+  display: flex;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  justify-content: space-between;
+}
 .chart-container {
   display: flex;
   margin-top: 40px;
@@ -44,10 +47,9 @@ html, body {
   gap: 20px;
 }
 
-/* Kotak chart */
 .chart-box {
   position: relative;
-  width: 80%;
+  width: 70%;
   padding: 20px;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,12 +57,12 @@ html, body {
   background-color: #fff;
   margin: 30px;
 }
+
 .chart-box canvas {
   height: 300px;
   width: 100%;
 }
 
-/* Judul chart */
 .chart-title {
   background-color: #fdd55e;
   padding: 10px;
@@ -70,82 +72,80 @@ html, body {
   font-size: 20px;
 }
 
-/* Kontainer filter */
 .checkbox-container, .date-filter-container, .filter-button-container {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .checkbox-container label, .date-filter-container label {
   display: inline-block;
   margin-right: 10px;
 }
+
 .bulan-filter-container, .sales-store-location {
   text-align: center;
   margin-bottom: 10px;
 }
 
-/* Judul dan deskripsi header dashboard */
-.header-dash-title {
-  position: absolute;
-  width: 309px;
-  height: 58px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  text-align: center;
-  color: #ffbf00;
+.tablebox {
+  width: 100%;
 }
-.header-dash-description {
-  margin-top: 30px;
-  position: absolute;
-  width: 576px;
-  height: 86px;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #d2d2d2;
-}
-.tablebox{
-    width: 100%;
-}
+
 #datatable_wrapper {
-    text-align: center; /* Posisikan tabel di tengah */
+  text-align: center; /* Posisikan tabel di tengah */
 }
 
 #datatable {
-    margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
+  margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
+}
+
+.dataTables_paginate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dataTables_paginate.paginate_button {
+  flex: 1;
+  margin: 5px;
 }
 
 .pusat {
   display: flex;
-  min-height: 120vh;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1;
 }
 
 .sidebar {
   background-color: #111827;
   width: 260px;
   padding: 24px;
-  align-items: center;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  z-index: 1000;
+}
+
+.sidebar.active {
+  transform: translateX(-100%);
 }
 
 .main-content {
   background-color: #eeeeee;
   flex-grow: 1;
-  background-image: url("../images/BgFix.jpg");
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed;
+  margin-left: 260px;
+  transition: margin-left 0.3s ease;
 }
 
 .sidebar .description-sidebar {
@@ -173,26 +173,26 @@ html, body {
 .sidebar .header-sidebar .illustration {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 150px;
-  position: center;
-  margin: 10px 0 22px 0;
+  align-items: flex-start;
+  width: 70%;
+  margin: 10px auto 22px auto;
   box-sizing: border-box;
 }
 
 .sidebar .main-sidebar .list-item .description-menu {
   font-weight: 400;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 16px;
-  text-align: center;
+  text-align: left; /* Menyelaraskan teks ke kiri */
   color: #FFFFFF;
+  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
 }
 
-.sidebar .main-sidebar .list-item .icon{
+.sidebar .main-sidebar .list-item .icon {
   margin-right: 10px;
-  width: 20px;
+  width: 30px;
   color: #FFFFFF;
-  padding: 0%;
+  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
 }
 
 .sidebar .main-sidebar .list-item {
@@ -201,7 +201,7 @@ html, body {
   align-items: center;
   padding: 12px 10px;
   border-radius: 8px;
-  width: 212px;
+  width: 100%; /* Ubah ke 100% untuk memastikan seluruh lebar sidebar digunakan */
   box-sizing: border-box;
 }
 
@@ -210,9 +210,28 @@ html, body {
   transition: all ease-in .2s;
 }
 
+/* Tombol untuk membuka sidebar */
+.open-sidebar {
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  display: none; /* Sembunyikan tombol pada layar besar */
+  color: #FFFFFF;
+}
+
+/*START FOOTER*/
 .footer {
+  position: relative;
+  z-index: 1001;
+  clear: both;
   background-color: #000;
-  padding: 35px 35px;
+  padding: 35px 80px;
 }
 
 .footer-content {
@@ -294,243 +313,310 @@ html, body {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-.footer {
-  background-color: #000;
-  margin-bottom: 15px;
-  padding-right: 10px;
-  padding-left: 10px;
-  width: 100%;
-}
+/*END FOOTER*/
 
-.footer-content {
-  display: flex;
-  gap: 20px;
-}
 
-.social-media {
-  width: 26%;
-}
-
-.social-media-content {
-  display: flex;
-  gap: 17px;
-  flex-grow: 1;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-}
-
-.social-media-text {
-  display: flex;
-  flex-direction: column;
-  margin: auto 0;
-}
-
-.social-media-title {
-  color: #fff;
-  font: 300 12px Inter, sans-serif;
-}
-.social-media-icons {
-  display: flex;
-  gap: 8px;
-  padding-right: 5px;
-  margin-top: 8px;
-}
-
-.social-media-icon {
-  width: 10px;
-  height: 10px;
-}
-
-.contact-info {
-  width: 100%;
-  margin-left: 20px;
-}
-
-.contact-info-content {
-  display: flex;
-  margin-top: 15px;
-  align-items: flex-start;
-  gap: 20px;
-  font-weight: 400;
-}
-
-.contact-info-content span {
-  font-size: 12px;
-}
-
-.copyright {
-  color: #797979;
-  align-self: end;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-bottom: 10px;
-  flex-grow: 1;
-  font: 12px Inter, sans-serif;
-}
-
-.contact-details {
-  color: #fff;
-  text-align: right;
-  align-self: start;
-  margin-right: 40px;
-  width: 240px;
-  font: 16px Inter, sans-serif;
-}
-
-.phone {
-  font-weight: 300;
-}
-
-.email {
-  font-weight: 300;
-  text-decoration: underline;
-}
-
-#copyright {
-  color: rgb(206, 197, 197);
-  text-align: center;
-  font-weight: 300;
-  margin-top: 20px;
-  font-size: 10px;
-}
-
-/* .footer {
-  width: 100%;
-  padding-left: 2%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-}
-
-.social-media-icons {
-  padding-right: 5px;
-  margin-top: 8px;
-}
-
-.social-media-icon {
-  width: 10px;
-  height: 10px;
-}
-
-.social-media-title {
-  font-size: 10px;
-}
-
-.copyright {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  font-size: 10px;
-}
-
-.contact-info-content span {
-  font-size: 10px;
-}
-
-#copyright {
-  font-size: 10px;
-} */
-}
-
-@media (max-width: 450px) {
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .chart-box {
+    width: 90%;
+  }
 
   .sidebar {
-    width: 150px;
-    padding: 5px;
-    align-items: center;
+    width: 200px;
+  }
+
+  .sidebar .main-sidebar .list-item .description-menu {
+    font-size: 14px;
+  }
+
+  .sidebar .main-sidebar .list-item .icon {
+    width: 18px;
+  }
+
+  .header-dash-title {
+    font-size: 40px;
+  }
+
+  .header-dash-description {
+    font-size: 16px;
+  }
+
+  #datatable_wrapper {
+    overflow-x: auto;
+  }
+
+  #datatable {
+    width: 100%;
+  }
+
+  #datatable th, #datatable td {
+    white-space: nowrap;
+  }
+
+  .dataTables_paginate.paginate_button:not(.previous):not(.next) {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .chart-box {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 180px;
+  }
+
+  .sidebar .main-sidebar .list-item .description-menu {
+    font-size: 14px; /* Sesuaikan ukuran font */
+  }
+
+  .sidebar .main-sidebar .list-item .icon {
+    width: 16px;
+  }
+
+  .header-dash-title {
+    font-size: 32px;
+  }
+
+  .header-dash-description {
+    font-size: 14px;
+  }
+
+  #datatable_wrapper {
+    overflow-x: auto;
+  }
+
+  #datatable {
+    width: 100%;
+  }
+
+  #datatable th, #datatable td {
+    font-size: 14px;
+  }
+
+  .dataTables_paginate.paginate_button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pusat {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 40%;
+    padding: 10px;
+    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
+  }
+
+  .sidebar.active {
+    transform: translateX(0); /* Tampilkan sidebar ketika aktif */
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sidebar .main-sidebar .list-item {
+    justify-content: flex-start; /* Menyelaraskan item ke kiri */
+  }
+
+  .chart-container {
+    flex-direction: column;
+    align-items: center; /* Penyelarasan vertikal */
+  }
+
+  .chart-box {
+    width: 100%;
+    padding: 10px; /* Kurangi padding di layar kecil */
+  }
+
+  .header-dash-title {
+    font-size: 24px;
+  }
+
+  .header-dash-description {
+    font-size: 12px;
+  }
+
+  .chart-title {
+    font-size: 18px; /* Sesuaikan ukuran font judul chart */
+    margin-bottom: 10px; /* Berikan sedikit ruang antara judul dan chart */
+  }
+
+  /* Tampilkan tombol sidebar pada layar kecil */
+  .open-sidebar {
+    display: block;
+  }
+
+  #datatable_wrapper {
+    overflow-x: auto;
+  }
+
+  #datatable {
+    width: 100%;
+  }
+
+  #datatable th, #datatable td {
+    font-size: 12px;
+  }
+
+  .dataTables_paginate.paginate_button {
+    font-size: 12px;
+  }
+  
+  .footer {
+    background-color: #000;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  
+  .footer-content {
     display: flex;
     gap: 20px;
-    font-weight: 700;
-    font-size: 10px;
-    padding-top: 30px;
-    color: #FFFFFF;
-  }
-
-  .description-sidebar {
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 10px;
-    text-align: center;
-    color: #FFFFFF;
   }
   
-  .header-sidebar .list-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 30px;
-    border-radius: 8px;
-    height: 40px;
-    box-sizing: border-box;
+  .social-media {
+    width: 26%;
   }
   
-  .list-item {
-    width: 100px;
-    height: 40px;
+  .social-media-content {
     display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    line-height: 16px;
-    padding-top: 12px;
-    padding-bottom: 10px;
-    margin-left: 30px;
-    align-items: center;
-    color: #FFFFFF;
-    border-radius: 8px;
-    box-sizing: border-box;
+    gap: 17px;
+    flex-grow: 1;
   }
-
-  .logi-icon {
-    width: 30px;
-    height: 30px;
+  
+  .logo {
+    width: 60px;
+    height: 60px;
   }
-
-  .sidebar .header-sidebar .illustration {
+  
+  .social-media-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 150px;
-    position: center;
-    margin: 10px 0 22px 0;
-    box-sizing: border-box;
+    margin: auto 0;
   }
   
-  .sidebar .main-sidebar .description-menu {
-    font-weight: 400;
-    font-style: 16px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
+  .social-media-title {
+    color: #fff;
+    font: 300 12px Inter, sans-serif;
   }
-  
-  .sidebar .main-sidebar .icon{
-    margin-right: 10px;
-    width: 20px;
-    color: #FFFFFF;
-    padding: 0%;
-  }
-  
-  .sidebar .main-sidebar .list-item {
+  .social-media-icons {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 10px;
-    border-radius: 8px;
-    width: 212px;
-    box-sizing: border-box;
+    gap: 8px;
+    padding-right: 5px;
+    margin-top: 8px;
   }
   
-  .sidebar .main-sidebar .list-item:hover {
-    background-color: #ff9900;
-    transition: all ease-in .2s;
+  .social-media-icon {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .contact-info {
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  .contact-info-content {
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+    gap: 20px;
+    font-weight: 400;
+  }
+  
+  .contact-info-content span {
+    font-size: 12px;
+  }
+  
+  .copyright {
+    color: #797979;
+    align-self: end;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    font: 12px Inter, sans-serif;
+  }
+  
+  .contact-details {
+    color: #fff;
+    text-align: right;
+    align-self: start;
+    margin-right: 40px;
+    width: 240px;
+    font: 16px Inter, sans-serif;
+  }
+  
+  .phone {
+    font-weight: 300;
+  }
+  
+  .email {
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  
+  #copyright {
+    color: rgb(206, 197, 197);
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .sidebar {
+    width: 40%;
+    padding: 10px;
+    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
+  }
+
+  .chart-box {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px; /* Kurangi padding di layar sangat kecil */
+  }
+
+  .header-dash-title {
+    font-size: 18px;
+  }
+
+  .header-dash-description {
+    font-size: 10px;
+  }
+
+  .chart-container {
+    margin: 10px;
+  }
+
+  .chart-title {
+    font-size: 14px; /* Kurangi ukuran font judul chart lebih lanjut */
+  }
+
+  #datatable_wrapper {
+    overflow-x: auto;
+  }
+
+  #datatable {
+    width: 100%;
+  }
+
+  #datatable th, #datatable td {
+    font-size: 10px;
+  }
+
+  .dataTables_paginate.paginate_button {
+    font-size: 10px;
   }
 
   .footer {
@@ -613,13 +699,4 @@ html, body {
     font-size: 8px;
     font-weight: 300;
   }
-
-  /* #copyright {
-    color: rgb(206, 197, 197);
-    text-align: center;
-    font-weight: 300;
-    margin-top: 40px;
-    font-size: 9px;
-  } */
-
 }
