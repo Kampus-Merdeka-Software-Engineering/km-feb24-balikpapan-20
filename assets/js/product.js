@@ -27,7 +27,8 @@ $(document).ready(function() {
                 "paging": true,
                 "pageLength": 10, // Jumlah baris per halaman
                 "autoWidth": false,
-                "fixedColumns": true
+                "fixedColumns": true,
+                responsive: true
             });
         }
     });
