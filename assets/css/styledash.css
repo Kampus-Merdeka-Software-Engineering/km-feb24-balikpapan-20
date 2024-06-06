@@ -82,10 +82,12 @@ html, body {
 
 #datatable_wrapper {
   text-align: center; /* Posisikan tabel di tengah */
+  margin-top: 20px;
 }
 
 #datatable {
   margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
+  margin-top: 20px;
 }
 
 .dataTables_paginate {
@@ -100,6 +102,26 @@ html, body {
   margin: 5px;
 }
 
+#datatable th {
+  background-color: #fdd55e; /* Warna latar belakang judul kolom */
+  color: #333; /* Warna teks judul kolom */
+  padding: 10px; /* Padding untuk judul kolom */
+  margin-top: 20px;
+}
+
+#datatable td {
+  padding: 10px; /* Padding untuk sel */
+}
+
+.dataTables_filter {
+  margin-bottom: 20px; /* Atur sesuai kebutuhan Anda */
+}
+
+/* Efek hover untuk sel */
+#datatable tbody tr:hover {
+  background-color: #fdd55e; /* Warna latar belakang saat hover */
+}
+
 .pusat {
   display: flex;
   min-height: 100vh;
@@ -108,6 +130,13 @@ html, body {
 
 .main-content {
   flex-grow: 1;
+}
+
+hr {
+  border: none; /* Hapus garis bawaan */
+  height: 1px; /* Atur tinggi garis */
+  background-color: #ddd; /* Warna latar belakang garis */
+  margin: 20px 0; /* Atur jarak atas dan bawah dari garis */
 }
 
 .sidebar {
