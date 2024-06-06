@@ -1,720 +1,240 @@
-/* General */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html, body {
-  width: auto;
-  height: auto;
-  overflow-y: scroll;
-}
-
-.bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
-  padding: 30px;
-  background-color: #FFFFFF;
-  background-size: auto;
-}
-
-.header-dash {
-  background-color: #111827;
-  position: relative;
-  width: auto;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
-
-.chart-container {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 40px;
-  gap: 20px;
-}
-
-.chart-box {
-  position: relative;
-  width: 70%;
-  padding: 20px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  background-color: #fff;
-  margin: 30px;
-}
-
-.chart-box canvas {
-  height: 300px;
-  width: 100%;
-}
-
-.chart-title {
-  background-color: #fdd55e;
-  padding: 10px;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
-.checkbox-container, .date-filter-container, .filter-button-container {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.checkbox-container label, .date-filter-container label {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.bulan-filter-container, .sales-store-location {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.tablebox {
-  width: 100%;
-}
-
-#datatable_wrapper {
-  text-align: center; /* Posisikan tabel di tengah */
-  margin-top: 20px;
-}
-
-#datatable {
-  margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
-  margin-top: 20px;
-}
-
-.dataTables_paginate {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.dataTables_paginate.paginate_button {
-  flex: 1;
-  margin: 5px;
-}
-
-#datatable th {
-  background-color: #fdd55e; /* Warna latar belakang judul kolom */
-  color: #333; /* Warna teks judul kolom */
-  padding: 10px; /* Padding untuk judul kolom */
-  margin-top: 20px;
-}
-
-#datatable td {
-  padding: 10px; /* Padding untuk sel */
-}
-
-.dataTables_filter {
-  margin-bottom: 20px; /* Atur sesuai kebutuhan Anda */
-}
-
-/* Efek hover untuk sel */
-#datatable tbody tr:hover {
-  background-color: #fdd55e; /* Warna latar belakang saat hover */
-}
-
-.pusat {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.main-content {
-  flex-grow: 1;
-}
-
-hr {
-  border: none; /* Hapus garis bawaan */
-  height: 1px; /* Atur tinggi garis */
-  background-color: #ddd; /* Warna latar belakang garis */
-  margin: 20px 0; /* Atur jarak atas dan bawah dari garis */
-}
-
-.sidebar {
-  background-color: #111827;
-  width: 260px;
-  padding: 24px;
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  transition: transform 0.3s ease;
-  transform: translateX(0);
-  z-index: 1000;
-}
-
-.sidebar.active {
-  transform: translateX(-100%);
-}
-
-.main-content {
-  background-color: #eeeeee;
-  flex-grow: 1;
-  margin-left: 260px;
-  transition: margin-left 0.3s ease;
-}
-
-.sidebar .description-sidebar {
-  font-weight: 700;
-  font-style: 18px;
-  line-height: 16px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.sidebar a {
-  text-decoration: none;
-}
-
-.sidebar .header-sidebar .list-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 10px;
-  border-radius: 8px;
-  height: 40px;
-  box-sizing: border-box;
-}
-
-.sidebar .header-sidebar .illustration {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 70%;
-  margin: 10px auto 22px auto;
-  box-sizing: border-box;
-}
-
-.sidebar .main-sidebar .list-item .description-menu {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  text-align: left; /* Menyelaraskan teks ke kiri */
-  color: #FFFFFF;
-  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
-}
-
-.sidebar .main-sidebar .list-item .icon {
-  margin-right: 10px;
-  width: 30px;
-  color: #FFFFFF;
-  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
-}
-
-.sidebar .main-sidebar .list-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 10px;
-  border-radius: 8px;
-  width: 100%; /* Ubah ke 100% untuk memastikan seluruh lebar sidebar digunakan */
-  box-sizing: border-box;
-}
-
-.sidebar .main-sidebar .list-item:hover {
-  background-color: #ff9900;
-  transition: all ease-in .2s;
-}
-
-/* Tombol untuk membuka sidebar */
-.open-sidebar {
-  font-size: 30px;
-  cursor: pointer;
-  background: none;
-  border: none;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  z-index: 9999;
-  cursor: pointer;
-  display: none; /* Sembunyikan tombol pada layar besar */
-  color: #FFFFFF;
-}
-
-/*START FOOTER*/
-.footer {
-  position: relative;
-  z-index: 1001;
-  clear: both;
-  background-color: #000;
-  padding: 35px 80px;
-}
-
-.footer-content {
-  display: flex;
-  gap: 20px;
-}
-
-.social-media {
-  width: 26%;
-}
-
-.social-media-content {
-  display: flex;
-  gap: 17px;
-  flex-grow: 1;
-}
-
-.logo {
-  width: 96px;
-  height: 96px;
-}
-
-.social-media-text {
-  display: flex;
-  flex-direction: column;
-  margin: auto 0;
-}
-
-.social-media-title {
-  color: #fff;
-  font: 300 16px Inter, sans-serif;
-}
-.social-media-icons {
-  display: flex;
-  margin-top: 18px;
-  gap: 8px;
-}
-
-.social-media-icon {
-  width: 16px;
-}
-
-.contact-info {
-  width: 74%;
-  margin-left: 20px;
-}
-
-.contact-info-content {
-  display: flex;
-  margin-top: 31px;
-  align-items: flex-start;
-  gap: 20px;
-  font-weight: 400;
-}
-
-.copyright {
-  color: #797979;
-  align-self: end;
-  margin-top: 50px;
-  margin-left: 100px;
-  flex-grow: 1;
-  font: 15px Inter, sans-serif;
-}
-
-.contact-details {
-  color: #fff;
-  text-align: right;
-  align-self: start;
-  width: 240px;
-  font: 16px Inter, sans-serif;
-}
-
-.phone {
-  font-weight: 300;
-}
-
-.email {
-  font-weight: 300;
-  text-decoration: underline;
-}
-
-/*END FOOTER*/
-
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-  .chart-box {
-    width: 90%;
-  }
-
-  .sidebar {
-    width: 200px;
-  }
-
-  .sidebar .main-sidebar .list-item .description-menu {
-    font-size: 14px;
-  }
-
-  .sidebar .main-sidebar .list-item .icon {
-    width: 18px;
-  }
-
-  .header-dash-title {
-    font-size: 40px;
-  }
-
-  .header-dash-description {
-    font-size: 16px;
-  }
-
-  #datatable_wrapper {
-    overflow-x: auto;
-  }
-
-  #datatable {
-    width: 100%;
-  }
-
-  #datatable th, #datatable td {
-    white-space: nowrap;
-  }
-
-  .dataTables_paginate.paginate_button:not(.previous):not(.next) {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .chart-box {
-    width: 100%;
-  }
-
-  .sidebar {
-    width: 180px;
-  }
-
-  .sidebar .main-sidebar .list-item .description-menu {
-    font-size: 14px; /* Sesuaikan ukuran font */
-  }
-
-  .sidebar .main-sidebar .list-item .icon {
-    width: 16px;
-  }
-
-  .header-dash-title {
-    font-size: 32px;
-  }
-
-  .header-dash-description {
-    font-size: 14px;
-  }
-
-  #datatable_wrapper {
-    overflow-x: auto;
-  }
-
-  #datatable {
-    width: 100%;
-  }
-
-  #datatable th, #datatable td {
-    font-size: 14px;
-  }
-
-  .dataTables_paginate.paginate_button {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 768px) {
-  .pusat {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 40%;
-    padding: 10px;
-    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
-  }
-
-  .sidebar.active {
-    transform: translateX(0); /* Tampilkan sidebar ketika aktif */
-  }
-
-  .main-content {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .sidebar .main-sidebar .list-item {
-    justify-content: flex-start; /* Menyelaraskan item ke kiri */
-  }
-
-  .chart-container {
-    flex-direction: column;
-    align-items: center; /* Penyelarasan vertikal */
-  }
-
-  .chart-box {
-    width: 100%;
-    padding: 10px; /* Kurangi padding di layar kecil */
-  }
-
-  .header-dash-title {
-    font-size: 24px;
-  }
-
-  .header-dash-description {
-    font-size: 12px;
-  }
-
-  .chart-title {
-    font-size: 18px; /* Sesuaikan ukuran font judul chart */
-    margin-bottom: 10px; /* Berikan sedikit ruang antara judul dan chart */
-  }
-
-  /* Tampilkan tombol sidebar pada layar kecil */
-  .open-sidebar {
-    display: block;
-  }
-
-  #datatable_wrapper {
-    overflow-x: auto;
-  }
-
-  #datatable {
-    width: 100%;
-  }
-
-  #datatable th, #datatable td {
-    font-size: 12px;
-  }
-
-  .dataTables_paginate.paginate_button {
-    font-size: 12px;
-  }
-  
-  .footer {
-    background-color: #000;
-    margin-bottom: 15px;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 100%;
-  }
-  
-  .footer-content {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social-media {
-    width: 26%;
-  }
-  
-  .social-media-content {
-    display: flex;
-    gap: 17px;
-    flex-grow: 1;
-  }
-  
-  .logo {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .social-media-text {
-    display: flex;
-    flex-direction: column;
-    margin: auto 0;
-  }
-  
-  .social-media-title {
-    color: #fff;
-    font: 300 12px Inter, sans-serif;
-  }
-  .social-media-icons {
-    display: flex;
-    gap: 8px;
-    padding-right: 5px;
-    margin-top: 8px;
-  }
-  
-  .social-media-icon {
-    width: 10px;
-    height: 10px;
-  }
-  
-  .contact-info {
-    width: 100%;
-    margin-left: 20px;
-  }
-  
-  .contact-info-content {
-    display: flex;
-    margin-top: 15px;
-    align-items: flex-start;
-    gap: 20px;
-    font-weight: 400;
-  }
-  
-  .contact-info-content span {
-    font-size: 12px;
-  }
-  
-  .copyright {
-    color: #797979;
-    align-self: end;
-    margin-top: 30px;
-    margin-left: 0px;
-    margin-bottom: 10px;
-    flex-grow: 1;
-    font: 12px Inter, sans-serif;
-  }
-  
-  .contact-details {
-    color: #fff;
-    text-align: right;
-    align-self: start;
-    margin-right: 40px;
-    width: 240px;
-    font: 16px Inter, sans-serif;
-  }
-  
-  .phone {
-    font-weight: 300;
-  }
-  
-  .email {
-    font-weight: 300;
-    text-decoration: underline;
-  }
-  
-  #copyright {
-    color: rgb(206, 197, 197);
-    text-align: center;
-    font-weight: 300;
-    margin-top: 20px;
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 576px) {
-
-  .sidebar {
-    width: 40%;
-    padding: 10px;
-    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
-  }
-
-  .chart-box {
-    width: 100%;
-    margin: 10px 0;
-    padding: 5px; /* Kurangi padding di layar sangat kecil */
-  }
-
-  .header-dash-title {
-    font-size: 18px;
-  }
-
-  .header-dash-description {
-    font-size: 10px;
-  }
-
-  .chart-container {
-    margin: 10px;
-  }
-
-  .chart-title {
-    font-size: 14px; /* Kurangi ukuran font judul chart lebih lanjut */
-  }
-
-  #datatable_wrapper {
-    overflow-x: auto;
-  }
-
-  #datatable {
-    width: 100%;
-  }
-
-  #datatable th, #datatable td {
-    font-size: 10px;
-  }
-
-  .dataTables_paginate.paginate_button {
-    font-size: 10px;
-  }
-
-  .footer {
-    width: 100%;
-    padding-left: 15px;
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  .footer-content {
-    display: flex;
-    gap: 0px;
-    padding-right: 10px;
-  }
-
-  .social-media-content {
-    display: flex;
-    gap: 7px;
-    flex-grow: 1;
-  }
-
-  .logo {
-    width: 40px;
-    height: 40px;
-  }
-
-  .social-media-icons {
-    padding-right: 5px;
-    margin-top: 8px;
-  }
-
-  .social-media-icon {
-    width: 9px;
-    height: 9px;
-  }
-
-  .social-media-title {
-    font-size: 8px;
-  }
-
-  .contact-info {
-    width: 100%;
-    padding-right: 30px;
-  }
-  
-  .contact-info-content {
-    display: flex;
-    margin-top: 10px;
-    margin-right: 40px;
-    gap: 0px;
-    font-weight: 400;
-  }
-  
-  .contact-info-content span {
-    font-size: 8px;
-  }
-
-  .contact-details {
-    color: #fff;
-    text-align: right;
-    align-self: start;
-    padding-right: 30px;
-    font: 9px Inter, sans-serif;
-  }
-  
-  .phone {
-    font-weight: 300;
-  }
-  
-  .email {
-    font-weight: 300;
-    text-decoration: underline;
-  }
-
-  .copyright {
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 5px;
-    font-size: 8px;
-    font-weight: 300;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maven Roaster</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/styledash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header class="header-dash">
+        <div class="header-content">
+            <!-- Tombol untuk membuka sidebar -->
+            <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
+        </div>
+    </header>
+    <div class="pusat">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="header-sidebar">
+                <div class="illustration">
+                    <a href="index.html">
+                    <img src="assets/images/Maven Roaster Logo (3).png" alt="" class="illustration">
+                    </a>
+                </div>
+            </div>
+
+            <div class="main-sidebar">
+                <div class="list-item" data-tab="bagian1">
+                    <a href="#">
+                        <img src="assets/images/salesicon.png" alt="" class="icon">
+                        <span class="description-menu">Sales & Total</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian2">
+                    <a href="#">
+                        <img src="assets/images/monthicon.png" alt="" class="icon">
+                        <span class="description-menu">Monthly Data</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian3">
+                    <a href="#">
+                        <img src="assets/images/rushicon.png" alt="" class="icon">
+                        <span class="description-menu">Rush Day & Hour</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian4">
+                    <a href="#">
+                        <img src="assets/images/producticon.png" alt="" class="icon">
+                        <span class="description-menu">Top Product</span>
+                    </a>
+                </div>
+                <div class="list-item" data-tab="bagian5">
+                    <a href="#">
+                        <img src="assets/images/tabelicon.png" alt="" class="icon">
+                        <span class="description-menu">Transaction</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="list-item">
+                    <a href="#">
+                        <img src="assets/images/logout.svg" alt="" class="icon">
+                        <span class="description-menu">Log Out</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Konten Utama Dashboard -->
+        <!-- Main Dashboard Content -->
+    <div class="main-content">
+        <section id="bagian1" class="tab-content active chart-bagian1">
+            <div class="chart-container">
+                <div class="chart-box">
+                    <h2 class="chart-title">Sales and Transaction in 6 Months</h2>
+                    <div class="checkbox-container">
+                        <label>
+                            <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transactions
+                        </label>
+                        <label>
+                            <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transactions
+                        </label>
+                    </div>
+                    <div class="date-filter-container">
+                        <label for="startDate">Start Date:</label>
+                        <input type="date" id="startDate">
+                        <label for="endDate">End Date:</label>
+                        <input type="date" id="endDate">
+                    </div>
+                    <div class="filter-button-container">
+                        <button id="filterButton">Filter</button>
+                        <button id="clearButton">Clear</button>
+                    </div>
+                    <canvas id="salestransaksi">  
+                
+                    </canvas>
+                </div>
+            </div>
+        </section>
+        <section id="bagian2" class="tab-content bagian2">
+            <div class="chart-container">
+                <div class="chart-box">
+                    <h2 class="chart-title">Sales by Month</h2>
+                    <div class="bulan-filter-container">
+                        <label for="bulan">Pilih Bulan:</label>
+                        <select id="bulan" name="bulan">
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                        </select>
+                    </div>
+                    <div class="sales-store-location">
+                        <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
+                        <label for="lowerManhattan">Lower Manhattan</label>
+                        <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
+                        <label for="hellsKitchen">Hell's Kitchen</label>
+                        <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
+                        <label for="astoria">Astoria</label>
+                    </div>
+                    <canvas id="salesmonth"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h2 class="chart-title">Total Sales in 6 Months</h2>
+                    <canvas id="sales6month"></canvas>
+                </div>
+            </div>
+        </section>
+        <section id="bagian3" class="tab-content bagian3">
+            <div class="chart-container">
+                <div class="chart-box">
+                    <h2 class="chart-title">Rush Hour</h2>
+                    <canvas id="rushhour"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h2 class="chart-title">Rush Day</h2>
+                    <canvas id="rushday"></canvas>
+                </div>
+            </div>
+        </section>
+        <section id="bagian4" class="tab-content bagian4">
+            <div class="chart-container">
+                <div class="chart-box">
+                    <h2 class="chart-title">Top Category Product by Sales</h2>
+                    <canvas id="kategori"></canvas>
+                </div>
+                <div class="chart-box">
+                    <h2 class="chart-title">Top Product by Sales & Transactions</h2>
+                    <canvas id="topproduct"></canvas>
+                </div>
+            </div>
+        </section>
+        <section id="bagian5" class="tab-content bagian5">
+            <div class="chart-container">
+                <div class="chart-box tablebox">
+                    <section class="table_body">
+                        <table id="datatable" class="display">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                    <th>Quantity</th>
+                                    <th>Store ID</th>
+                                    <th>Store Location</th>
+                                    <th>Product ID</th>
+                                    <th>Price</th>
+                                    <th>Category</th>
+                                    <th>Type</th>
+                                    <th>Product Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Data will be loaded via AJAX -->
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <div class="social-media-content">
+                    <img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
+                    <div class="social-media-text">
+                        <h3 class="social-media-title">Follow us on Social Media</h3>
+                        <div class="social-media-icons">
+                            <img src="assets/images/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
+                            <img src="assets/images/twitter.png" alt="Twitter Icon" class="social-media-icon" />
+                            <img src="assets/images/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <p class="copyright">
+                        Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
+                    </p>
+                    <div class="contact-details">
+                        <span class="phone">Phone: +(62) 8123 4567 890</span><br />
+                        <span class="email">info@mavenroastersco.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/salestransaksi.js"></script>
+    <script src="assets/js/salestransaksibar.js"></script>
+    <script src="assets/js/salesmonth.js"></script>
+    <script src="assets/js/sales6month.js"></script>
+    <script src="assets/js/rushhour.js"></script>
+    <script src="assets/js/rushday.js"></script>
+    <script src="assets/js/kategori.js"></script>
+    <script src="assets/js/topproduct.js"></script>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/sidebar.js"></script>
+</body>
+</html>
