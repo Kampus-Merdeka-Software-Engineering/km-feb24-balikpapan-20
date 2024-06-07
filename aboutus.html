@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maven Roaster</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/icon Maven Roaster.ico"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/team.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -13,6 +17,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="./assets/js/aboutus.js" type="module"></script>
+    <script src="assets/js/animate.js"></script>
   </head>
 
   <body>
@@ -32,29 +37,46 @@
           <ul>
             <li><a href="index.html" class="nav-link">HOME</a></li>
             <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
-            <li><a class="nav-link"></a>
-                <div class="dropdown">
-                   <span>ABOUT US</span>
-                   <img src="assets/images/dropdown.png" alt="icon dropdown" class="icon-dropdown" />
-                   <div class="dropdown-content">
-                    <a href="aboutus.html">TEAM</a>
-                    <a href="aboutus_revou.html">MSIB</a>
-                  </div>
-                </div></li>
-                <li><a class="nav-link" id="profile-img"></a>
-                  <div class="dropdown-login">
-                    <img src="assets/images/user.png" alt="Login" class="login-icon">
-                        <div class="dropdown-content-login">
-                          <a href="" id="sign-out" >SIGN OUT</a>
-                        </div>
-                      </div></li>
-                <li><button class="button-login nav-link" id="login-btn">LOGIN</button></li>
+            <li>
+              <a class="nav-link"></a>
+              <div class="dropdown">
+                <span>ABOUT US</span>
+                <img
+                  src="assets/images/dropdown.png"
+                  alt="icon dropdown"
+                  class="icon-dropdown"
+                />
+                <div class="dropdown-content">
+                  <a href="aboutus.html">TEAM</a>
+                  <a href="aboutus_revou.html">MSIB</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" id="profile-img"></a>
+              <div class="dropdown-login">
+                <img
+                  src="assets/images/user.png"
+                  alt="Login"
+                  class="login-icon"
+                />
+                <div class="dropdown-content-login">
+                  <a href="" id="sign-out">SIGN OUT</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <button class="button-login nav-link" id="login-btn">
+                LOGIN
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
       <h1 class="header-black-title">ABOUT US</h1>
       <p class="header-black-description">
-        Kami dari Team 20 Section Balikpapan yang beranggotakan 11 orang dan didampingi oleh 1 mentor.<br />
+        Kami dari Team 20 Section Balikpapan yang beranggotakan 11 orang dan
+        didampingi oleh 1 mentor.<br />
         Mau tau siapa aja?<br />
         Let’s check it!
       </p>
@@ -63,159 +85,176 @@
 
     <!--TEAM MEMBER SECTION-->
     <div class="container">
-    <section class="team-members">
-      <h2 class="team-member-title"><b>TEAM 20 - BALIKPAPAN</b></h2>
-      <div class="team-members-grid">
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href=https://www.linkedin.com/in/raulilmarajasa/><img
-              src="assets/images/Raul.png"
-              alt="Raul Ilma Rajasa"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Raul Ilma Rajasa</h3>
-            <p class="team-member-role">As a Mentor</p>
-            <p class="team-member-university">Software Engineering</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/muhamad-fadhil-68322422a/"><img
-              src="assets/images/Fadhil.png"
-              alt="Muhammad Fadhil"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Muhammad Fadhil</h3>
-            <p class="team-member-role">Project Leader</p>
-            <p class="team-member-university">Universitas Indraprasta PGRI</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href=https://www.linkedin.com/in/yogi-kurnia-putra-3aa0512b2><img
-              src="assets/images/Yogi.png"
-              alt="Yogi Kurnia Putra"
-              class="team-member-image"
+      <section class="team-members reveal">
+        <h2 class="team-member-title"><b>TEAM 20 - BALIKPAPAN</b></h2>
+        <div class="team-members-grid">
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/raulilmarajasa/"
+                ><img
+                  src="assets/images/Raul.png"
+                  alt="Raul Ilma Rajasa"
+                  class="team-member-image"
               /></a>
-            <h3 class="team-member-name">Yogi Kurnia Putra</h3>
-            <p class="team-member-role">Deployment Team</p>
-            <p class="team-member-university">STMIK Indonesia Mandiri</p>
+              <h3 class="team-member-name">Raul Ilma Rajasa</h3>
+              <p class="team-member-role">As a Mentor</p>
+              <p class="team-member-university">Software Engineering</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/muhamad-fadhil-68322422a/"
+                ><img
+                  src="assets/images/Fadhil.png"
+                  alt="Muhammad Fadhil"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Muhammad Fadhil</h3>
+              <p class="team-member-role">Project Leader</p>
+              <p class="team-member-university">Universitas Indraprasta PGRI</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/yogi-kurnia-putra-3aa0512b2"
+                ><img
+                  src="assets/images/Yogi.png"
+                  alt="Yogi Kurnia Putra"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Yogi Kurnia Putra</h3>
+              <p class="team-member-role">Deployment Team</p>
+              <p class="team-member-university">STMIK Indonesia Mandiri</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/syahdaap"
+                ><img
+                  src="assets/images/Syahda.png"
+                  alt="Syahda Arista P"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Syahda Arista P</h3>
+              <p class="team-member-role">Front-End Engineer</p>
+              <p class="team-member-university">
+                Universitas Muhammadiyah Jakarta
+              </p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/alifah-khairina">
+                <img
+                  src="assets/images/Alifah.png"
+                  alt="Alifah Khairina"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Alifah Khairina</h3>
+              <p class="team-member-role">Quality Assurance</p>
+              <p class="team-member-university">Universitas Negeri Makassar</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a
+                href="https://www.linkedin.com/in/putri-khusnul-khotimah-087219218"
+                ><img
+                  src="assets/images/Putri.png"
+                  alt="Putri Khusnul K"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Putri Khusnul K</h3>
+              <p class="team-member-role">Quality Assurance</p>
+              <p class="team-member-university">Universitas Airlangga</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/farah-setyaningsih"
+                ><img
+                  src="assets/images/Farah.png"
+                  alt="Farah Setyaningsih"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Farah Setyaningsih</h3>
+              <p class="team-member-role">Front-End Engineer</p>
+              <p class="team-member-university">
+                Universitas Amikom Purwokerto
+              </p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a href="https://www.linkedin.com/in/kamila-sakinah-3224b61b8/"
+                ><img
+                  src="assets/images/Kamila.png"
+                  alt="Kamila Sakinah"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Kamila Sakinah</h3>
+              <p class="team-member-role">Front-End Engineer</p>
+              <p class="team-member-university">Universitas Negeri Semarang</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a
+                href="ttps://www.linkedin.com/in/asifa-ainur-rokhimah-4a463b1b7/"
+                ><img
+                  src="assets/images/Asifa.png"
+                  alt="Asifa' Ainur R"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Asifa' Ainur R</h3>
+              <p class="team-member-role">Front-End Engineer</p>
+              <p class="team-member-university">Universitas Diponegoro</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a
+                href="https://www.linkedin.com/in/muhammad-haris-syamsunni-am-821584218"
+                ><img
+                  src="assets/images/Haris.png"
+                  alt="M. Haris S"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">M. Haris S</h3>
+              <p class="team-member-role">Pitch Deck Team</p>
+              <p class="team-member-university">IE Dharma Bumiputera</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a
+                href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+                ><img
+                  src="assets/images/Lubna.png"
+                  alt="Lubna Shauma Z"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Lubna Shauma Z</h3>
+              <p class="team-member-role">Pitch Deck Team</p>
+              <p class="team-member-university">Universitas Negeri Semarang</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-member-card">
+              <a
+                href="https://www.linkedin.com/in/pramono-budi-prasetyo-8ba24b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><img
+                  src="assets/images/Pramono.png"
+                  alt="Pramono Budi P"
+                  class="team-member-image"
+              /></a>
+              <h3 class="team-member-name">Pramono Budi P</h3>
+              <p class="team-member-role">Pitch Deck Team</p>
+              <p class="team-member-university">Universitas Diponegoro</p>
+            </div>
           </div>
         </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/syahdaap"
-              ><img
-                src="assets/images/Syahda.png"
-                alt="Syahda Arista P"
-                class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Syahda Arista P</h3>
-            <p class="team-member-role">Front-End Engineer</p>
-            <p class="team-member-university">
-              Universitas Muhammadiyah Jakarta
-            </p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/alifah-khairina">
-            <img
-              src="assets/images/Alifah.png"
-              alt="Alifah Khairina"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Alifah Khairina</h3>
-            <p class="team-member-role">Quality Assurance</p>
-            <p class="team-member-university">Universitas Negeri Makassar</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/putri-khusnul-khotimah-087219218"><img
-              src="assets/images/Putri.png"
-              alt="Putri Khusnul K"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Putri Khusnul K</h3>
-            <p class="team-member-role">Quality Assurance</p>
-            <p class="team-member-university">Universitas Airlangga</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/farah-setyaningsih"><img
-              src="assets/images/Farah.png"
-              alt="Farah Setyaningsih"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Farah Setyaningsih</h3>
-            <p class="team-member-role">Front-End Engineer</p>
-            <p class="team-member-university">Universitas Amikom Purwokerto</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="https://www.linkedin.com/in/kamila-sakinah-3224b61b8/"><img
-              src="assets/images/Kamila.png"
-              alt="Kamila Sakinah"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Kamila Sakinah</h3>
-            <p class="team-member-role">Front-End Engineer</p>
-            <p class="team-member-university">Universitas Negeri Semarang</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href="ttps://www.linkedin.com/in/asifa-ainur-rokhimah-4a463b1b7/"><img
-              src="assets/images/Asifa.png"
-              alt="Asifa' Ainur R"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Asifa' Ainur R</h3>
-            <p class="team-member-role">Front-End Engineer</p>
-            <p class="team-member-university">Universitas Diponegoro</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href=https://www.linkedin.com/in/muhammad-haris-syamsunni-am-821584218><img
-              src="assets/images/Haris.png"
-              alt="M. Haris S"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">M. Haris S</h3>
-            <p class="team-member-role">Pitch Deck Team</p>
-            <p class="team-member-university">IE Dharma Bumiputera</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href=https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav><img
-              src="assets/images/Lubna.png"
-              alt="Lubna Shauma Z"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Lubna Shauma Z</h3>
-            <p class="team-member-role">Pitch Deck Team</p>
-            <p class="team-member-university">Universitas Negeri Semarang</p>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="team-member-card">
-            <a href=https://www.linkedin.com/in/pramono-budi-prasetyo-8ba24b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app><img
-              src="assets/images/Pramono.png"
-              alt="Pramono Budi P"
-              class="team-member-image"
-            /></a>
-            <h3 class="team-member-name">Pramono Budi P</h3>
-            <p class="team-member-role">Pitch Deck Team</p>
-            <p class="team-member-university">Universitas Diponegoro</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
     </div>
     <!--END TEAM MEMBER SECTION-->
 

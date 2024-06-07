@@ -1,15 +1,12 @@
 .contact {
   width: 50%;
   height: 601px;
-  background: white;
   margin: 10px auto;
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
-
   font-family: sans-serif;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;

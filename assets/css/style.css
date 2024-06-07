@@ -38,8 +38,21 @@ body {
   top: 198px;
   font-weight: 800;
   font-size: 125px;
-  color: #ffbf00;
+  color: transparent;
+  -webkit-text-stroke: 2.5px #ffbf00;
+  background: url("/assets/images/back\ text.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  -webkit-animation: back 20s linear infinite;
 }
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
 .company-description {
   position: absolute;
   width: 70%;
@@ -53,6 +66,7 @@ body {
   letter-spacing: -0.03em;
   color: #ffffff;
 }
+
 .header-black-title {
   position: absolute;
   width: 309px;
@@ -126,6 +140,19 @@ body {
   object-fit: contain;
   width: 80px;
   margin: auto 0;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .nav-links {
@@ -152,6 +179,18 @@ ul,
 li {
   display: inline;
   padding-inline-start: 50px;
+  animation: slideTop 0.5s ease forwards;
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* login */
@@ -285,17 +324,22 @@ li {
 .logo {
   width: 96px;
   height: 96px;
+  animation: slideRight 1s ease forwards;
+  -webkit-animation: slideRight 1s ease forwards;
 }
 
 .social-media-text {
   display: flex;
   flex-direction: column;
   margin: auto 0;
+  animation: slideRight 1s ease forwards;
 }
 
 .social-media-title {
   color: #fff;
-  font: 300 16px Inter, sans-serif;
+  font:
+    300 16px Inter,
+    sans-serif;
 }
 .social-media-icons {
   display: flex;
@@ -326,7 +370,9 @@ li {
   margin-top: 50px;
   margin-left: 100px;
   flex-grow: 1;
-  font: 15px Inter, sans-serif;
+  font:
+    15px Inter,
+    sans-serif;
 }
 
 .contact-details {
@@ -334,7 +380,22 @@ li {
   text-align: right;
   align-self: start;
   width: 240px;
-  font: 16px Inter, sans-serif;
+  font:
+    16px Inter,
+    sans-serif;
+  animation: slideLeft 1s ease forwards;
+  -webkit-animation: slideLeft 1s ease forwards;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .phone {
@@ -352,4 +413,33 @@ li {
   text-align: center;
   font-weight: 300;
   margin-top: 20px;
+  animation: slideBottom 1s ease forwards;
+  -webkit-animation: slideBottom 1s ease forwards;
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
