@@ -3,6 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
 html, body {
@@ -43,7 +44,7 @@ html, body {
   border: 1px solid #797979;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin: 30px;
 }
 
@@ -64,6 +65,35 @@ html, body {
 .checkbox-container, .date-filter-container, .filter-button-container {
   text-align: center;
   margin-bottom: 10px;
+}
+
+
+#filterButton, #clearButton {
+  width: 60px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  background-color: #fdd55e;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+#filterButton:hover {
+  background-color: #caa32f;
+  color: black;
+  transform: translateY(1px);
+}
+
+#clearButton:hover {
+  background-color: #caa32f;
+  color: black;
+  transform: translateY(1px);
+}
+
+#startDate, #endDate, #bulan, #select {
+  border-radius: 11px;
 }
 
 .checkbox-container label, .date-filter-container label {
