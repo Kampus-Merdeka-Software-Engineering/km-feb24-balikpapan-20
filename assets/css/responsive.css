@@ -3,7 +3,6 @@
     transition: 0.5s;
   }
 
-  /* update navbar hamburger */
   .nav-links {
     display: none;
     flex-direction: column;
@@ -47,7 +46,6 @@
   .nav-links.active {
     display: block;
   }
-  /*end update navbar hamburger */
 
   .company-logo {
     width: 60px;
@@ -275,9 +273,6 @@
   }
 }
 
-/*UKURAN TABLET*/
-
-/*UKURAN MOBILE : 450 px*/
 @media (max-width: 450px) {
   html,
   body {
@@ -313,9 +308,8 @@
   }
 
   .nav-links.active {
-    display: block; /* Show as block on smaller screens when active */
+    display: block;
   }
-  /*end update navbar hamburger */
 
   .more-info-button {
     margin-top: -191px;
@@ -349,7 +343,6 @@
     justify-content: center;
   }
 
-  /*.header-black-title*/
   .header-black {
     width: 100%;
   }
@@ -444,7 +437,6 @@
     font-size: 12px;
     letter-spacing: 0;
     margin-right: 50px;
-    /* padding-left: 30px; */
   }
 
   .project-capstone-description {
@@ -639,5 +631,4 @@
   .img-revou-2 img {
     width: 80%;
   }
-  /*END | UKURAN MOBILE*/
 }

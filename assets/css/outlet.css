@@ -13,6 +13,7 @@
   align-self: center;
   font: 800;
   font-size: 40px;
+  animation: slideTop 1s ease forwards;
 }
 
 .outlets-container {
@@ -46,15 +47,30 @@
   flex-direction: column;
   color: #fff;
   width: 100%;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 6px 10px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: scroll;
   transition: 0.3s;
+}
+
+#card-1 {
+  animation: slideRight 1s ease forwards;
+}
+
+#card-2 {
+  animation: slideBottom 1s ease forwards;
+}
+
+#card-3 {
+  animation: slideLeft 1s ease forwards;
 }
 
 .outlet-card:hover {
   width: 100%;
   transform: scale(1.05);
-  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2),
+  box-shadow:
+    0 12px 20px 0 rgba(0, 0, 0, 0.2),
     0 12px 100px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -73,10 +89,14 @@
 }
 
 .outlet-name {
-  font: 700 25px Poppins, sans-serif;
+  font:
+    700 25px Poppins,
+    sans-serif;
 }
 
 .outlet-description {
   margin-top: 20px;
-  font: 400 15px Poppins, sans-serif;
+  font:
+    400 15px Poppins,
+    sans-serif;
 }

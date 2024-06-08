@@ -1,6 +1,5 @@
-.container-block {
-  display: grid;
-  gap: 10px;
+.container {
+  margin: 80px;
 }
 
 .team-member-title {
@@ -63,21 +62,27 @@
 
 .team-member-name {
   color: var(--Yellow, #ffbf00);
-  font: 700 28px Poppins, sans-serif;
+  font:
+    700 28px Poppins,
+    sans-serif;
   margin-top: 20px;
   text-align: center;
 }
 
 .team-member-role {
   color: var(--Black, #000);
-  font: 18px Poppins, sans-serif;
+  font:
+    18px Poppins,
+    sans-serif;
   margin-top: 10px;
   text-align: center;
 }
 
 .team-member-university {
   color: #797979;
-  font: 16px Poppins, sans-serif;
+  font:
+    16px Poppins,
+    sans-serif;
   margin-top: 8px;
   margin-bottom: 50px;
   text-align: center;

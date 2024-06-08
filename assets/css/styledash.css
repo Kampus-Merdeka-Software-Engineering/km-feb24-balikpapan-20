@@ -1,4 +1,3 @@
-/* General */
 *,
 *::before,
 *::after {
@@ -6,15 +5,20 @@
   font-family: "poppins", sans-serif;
 }
 
-html, body {
+html,
+body {
   width: auto;
   height: auto;
   overflow-y: scroll;
 }
 
-.bagian5, .bagian4, .bagian3, .bagian2, .chart-bagian1 {
+.bagian5,
+.bagian4,
+.bagian3,
+.bagian2,
+.chart-bagian1 {
   padding: 30px;
-  background-color: #FFFFFF;
+  background-color: #eeeeee;
   background-size: auto;
 }
 
@@ -44,7 +48,7 @@ html, body {
   border: 1px solid #797979;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  background-color: #f1f1f1;
+  background-color: #fff;
   margin: 30px;
 }
 
@@ -62,13 +66,15 @@ html, body {
   font-size: 20px;
 }
 
-.checkbox-container, .date-filter-container, .filter-button-container {
+.checkbox-container,
+.date-filter-container,
+.filter-button-container {
   text-align: center;
   margin-bottom: 10px;
 }
 
-
-#filterButton, #clearButton {
+#filterButton,
+#clearButton {
   width: 60px;
   text-decoration: none;
   outline: none;
@@ -92,16 +98,21 @@ html, body {
   transform: translateY(1px);
 }
 
-#startDate, #endDate, #bulan, #select {
+#startDate,
+#endDate,
+#bulan,
+#select {
   border-radius: 11px;
 }
 
-.checkbox-container label, .date-filter-container label {
+.checkbox-container label,
+.date-filter-container label {
   display: inline-block;
   margin-right: 10px;
 }
 
-.bulan-filter-container, .sales-store-location {
+.bulan-filter-container,
+.sales-store-location {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -111,11 +122,11 @@ html, body {
 }
 
 #datatable_wrapper {
-  text-align: center; /* Posisikan tabel di tengah */
+  text-align: center;
 }
 
 #datatable {
-  margin: 0 auto; /* Atur margin untuk memposisikan tabel di tengah */
+  margin: 0 auto;
 }
 
 .dataTables_paginate {
@@ -131,28 +142,28 @@ html, body {
 }
 
 #datatable th {
-  background-color: #fdd55e; /* Warna latar belakang judul kolom */
-  color: #333; /* Warna teks judul kolom */
-  padding: 10px; /* Padding untuk judul kolom */
+  background-color: #fdd55e;
+  color: #333;
+  padding: 10px;
 }
 
 #datatable td {
-  padding: 10px; /* Padding untuk sel */
+  padding: 10px;
 }
 
 .dataTables_filter {
-  margin-bottom: 20px; /* Atur sesuai kebutuhan Anda */
+  margin-bottom: 20px;
 }
 
-/* Efek hover untuk sel */
 #datatable tbody tr:hover {
-  background-color: #fdd55e; /* Warna latar belakang saat hover */
+  background-color: #fdd55e;
 }
 
 .pusat {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #eeeeee;
 }
 
 .main-content {
@@ -160,10 +171,10 @@ html, body {
 }
 
 hr {
-  border: none; /* Hapus garis bawaan */
-  height: 1px; /* Atur tinggi garis */
-  background-color: #ddd; /* Warna latar belakang garis */
-  margin: 20px 0; /* Atur jarak atas dan bawah dari garis */
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
 }
 
 .sidebar {
@@ -198,7 +209,7 @@ hr {
   font-style: 18px;
   line-height: 16px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .sidebar a {
@@ -228,16 +239,16 @@ hr {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  text-align: left; /* Menyelaraskan teks ke kiri */
-  color: #FFFFFF;
-  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
+  text-align: left;
+  color: #ffffff;
+  vertical-align: middle;
 }
 
 .sidebar .main-sidebar .list-item .icon {
   margin-right: 10px;
   width: 30px;
-  color: #FFFFFF;
-  vertical-align: middle; /* Menyelaraskan ikon secara vertikal */
+  color: #ffffff;
+  vertical-align: middle;
 }
 
 .sidebar .main-sidebar .list-item {
@@ -246,16 +257,15 @@ hr {
   align-items: center;
   padding: 12px 10px;
   border-radius: 8px;
-  width: 100%; /* Ubah ke 100% untuk memastikan seluruh lebar sidebar digunakan */
+  width: 100%;
   box-sizing: border-box;
 }
 
 .sidebar .main-sidebar .list-item:hover {
   background-color: #ff9900;
-  transition: all ease-in .2s;
+  transition: all ease-in 0.2s;
 }
 
-/* Tombol untuk membuka sidebar */
 .open-sidebar {
   font-size: 30px;
   cursor: pointer;
@@ -266,11 +276,62 @@ hr {
   top: 20px;
   z-index: 9999;
   cursor: pointer;
-  display: none; /* Sembunyikan tombol pada layar besar */
-  color: #FFFFFF;
+  display: none;
+  color: #ffffff;
 }
 
-/*START FOOTER*/
+.statistics-container {
+  display: flex;
+  position: relative;
+  margin: 40px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics-block {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.sales-stat,
+.transaction-stat {
+  width: 350px;
+  left: 500px;
+  right: 100px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  border: 1px solid #797979;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-stats {
+  width: 60px;
+  height: 60px;
+}
+
+.stats-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.stats-title {
+  font:
+    500 16px Poppins,
+    sans-serif;
+}
+
+.stats-value {
+  font:
+    600 30px Poppins,
+    sans-serif;
+}
+
 .footer {
   position: relative;
   z-index: 1001;
@@ -307,7 +368,9 @@ hr {
 
 .social-media-title {
   color: #fff;
-  font: 300 16px Inter, sans-serif;
+  font:
+    300 16px Inter,
+    sans-serif;
 }
 .social-media-icons {
   display: flex;
@@ -338,7 +401,9 @@ hr {
   margin-top: 50px;
   margin-left: 100px;
   flex-grow: 1;
-  font: 15px Inter, sans-serif;
+  font:
+    15px Inter,
+    sans-serif;
 }
 
 .contact-details {
@@ -346,7 +411,9 @@ hr {
   text-align: right;
   align-self: start;
   width: 240px;
-  font: 16px Inter, sans-serif;
+  font:
+    16px Inter,
+    sans-serif;
 }
 
 .phone {
@@ -358,10 +425,6 @@ hr {
   text-decoration: underline;
 }
 
-/*END FOOTER*/
-
-
-/* Responsive Design */
 @media (max-width: 1200px) {
   .chart-box {
     width: 90%;
@@ -395,12 +458,21 @@ hr {
     width: 100%;
   }
 
-  #datatable th, #datatable td {
+  #datatable th,
+  #datatable td {
     white-space: nowrap;
   }
 
   .dataTables_paginate.paginate_button:not(.previous):not(.next) {
     display: none;
+  }
+
+  .statistics-container {
+    width: 90%;
+  }
+
+  .statistics-block {
+    width: 100%;
   }
 }
 
@@ -414,7 +486,7 @@ hr {
   }
 
   .sidebar .main-sidebar .list-item .description-menu {
-    font-size: 14px; /* Sesuaikan ukuran font */
+    font-size: 14px;
   }
 
   .sidebar .main-sidebar .list-item .icon {
@@ -437,12 +509,27 @@ hr {
     width: 100%;
   }
 
-  #datatable th, #datatable td {
+  #datatable th,
+  #datatable td {
     font-size: 14px;
   }
 
   .dataTables_paginate.paginate_button {
     font-size: 14px;
+  }
+
+  .statistics-container {
+    width: 90%;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .statistics-block {
+    width: 100%;
+  }
+  .sales-stat,
+  .transaction-stat {
+    width: 100%;
   }
 }
 
@@ -454,11 +541,11 @@ hr {
   .sidebar {
     width: 40%;
     padding: 10px;
-    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
+    transform: translateX(-100%);
   }
 
   .sidebar.active {
-    transform: translateX(0); /* Tampilkan sidebar ketika aktif */
+    transform: translateX(0);
   }
 
   .main-content {
@@ -467,17 +554,17 @@ hr {
   }
 
   .sidebar .main-sidebar .list-item {
-    justify-content: flex-start; /* Menyelaraskan item ke kiri */
+    justify-content: flex-start;
   }
 
   .chart-container {
     flex-direction: column;
-    align-items: center; /* Penyelarasan vertikal */
+    align-items: center;
   }
 
   .chart-box {
     width: 100%;
-    padding: 10px; /* Kurangi padding di layar kecil */
+    padding: 10px;
   }
 
   .header-dash-title {
@@ -489,11 +576,10 @@ hr {
   }
 
   .chart-title {
-    font-size: 18px; /* Sesuaikan ukuran font judul chart */
-    margin-bottom: 10px; /* Berikan sedikit ruang antara judul dan chart */
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
-  /* Tampilkan tombol sidebar pada layar kecil */
   .open-sidebar {
     display: block;
   }
@@ -506,14 +592,15 @@ hr {
     width: 100%;
   }
 
-  #datatable th, #datatable td {
+  #datatable th,
+  #datatable td {
     font-size: 12px;
   }
 
   .dataTables_paginate.paginate_button {
     font-size: 12px;
   }
-  
+
   .footer {
     background-color: #000;
     margin-bottom: 15px;
@@ -521,36 +608,38 @@ hr {
     padding-left: 10px;
     width: 100%;
   }
-  
+
   .footer-content {
     display: flex;
     gap: 20px;
   }
-  
+
   .social-media {
     width: 26%;
   }
-  
+
   .social-media-content {
     display: flex;
     gap: 17px;
     flex-grow: 1;
   }
-  
+
   .logo {
     width: 60px;
     height: 60px;
   }
-  
+
   .social-media-text {
     display: flex;
     flex-direction: column;
     margin: auto 0;
   }
-  
+
   .social-media-title {
     color: #fff;
-    font: 300 12px Inter, sans-serif;
+    font:
+      300 12px Inter,
+      sans-serif;
   }
   .social-media-icons {
     display: flex;
@@ -558,17 +647,17 @@ hr {
     padding-right: 5px;
     margin-top: 8px;
   }
-  
+
   .social-media-icon {
     width: 10px;
     height: 10px;
   }
-  
+
   .contact-info {
     width: 100%;
     margin-left: 20px;
   }
-  
+
   .contact-info-content {
     display: flex;
     margin-top: 15px;
@@ -576,11 +665,11 @@ hr {
     gap: 20px;
     font-weight: 400;
   }
-  
+
   .contact-info-content span {
     font-size: 12px;
   }
-  
+
   .copyright {
     color: #797979;
     align-self: end;
@@ -588,27 +677,31 @@ hr {
     margin-left: 0px;
     margin-bottom: 10px;
     flex-grow: 1;
-    font: 12px Inter, sans-serif;
+    font:
+      12px Inter,
+      sans-serif;
   }
-  
+
   .contact-details {
     color: #fff;
     text-align: right;
     align-self: start;
     margin-right: 40px;
     width: 240px;
-    font: 16px Inter, sans-serif;
+    font:
+      16px Inter,
+      sans-serif;
   }
-  
+
   .phone {
     font-weight: 300;
   }
-  
+
   .email {
     font-weight: 300;
     text-decoration: underline;
   }
-  
+
   #copyright {
     color: rgb(206, 197, 197);
     text-align: center;
@@ -616,20 +709,32 @@ hr {
     margin-top: 20px;
     font-size: 10px;
   }
+  .statistics-container {
+    width: 100%;
+    align-content: center;
+  }
+
+  .statistics-block {
+    width: 100%;
+  }
+
+  .sales-stat,
+  .transaction-stat {
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
-
   .sidebar {
     width: 40%;
     padding: 10px;
-    transform: translateX(-100%); /* Sembunyikan sidebar secara default */
+    transform: translateX(-100%);
   }
 
   .chart-box {
     width: 100%;
     margin: 10px 0;
-    padding: 5px; /* Kurangi padding di layar sangat kecil */
+    padding: 5px;
   }
 
   .header-dash-title {
@@ -645,7 +750,7 @@ hr {
   }
 
   .chart-title {
-    font-size: 14px; /* Kurangi ukuran font judul chart lebih lanjut */
+    font-size: 14px;
   }
 
   #datatable_wrapper {
@@ -656,7 +761,8 @@ hr {
     width: 100%;
   }
 
-  #datatable th, #datatable td {
+  #datatable th,
+  #datatable td {
     font-size: 10px;
   }
 
@@ -707,7 +813,7 @@ hr {
     width: 100%;
     padding-right: 30px;
   }
-  
+
   .contact-info-content {
     display: flex;
     margin-top: 10px;
@@ -715,7 +821,7 @@ hr {
     gap: 0px;
     font-weight: 400;
   }
-  
+
   .contact-info-content span {
     font-size: 8px;
   }
@@ -725,13 +831,15 @@ hr {
     text-align: right;
     align-self: start;
     padding-right: 30px;
-    font: 9px Inter, sans-serif;
+    font:
+      9px Inter,
+      sans-serif;
   }
-  
+
   .phone {
     font-weight: 300;
   }
-  
+
   .email {
     font-weight: 300;
     text-decoration: underline;
@@ -743,5 +851,19 @@ hr {
     margin-left: 5px;
     font-size: 8px;
     font-weight: 300;
+  }
+  .statistics-container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .statistics-block {
+    width: 100%;
+  }
+
+  .sales-stat,
+  .transaction-stat {
+    width: 100%;
   }
 }

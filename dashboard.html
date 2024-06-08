@@ -20,12 +20,10 @@
 <body>
     <header class="header-dash">
         <div class="header-content">
-            <!-- Tombol untuk membuka sidebar -->
             <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
         </div>
     </header>
     <div class="pusat">
-        <!-- Sidebar -->
         <div class="sidebar" id="sidebar">
             <div class="header-sidebar">
                 <div class="illustration">
@@ -77,10 +75,28 @@
             </div>
         </div>
 
-        <!-- Konten Utama Dashboard -->
-        <!-- Main Dashboard Content -->
     <div class="main-content">
         <section id="bagian1" class="tab-content active chart-bagian1">
+            <div class="statistics-container">
+            <section class="statistics-block">
+                <div class="sales-stat">
+                <img src="/assets/images/icon sales.png" alt="Sales Icon" class="icon-stats" />
+                    <div class="stats-info">
+                        <div class="stats-title">Sales</div>
+                        <div class="stats-value">698,812.33</div>
+                    </div>
+                </div>
+            </section>
+            <section class="statistics-block">
+                <div class="transaction-stat">
+                <img src="/assets/images/icon transaction.png" alt="Transaction Icon" class="icon-stats" />
+                    <div class="stats-info">
+                        <div class="stats-title">Transaction</div>
+                        <div class="stats-value">214.5 K</div>
+                    </div>
+                </div>
+            </section>
+            </div>
             <div class="chart-container">
                 <div class="chart-box">
                     <h2 class="chart-title">Sales and Transaction in 6 Months</h2>
@@ -184,7 +200,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <!-- Data will be loaded via AJAX -->
                             </tbody>
                         </table>
                     </section>
@@ -195,7 +210,6 @@
     </div>
     </div>
 
-    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-content">
             <div class="social-media">
@@ -225,7 +239,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script src="assets/js/salestransaksi.js"></script>
     <script src="assets/js/salesmonth.js"></script>
     <script src="assets/js/sales6month.js"></script>

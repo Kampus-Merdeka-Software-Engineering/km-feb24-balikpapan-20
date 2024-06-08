@@ -10,7 +10,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* START HEADER */
 .header {
   height: 857px;
   width: auto;
@@ -18,6 +17,34 @@ body {
   background-size: cover;
   max-width: 100%;
   position: relative;
+}
+
+.spacer-header {
+  width: 100%;
+  position: relative;
+
+  .mask {
+    overflow: hidden;
+    height: 20px;
+    &:after {
+      content: "";
+      display: block;
+      margin: -25px auto 0;
+      width: 100%;
+      height: 25px;
+      box-shadow: 0 0 16px black;
+    }
+  }
+}
+
+.shape-top {
+  margin-top: 120px;
+  margin-bottom: -10px;
+  overflow: hidden;
+}
+
+.flip-top {
+  transform: scaleY(-1);
 }
 
 .header-black {
@@ -41,16 +68,10 @@ body {
   color: transparent;
   -webkit-text-stroke: 2.5px #ffbf00;
   background: url("/assets/images/back\ text.png");
+  background-clip: text;
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
-  -webkit-animation: back 20s linear infinite;
-}
-
-@keyframes back {
-  100% {
-    background-position: 2000px 0;
-  }
 }
 
 .company-description {
@@ -65,6 +86,7 @@ body {
   text-align: justify;
   letter-spacing: -0.03em;
   color: #ffffff;
+  animation: slideRight 1s ease forwards;
 }
 
 .header-black-title {
@@ -78,7 +100,10 @@ body {
   line-height: 58px;
   text-align: center;
   color: #ffbf00;
+  animation: slideTop 1s ease forwards;
+  -webkit-animation: slideTop 1s ease forwards;
 }
+
 .header-black-description {
   position: absolute;
   width: 576px;
@@ -90,7 +115,9 @@ body {
   line-height: 25px;
   text-align: center;
   color: #d2d2d2;
+  animation: slideBottom 1s ease forwards;
 }
+
 .more-info-button {
   position: absolute;
   width: 160px;
@@ -108,17 +135,17 @@ body {
   font-weight: 600;
   text-align: center;
   justify-content: center;
+  animation: slideRight 1s ease forwards;
 }
 
 .more-info-button a {
   color: black;
 }
+
 .more-info-button a:hover {
   color: white;
 }
-/* END HEADER */
 
-/* START NAVBAR */
 .navbar {
   z-index: 1000;
   display: flex;
@@ -144,17 +171,6 @@ body {
   animation: slideRight 1s ease forwards;
 }
 
-@keyframes slideRight {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 .nav-links {
   display: flex;
   gap: 20px;
@@ -165,12 +181,14 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
 a {
   color: white;
   text-decoration: none;
   text-align: left;
   padding: 0;
 }
+
 a:hover {
   color: #ffbf00;
 }
@@ -182,44 +200,31 @@ li {
   animation: slideTop 0.5s ease forwards;
 }
 
-@keyframes slideTop {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* login */
 .button-login {
   font-size: 16px;
   cursor: pointer;
   background-color: black;
   outline: none;
   border: none;
-  /* display: none; */
-  /* display: inline-block; */
 }
+
 .button-login:hover {
   color: #ffbf00;
 }
-/* profile login*/
+
 .login-icon {
   object-fit: contain;
   width: 22px;
   top: 16%;
   position: relative;
-  /* display: inline-block; */
-  /* display: none; */
 }
+
 .dropdown-login {
   position: relative;
   top: 5px;
   display: inline-block;
 }
+
 .dropdown-content-login {
   display: none;
   margin: 0;
@@ -231,20 +236,22 @@ li {
   z-index: 1;
   text-align: center;
 }
+
 .dropdown-content-login a {
   padding: 12px 16px;
   background-color: #f9f9f9;
   color: #000;
 }
+
 .dropdown-content-login a:hover {
   background-color: #000;
   color: #ffbf00;
 }
+
 .dropdown-login:hover .dropdown-content-login {
   display: inline-block;
 }
 
-/* DROPDOWN */
 .icon-dropdown {
   position: absolute;
   left: 105%;
@@ -285,8 +292,7 @@ li {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* END DROPDOWN */
-/* hamburger menu */
+
 .nav-links {
   display: flex;
 }
@@ -298,9 +304,7 @@ li {
   font-size: 24px;
   cursor: pointer;
 }
-/*END NAVBAR*/
 
-/*START FOOTER*/
 .footer {
   background-color: #000;
   padding: 35px 80px;
@@ -387,17 +391,6 @@ li {
   -webkit-animation: slideLeft 1s ease forwards;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 .phone {
   font-weight: 300;
 }
@@ -406,7 +399,6 @@ li {
   font-weight: 300;
   text-decoration: underline;
 }
-/*END FOOTER*/
 
 #copyright {
   color: rgb(206, 197, 197);
@@ -415,17 +407,6 @@ li {
   margin-top: 20px;
   animation: slideBottom 1s ease forwards;
   -webkit-animation: slideBottom 1s ease forwards;
-}
-
-@keyframes slideBottom {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 .reveal {
@@ -442,4 +423,54 @@ li {
 .reveal.active {
   transform: translateY(0px);
   opacity: 1;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
