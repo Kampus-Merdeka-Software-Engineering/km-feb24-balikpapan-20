@@ -90,9 +90,8 @@ body {
 
 .header-black-title {
   position: absolute;
-  width: 309px;
+  width: 100%;
   height: 58px;
-  left: 570px;
   top: 210px;
   font-weight: 700;
   font-size: 40px;
@@ -105,9 +104,8 @@ body {
 
 .header-black-description {
   position: absolute;
-  width: 576px;
+  width: 100%;
   height: 86px;
-  left: 440px;
   top: 290px;
   font-weight: 300;
   font-size: 18px;

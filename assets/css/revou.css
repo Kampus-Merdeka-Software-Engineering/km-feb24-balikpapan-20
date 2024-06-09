@@ -30,8 +30,9 @@
 }
 
 .description-revou p {
-  text-align: center;
-  margin: 0 50px 50px 50px;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 80px 50px 80px;
   font-size: 18px;
 }
 

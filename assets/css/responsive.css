@@ -56,7 +56,7 @@
     padding: 0 10px;
     width: 150px;
     height: 40px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     top: 550px;
   }
@@ -337,7 +337,7 @@
   }
 
   .more-info-button {
-    left: 31%;
+    left: 30%;
     top: 860px;
     justify-content: center;
   }
