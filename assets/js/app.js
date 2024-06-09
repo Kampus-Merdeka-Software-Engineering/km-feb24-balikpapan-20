@@ -1,6 +1,6 @@
 (function () {
   emailjs.init({
-    publicKey: 'vuiJegTjAmp-ItsmN',
+    publicKey: "vuiJegTjAmp-ItsmN",
   });
 })();
 

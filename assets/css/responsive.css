@@ -81,7 +81,6 @@
     width: 80%;
     top: 460px;
     line-height: 23px;
-    text-align: center;
     justify-content: center;
     left: 80px;
   }
@@ -104,7 +103,6 @@
   .outlets-title {
     max-width: 100%;
     text-align: center;
-    margin-right: 30px;
     margin-top: -30px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -339,6 +337,7 @@
   }
 
   .more-info-button {
+    left: 31%;
     top: 860px;
     justify-content: center;
   }

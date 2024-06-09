@@ -6,6 +6,7 @@
   margin-top: 80px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .outlets-title {
@@ -52,18 +53,6 @@
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: scroll;
   transition: 0.3s;
-}
-
-#card-1 {
-  animation: slideRight 1s ease forwards;
-}
-
-#card-2 {
-  animation: slideBottom 1s ease forwards;
-}
-
-#card-3 {
-  animation: slideLeft 1s ease forwards;
 }
 
 .outlet-card:hover {
