@@ -1,68 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maven Roaster</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/icon Maven Roaster.ico"
+    />
+    <link rel="stylesheet" href="assets/css/login.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/information.css" />
     <link rel="stylesheet" href="assets/css/outlet.css" />
     <link rel="stylesheet" href="assets/css/contactus.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
-    src="https://kit.fontawesome.com/1ab94d0eba.js"
-    crossorigin="anonymous"
+      src="https://kit.fontawesome.com/1ab94d0eba.js"
+      crossorigin="anonymous"
     ></script>
     <script type="module" src="assets/js/index.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <script src="assets/js/app.js" defer></script>
     <script src="assets/js/animate.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="header">
-        <div class="navbar">
-            <a href="index.html"><img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="company-logo" /></a>
-            <button class="hamburger-menu" id="hamburger-menu">
-              <i class="fa fa-bars"></i>
-            </button>
-            <nav class="nav-links" id="nav-links">
-            <ul>
-              <li><a href="index.html" class="nav-link">HOME</a></li>
-              <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
-              <li><a class="nav-link"></a>
-                <div class="dropdown">
-                   <span>ABOUT US </span>
-                  <img src="assets/images/dropdown.png" alt="icon dropdown" class="icon-dropdown" />
-                   <div class="dropdown-content">
-                    <a href="aboutus.html">TEAM</a>
-                    <a href="aboutus_revou.html">MSIB</a>
-                  </div>
-                </div></li>
-              <li><a class="nav-link" id="profile-img"></a>
-                <div class="dropdown-login">
-                  <img src="assets/images/user.png" alt="Login" class="login-icon">
-                      <div class="dropdown-content-login">
-                        <a href="" id="sign-out">SIGN OUT</a>
-                      </div>
-                </div></li>
-              <li><button class="button-login nav-link" id="login-btn">LOGIN</button></li>
-            </ul>
-          </nav> 
-        </div>
-        <h1 class="company-name">MAVEN <br /> ROASTER CO.</h1 id="home">  
-        <p class="company-description">Maven Roasters is a renowned coffee shop chain operating across three locations in New York City. With a commitment to excellence in coffee craftsmanship and a passion for serving the finest brews, Maven Roasters has established itself as a favorite destination for coffee enthusiasts in the city.</p>
-        <button class="more-info-button">
-        <a href="#" id="button-dash">Go to dashboard!</a>
+      <div class="navbar">
+        <a href="index.html"
+          ><img
+            src="assets/images/Maven Roaster Logo (3).png"
+            alt="Company Logo"
+            class="company-logo"
+        /></a>
+        <button class="hamburger-menu" id="hamburger-menu">
+          <i class="fa fa-bars"></i>
         </button>
+        <nav class="nav-links" id="nav-links">
+          <ul>
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="#" class="nav-link" id="dashboard">DASHBOARD</a></li>
+            <li>
+              <a class="nav-link"></a>
+              <div class="dropdown">
+                <span>ABOUT US </span>
+                <img
+                  src="assets/images/dropdown.png"
+                  alt="icon dropdown"
+                  class="icon-dropdown"
+                />
+                <div class="dropdown-content">
+                  <a href="aboutus.html">TEAM</a>
+                  <a href="aboutus_revou.html">MSIB</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" id="profile-img"></a>
+              <div class="dropdown-login">
+                <img
+                  src="assets/images/user.png"
+                  alt="Login"
+                  class="login-icon"
+                />
+                <div class="dropdown-content-login">
+                  <a href="" id="sign-out">SIGN OUT</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <button class="button-login nav-link" id="login-btn">
+                LOGIN
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="company-name" id="home">
+        MAVEN <br />
+        ROASTER CO.
+      </h1>
+      <p class="company-description">
+        Maven Roasters is a renowned coffee shop chain operating across three
+        locations in New York City. With a commitment to excellence in coffee
+        craftsmanship and a passion for serving the finest brews, Maven Roasters
+        has established itself as a favorite destination for coffee enthusiasts
+        in the city.
+      </p>
+      <button class="more-info-button">
+        <a href="#" id="button-dash">Go to dashboard!</a>
+      </button>
     </section>
     <div class="spacer-header">
       <div class="mask"></div>
     </div>
-
 
     <div class="modal" id="loginModal">
       <div class="containers modal-content">
@@ -80,7 +119,7 @@
           />
           <h2>Login</h2>
         </div>
-        
+
         <form action="#" method="#">
           <div class="input-fields">
             <input
@@ -100,21 +139,23 @@
             />
             <div class="underline"></div>
           </div>
-  
+
           <button type="submit" id="submitLogin">Continue</button>
         </form>
-        <div class="bb"> 
-
-          <span class="register">Don't have an account? <a href="#" id="openRegisterModal">Register</a></span><br />
+        <div class="bb">
+          <span class="register"
+            >Don't have an account?
+            <a href="#" id="openRegisterModal">Register</a></span
+          ><br />
         </div>
-  
+
         <div class="bawah">
           <div class="or-container">
             <span class="line"></span>
             <span class="text">Or</span>
             <span class="line"></span>
           </div>
-  
+
           <div class="social-field">
             <div class="social-field google">
               <a href="/auth/google" role="button">
@@ -125,130 +166,150 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
 
-  <div class="rmodal" id="registerModal">
-          <div class="containers modal-content">
-            <span class="close">&times;</span>
-            <div style="display: flex">
-              <img
-                src="assets/images/Maven Roaster Logo (3).png"
-                width="35px"
-                height="35px"
-                style="
-                  background: linear-gradient(10deg, black, rgb(42, 31, 12));
-                  border-radius: 5px;
-                  margin-right: 10px;
-                "
-              />
-              <h2>Register</h2>
-            </div>
-            
-            <form action="#" method="#">
-              <div class="input-fields">
-                <input
-                  type="text"
-                  name="firstname"
-                  id="firstname"
-                  placeholder="Enter Your first name"
-                />
-                <div class="underline"></div>
-              </div>
-              <div class="input-fields">
-                <input
-                  type="text"
-                  name="lastname"
-                  id="lastname"
-                  placeholder="Enter Your last name"
-                />
-                <div class="underline"></div>
-              </div>
-              <div class="input-fields">
-                <input
-                  type="email"
-                  name="register-email"
-                  id="register-email"
-                  placeholder="Enter Your Email"
-                />
-                <div class="underline"></div>
-              </div>
-              <div class="input-fields">
-                <input
-                  type="password"
-                  name="register-password"
-                  id="register-password"
-                  placeholder="Enter Your Password"
-                />
-                <div class="underline"></div>
-              </div>
-      
-              <button type="submit" id="submitRegister">Create an account</button>
-            </form>
-            <div class="bb"> 
-    
-              <span class="register">have an account? <a href="index.html">Login</a></span><br />
-            </div>
-      
-            <div class="bawah">
-    
-              <div class="or-container">
-                <span class="line"></span>
-                <span class="text">Or</span>
-                <span class="line"></span>
-              </div>
-      
-              <div class="social-field">
-                <div class="social-field google">
-                  <a href="/auth/google" role="button">
-                    <i class="fab fa-google"></i>
-                    Login In with Google
-                  </a>
-                </div>
-              </div>
-            </div>
+    <div class="rmodal" id="registerModal">
+      <div class="containers modal-content">
+        <span class="close">&times;</span>
+        <div style="display: flex">
+          <img
+            src="assets/images/Maven Roaster Logo (3).png"
+            width="35px"
+            height="35px"
+            style="
+              background: linear-gradient(10deg, black, rgb(42, 31, 12));
+              border-radius: 5px;
+              margin-right: 10px;
+            "
+          />
+          <h2>Register</h2>
+        </div>
+
+        <form action="#" method="#">
+          <div class="input-fields">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Enter Your first name"
+            />
+            <div class="underline"></div>
           </div>
-  </div>
+          <div class="input-fields">
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Enter Your last name"
+            />
+            <div class="underline"></div>
+          </div>
+          <div class="input-fields">
+            <input
+              type="email"
+              name="register-email"
+              id="register-email"
+              placeholder="Enter Your Email"
+            />
+            <div class="underline"></div>
+          </div>
+          <div class="input-fields">
+            <input
+              type="password"
+              name="register-password"
+              id="register-password"
+              placeholder="Enter Your Password"
+            />
+            <div class="underline"></div>
+          </div>
 
-    <section class="outlets-coffee-shop reveal">
-        <h2 class="outlets-title">OUTLETS COFFEE SHOP</h2>
-        <div class="outlets-container">
-          <div class="outlets-grid">
-            <div class="outlet-column">
-              <article class="outlet-card">
-                <a href="https://maps.app.goo.gl/8eGUp9uLUENhPMVB7"> <img src="assets/images/hellskitchen.png"  alt="Hell's Kitchen outlet" class="outlet-image" /> </a>
-                <div class="outlet-details">
-                  <h3 class="outlet-name">Hell's Kitchen</h3>
-                  <p class="outlet-description">
-                    Café Hell's Kitchen adalah tempat energik dan bersemangat di Manhattan, menyajikan kopi berkualitas dan suasana yang unik.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="outlet-column">
-              <article class="outlet-card">
-                <a href="https://maps.app.goo.gl/VnwdRQETpQTjxUfx7"><img src="assets/images/astoria.png" alt="Astoria outlet" class="outlet-image" /></a>
-                <div class="outlet-details">
-                  <h3 class="outlet-name">Astoria</h3>
-                  <p class="outlet-description">
-                    Café Astoria adalah tempat santai yang memikat di jantung lingkungan Astoria, menawarkan suasana yang nyaman dan kopi berkualitas tinggi bagi para pengunjungnya.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="outlet-column">
-              <article class="outlet-card">
-                <a href="https://maps.app.goo.gl/QnvZpjJSxSxGcLAm7"><img src="assets/images/lowerman.png" alt="Lower Manhattan outlet" class="outlet-image" /></a>
-                <div class="outlet-details">
-                  <h3 class="outlet-name">Lower Manhattan</h3>
-                  <p class="outlet-description">
-                    Café Lower Manhattan adalah tempat yang menawan dengan suasana trendi dan kopi memikat di pusat kehidupan kota.
-                  </p>
-                </div>
-              </article>
+          <button type="submit" id="submitRegister">Create an account</button>
+        </form>
+        <div class="bb">
+          <span class="register"
+            >have an account? <a href="index.html">Login</a></span
+          ><br />
+        </div>
+
+        <div class="bawah">
+          <div class="or-container">
+            <span class="line"></span>
+            <span class="text">Or</span>
+            <span class="line"></span>
+          </div>
+
+          <div class="social-field">
+            <div class="social-field google">
+              <a href="/auth/google" role="button">
+                <i class="fab fa-google"></i>
+                Login In with Google
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <section class="outlets-coffee-shop reveal">
+      <h2 class="outlets-title">OUTLETS COFFEE SHOP</h2>
+      <div class="outlets-container">
+        <div class="outlets-grid">
+          <div class="outlet-column">
+            <article class="outlet-card">
+              <a href="https://maps.app.goo.gl/8eGUp9uLUENhPMVB7">
+                <img
+                  src="assets/images/hellskitchen.png"
+                  alt="Hell's Kitchen outlet"
+                  class="outlet-image"
+                />
+              </a>
+              <div class="outlet-details">
+                <h3 class="outlet-name">Hell's Kitchen</h3>
+                <p class="outlet-description">
+                  Café Hell's Kitchen adalah tempat energik dan bersemangat di
+                  Manhattan, menyajikan kopi berkualitas dan suasana yang unik.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="outlet-column">
+            <article class="outlet-card">
+              <a href="https://maps.app.goo.gl/VnwdRQETpQTjxUfx7"
+                ><img
+                  src="assets/images/astoria.png"
+                  alt="Astoria outlet"
+                  class="outlet-image"
+              /></a>
+              <div class="outlet-details">
+                <h3 class="outlet-name">Astoria</h3>
+                <p class="outlet-description">
+                  Café Astoria adalah tempat santai yang memikat di jantung
+                  lingkungan Astoria, menawarkan suasana yang nyaman dan kopi
+                  berkualitas tinggi bagi para pengunjungnya.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="outlet-column">
+            <article class="outlet-card">
+              <a href="https://maps.app.goo.gl/QnvZpjJSxSxGcLAm7"
+                ><img
+                  src="assets/images/lowerman.png"
+                  alt="Lower Manhattan outlet"
+                  class="outlet-image"
+              /></a>
+              <div class="outlet-details">
+                <h3 class="outlet-name">Lower Manhattan</h3>
+                <p class="outlet-description">
+                  Café Lower Manhattan adalah tempat yang menawan dengan suasana
+                  trendi dan kopi memikat di pusat kehidupan kota.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="spacer-header">
       <div class="mask-top"></div>
@@ -258,12 +319,20 @@
         <div class="content-container">
           <div class="column">
             <article class="business-background">
-              <img src="assets/images/bac-bg.png" alt="Business Background" class="background-image" />
+              <img
+                src="assets/images/bac-bg.png"
+                alt="Business Background"
+                class="background-image"
+              />
               <div class="information-label">INFORMATION</div>
               <div class="business-background-content">
                 <h2 class="business-background-title">BUSINESS BACKGROUND</h2>
                 <p class="business-background-description">
-                  Pada industri coffe shop yang begitu kompetitif saat ini, memahami preferensi pelanggan dan tren pasar menjadi kunci keberhasilan. Maven Roasters menyadari kebutuhan dalam menciptakan inovasi suatu produk tertentu dalam mempertahankan dan meningkatkan posisi pasarnya.
+                  Pada industri coffe shop yang begitu kompetitif saat ini,
+                  memahami preferensi pelanggan dan tren pasar menjadi kunci
+                  keberhasilan. Maven Roasters menyadari kebutuhan dalam
+                  menciptakan inovasi suatu produk tertentu dalam mempertahankan
+                  dan meningkatkan posisi pasarnya.
                 </p>
               </div>
             </article>
@@ -271,17 +340,31 @@
           <div class="project-details">
             <article class="project-capstone">
               <div class="project-capstone-content">
-                <img src="assets/images/prj-bg.png" alt="Project Capstone" class="background-image" />
+                <img
+                  src="assets/images/prj-bg.png"
+                  alt="Project Capstone"
+                  class="background-image"
+                />
                 <h2 class="project-capstone-title">PROJECT CAPSTONE</h2>
                 <p class="project-capstone-description">
-                  Website ini dibuat untuk memenuhi Project Capstone kami pada cycle Software Engineering. Dimana project ini merupakan lanjutan dari Project Capstone cycle Data Analytics.
+                  Website ini dibuat untuk memenuhi Project Capstone kami pada
+                  cycle Software Engineering. Dimana project ini merupakan
+                  lanjutan dari Project Capstone cycle Data Analytics.
                 </p>
               </div>
               <section class="dashboard">
-                <img src="assets/images/dash-bg.png" alt="Dashboard" class="background-image" />
+                <img
+                  src="assets/images/dash-bg.png"
+                  alt="Dashboard"
+                  class="background-image"
+                />
                 <h2 class="dashboard-title">Dashboard</h2>
                 <p class="dashboard-description">
-                  Dashboard Coffee Shop ini bertujuan untuk menvisualisasikan hasil analisis data dari dataset yang disediakan oleh Maven Analytics. Dengan menggunakan data dari bulan Januari-Juni keseluruhan penjualan dan fokus pada data product kategori dan detail product untuk mengevaluasi tren dan potensial pasar.
+                  Dashboard Coffee Shop ini bertujuan untuk menvisualisasikan
+                  hasil analisis data dari dataset yang disediakan oleh Maven
+                  Analytics. Dengan menggunakan data dari bulan Januari-Juni
+                  keseluruhan penjualan dan fokus pada data product kategori dan
+                  detail product untuk mengevaluasi tren dan potensial pasar.
                 </p>
               </section>
             </article>
@@ -293,29 +376,53 @@
       <div class="mask"></div>
     </div>
 
-      <section>
-        <div class="contact reveal">
-          <h1><b>Contact Us!</b></h1>
-          <p>Get e-mail update about our latest coffee and special offers. </p>
+    <section>
+      <div class="contact reveal">
+        <h1><b>Contact Us!</b></h1>
+        <p>Get e-mail update about our latest coffee and special offers.</p>
 
-          <form id="contact-form">
-              <label for="name"><b>Name</b></label> 
-              <input class="input-contact" id="sendername" type="text" required placeholder="Team 20">
+        <form id="contact-form">
+          <label for="name"><b>Name</b></label>
+          <input
+            class="input-contact"
+            id="sendername"
+            type="text"
+            required
+            placeholder="Team 20"
+          />
 
-              <label for="name"><b>Email</b></label>
-              <input class="input-contact" id="senderemail" type="email" required placeholder="team20@gmail.com">
+          <label for="name"><b>Email</b></label>
+          <input
+            class="input-contact"
+            id="senderemail"
+            type="email"
+            required
+            placeholder="team20@gmail.com"
+          />
 
-              <label for="name"><b>Subject</b></label>
-              <input class="input-contact" id="subject" type="text" required placeholder="Type your subject here">
+          <label for="name"><b>Subject</b></label>
+          <input
+            class="input-contact"
+            id="subject"
+            type="text"
+            required
+            placeholder="Type your subject here"
+          />
 
-              <label for="name"><b>Message</b></label>
-              <textarea class="input-contact" id="message" rows="4" required placeholder="Type your message"></textarea>
+          <label for="name"><b>Message</b></label>
+          <textarea
+            class="input-contact"
+            id="message"
+            rows="4"
+            required
+            placeholder="Type your message"
+          ></textarea>
 
-              <button class="submit-contact" type="submit"><b>Send</b></button>
-          </form>
+          <button class="submit-contact" type="submit"><b>Send</b></button>
+        </form>
       </div>
-      </section>
-    
+    </section>
+
     <div class="spacer-header">
       <div class="mask-top"></div>
     </div>
@@ -323,21 +430,36 @@
       <div class="footer-content">
         <div class="social-media">
           <div class="social-media-content">
-            <img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
+            <img
+              src="assets/images/Maven Roaster Logo (3).png"
+              alt="Company Logo"
+              class="logo"
+            />
             <div class="social-media-text">
               <h3 class="social-media-title">Follow us on Social Media</h3>
               <div class="social-media-icons">
-                <img src="assets/images/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
-                <img src="assets/images/twitter.png" alt="Twitter Icon" class="social-media-icon" />
-                <img src="assets/images/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
+                <img
+                  src="assets/images/Facebook.png"
+                  alt="Facebook Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/twitter.png"
+                  alt="Twitter Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/Instagram.png"
+                  alt="Instagram Icon"
+                  class="social-media-icon"
+                />
               </div>
             </div>
           </div>
         </div>
         <div class="contact-info">
           <div class="contact-info-content">
-            <p class="copyright">
-            </p>
+            <p class="copyright"></p>
             <div class="contact-details">
               <span class="phone">Phone : +(62) 8123 4567 890</span><br />
               <span class="email">info@mavenroastersco.com</span>
@@ -349,5 +471,5 @@
         <p>Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.</p>
       </div>
     </footer>
-</body>
+  </body>
 </html>

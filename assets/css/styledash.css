@@ -46,10 +46,14 @@ body {
   width: 70%;
   padding: 20px;
   border: 1px solid #797979;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   background-color: #fff;
   margin: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .chart-box canvas {

@@ -1,242 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maven Roaster</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/icon Maven Roaster.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/dashboard.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/styledash.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/icon Maven Roaster.ico"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/styledash.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-dash">
-        <div class="header-content">
-            <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
-        </div>
+      <div class="header-content">
+        <button class="open-sidebar" onclick="toggleSidebar()">☰</button>
+      </div>
     </header>
     <div class="pusat">
-        <div class="sidebar" id="sidebar">
-            <div class="header-sidebar">
-                <div class="illustration">
-                    <a href="index.html">
-                    <img src="assets/images/Maven Roaster Logo (3).png" alt="" class="illustration">
-                    </a>
-                </div>
-            </div>
-
-            <div class="main-sidebar">
-                <div class="list-item" data-tab="bagian1">
-                    <a href="#">
-                        <img src="assets/images/salesicon.png" alt="" class="icon">
-                        <span class="description-menu">Sales & Total</span>
-                    </a>
-                </div>
-                <div class="list-item" data-tab="bagian2">
-                    <a href="#">
-                        <img src="assets/images/monthicon.png" alt="" class="icon">
-                        <span class="description-menu">Monthly Data</span>
-                    </a>
-                </div>
-                <div class="list-item" data-tab="bagian3">
-                    <a href="#">
-                        <img src="assets/images/rushicon.png" alt="" class="icon">
-                        <span class="description-menu">Rush Day & Hour</span>
-                    </a>
-                </div>
-                <div class="list-item" data-tab="bagian4">
-                    <a href="#">
-                        <img src="assets/images/producticon.png" alt="" class="icon">
-                        <span class="description-menu">Top Product</span>
-                    </a>
-                </div>
-                <div class="list-item" data-tab="bagian5">
-                    <a href="#">
-                        <img src="assets/images/tabelicon.png" alt="" class="icon">
-                        <span class="description-menu">Transaction</span>
-                    </a>
-                </div>
-                <hr>
-                <div class="list-item">
-                    <a href="#" id="sign-out">
-                        <img src="assets/images/logout.svg" alt="" class="icon">
-                        <span class="description-menu">Log Out</span>
-                    </a>
-                </div>
-
-            </div>
+      <div class="sidebar" id="sidebar">
+        <div class="header-sidebar">
+          <div class="illustration">
+            <a href="index.html">
+              <img
+                src="assets/images/Maven Roaster Logo (3).png"
+                alt=""
+                class="illustration"
+              />
+            </a>
+          </div>
         </div>
 
-    <div class="main-content">
+        <div class="main-sidebar">
+          <div class="list-item" data-tab="bagian1">
+            <a href="#">
+              <img src="assets/images/salesicon.png" alt="" class="icon" />
+              <span class="description-menu">Sales & Total</span>
+            </a>
+          </div>
+          <div class="list-item" data-tab="bagian2">
+            <a href="#">
+              <img src="assets/images/monthicon.png" alt="" class="icon" />
+              <span class="description-menu">Monthly Data</span>
+            </a>
+          </div>
+          <div class="list-item" data-tab="bagian3">
+            <a href="#">
+              <img src="assets/images/rushicon.png" alt="" class="icon" />
+              <span class="description-menu">Rush Day & Hour</span>
+            </a>
+          </div>
+          <div class="list-item" data-tab="bagian4">
+            <a href="#">
+              <img src="assets/images/producticon.png" alt="" class="icon" />
+              <span class="description-menu">Top Product</span>
+            </a>
+          </div>
+          <div class="list-item" data-tab="bagian5">
+            <a href="#">
+              <img src="assets/images/tabelicon.png" alt="" class="icon" />
+              <span class="description-menu">Transaction</span>
+            </a>
+          </div>
+          <hr />
+          <div class="list-item">
+            <a href="#" id="sign-out">
+              <img src="assets/images/logout.svg" alt="" class="icon" />
+              <span class="description-menu">Log Out</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
         <section id="bagian1" class="tab-content active chart-bagian1">
-            <div class="statistics-container">
+          <div class="statistics-container">
             <section class="statistics-block">
-                <div class="sales-stat">
-                <img src="/assets/images/icon sales.png" alt="Sales Icon" class="icon-stats" />
-                    <div class="stats-info">
-                        <div class="stats-title">Sales</div>
-                        <div class="stats-value">698,812.33</div>
-                    </div>
+              <div class="sales-stat">
+                <img
+                  src="/assets/images/icon sales.png"
+                  alt="Sales Icon"
+                  class="icon-stats"
+                />
+                <div class="stats-info">
+                  <div class="stats-title">Sales</div>
+                  <div class="stats-value">698,812.33</div>
                 </div>
+              </div>
             </section>
             <section class="statistics-block">
-                <div class="transaction-stat">
-                <img src="/assets/images/icon transaction.png" alt="Transaction Icon" class="icon-stats" />
-                    <div class="stats-info">
-                        <div class="stats-title">Transaction</div>
-                        <div class="stats-value">214.5 K</div>
-                    </div>
+              <div class="transaction-stat">
+                <img
+                  src="/assets/images/icon transaction.png"
+                  alt="Transaction Icon"
+                  class="icon-stats"
+                />
+                <div class="stats-info">
+                  <div class="stats-title">Transaction</div>
+                  <div class="stats-value">214.5 K</div>
                 </div>
+              </div>
             </section>
+          </div>
+          <div class="chart-container">
+            <div class="chart-box">
+              <h2 class="chart-title">Sales and Transaction in 6 Months</h2>
+              <div class="checkbox-container">
+                <label>
+                  <input type="checkbox" id="totalTransaksiCheckbox" checked />
+                  Total Transactions
+                </label>
+                <label>
+                  <input type="checkbox" id="salesTransaksiCheckbox" checked />
+                  Sales Transactions
+                </label>
+              </div>
+              <div class="date-filter-container">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate" />
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate" />
+              </div>
+              <div class="filter-button-container">
+                <button id="filterButton">Filter</button>
+                <button id="clearButton">Clear</button>
+              </div>
+              <canvas id="salestransaksi"> </canvas>
             </div>
-            <div class="chart-container">
-                <div class="chart-box">
-                    <h2 class="chart-title">Sales and Transaction in 6 Months</h2>
-                    <div class="checkbox-container">
-                        <label>
-                            <input type="checkbox" id="totalTransaksiCheckbox" checked> Total Transactions
-                        </label>
-                        <label>
-                            <input type="checkbox" id="salesTransaksiCheckbox" checked> Sales Transactions
-                        </label>
-                    </div>
-                    <div class="date-filter-container">
-                        <label for="startDate">Start Date:</label>
-                        <input type="date" id="startDate">
-                        <label for="endDate">End Date:</label>
-                        <input type="date" id="endDate">
-                    </div>
-                    <div class="filter-button-container">
-                        <button id="filterButton">Filter</button>
-                        <button id="clearButton">Clear</button>
-                    </div>
-                    <canvas id="salestransaksi">  
-                
-                    </canvas>
-                </div>
-            </div>
+          </div>
         </section>
         <section id="bagian2" class="tab-content bagian2">
-            <div class="chart-container">
-                <div class="chart-box">
-                    <h2 class="chart-title">Sales by Month</h2>
-                    <div class="bulan-filter-container">
-                        <label for="bulan">Pilih Bulan:</label>
-                        <select id="bulan" name="bulan">
-                            <option value="01">January</option>
-                            <option value="02">February</option>
-                            <option value="03">March</option>
-                            <option value="04">April</option>
-                            <option value="05">May</option>
-                            <option value="06">June</option>
-                        </select>
-                    </div>
-                    <div class="sales-store-location">
-                        <input type="checkbox" id="lowerManhattan" name="store_location" value="Lower Manhattan" checked>
-                        <label for="lowerManhattan">Lower Manhattan</label>
-                        <input type="checkbox" id="hellsKitchen" name="store_location" value="Hell's Kitchen" checked>
-                        <label for="hellsKitchen">Hell's Kitchen</label>
-                        <input type="checkbox" id="astoria" name="store_location" value="Astoria" checked>
-                        <label for="astoria">Astoria</label>
-                    </div>
-                    <canvas id="salesmonth"></canvas>
-                </div>
-                <div class="chart-box">
-                    <h2 class="chart-title">Total Sales in 6 Months</h2>
-                    <canvas id="sales6month"></canvas>
-                </div>
+          <div class="chart-container">
+            <div class="chart-box">
+              <h2 class="chart-title">Sales by Month</h2>
+              <div class="bulan-filter-container">
+                <label for="bulan">Pilih Bulan:</label>
+                <select id="bulan" name="bulan">
+                  <option value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03">March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                </select>
+              </div>
+              <div class="sales-store-location">
+                <input
+                  type="checkbox"
+                  id="lowerManhattan"
+                  name="store_location"
+                  value="Lower Manhattan"
+                  checked
+                />
+                <label for="lowerManhattan">Lower Manhattan</label>
+                <input
+                  type="checkbox"
+                  id="hellsKitchen"
+                  name="store_location"
+                  value="Hell's Kitchen"
+                  checked
+                />
+                <label for="hellsKitchen">Hell's Kitchen</label>
+                <input
+                  type="checkbox"
+                  id="astoria"
+                  name="store_location"
+                  value="Astoria"
+                  checked
+                />
+                <label for="astoria">Astoria</label>
+              </div>
+              <canvas id="salesmonth"></canvas>
             </div>
+            <div class="chart-box">
+              <h2 class="chart-title">Total Sales in 6 Months</h2>
+              <canvas id="sales6month"></canvas>
+            </div>
+          </div>
         </section>
         <section id="bagian3" class="tab-content bagian3">
-            <div class="chart-container">
-                <div class="chart-box">
-                    <h2 class="chart-title">Rush Hour</h2>
-                    <canvas id="rushhour"></canvas>
-                </div>
-                <div class="chart-box">
-                    <h2 class="chart-title">Rush Day</h2>
-                    <canvas id="rushday"></canvas>
-                </div>
+          <div class="chart-container">
+            <div class="chart-box">
+              <h2 class="chart-title">Rush Hour</h2>
+              <canvas id="rushhour"></canvas>
             </div>
+            <div class="chart-box">
+              <h2 class="chart-title">Rush Day</h2>
+              <canvas id="rushday"></canvas>
+            </div>
+          </div>
         </section>
         <section id="bagian4" class="tab-content bagian4">
-            <div class="chart-container">
-                <div class="chart-box">
-                    <h2 class="chart-title">Top Category Product by Sales</h2>
-                    <canvas id="kategori"></canvas>
-                </div>
-                <div class="chart-box">
-                    <h2 class="chart-title">Top Product by Sales & Transactions</h2>
-                    <canvas id="topproduct"></canvas>
-                </div>
+          <div class="chart-container">
+            <div class="chart-box">
+              <h2 class="chart-title">Top Category Product by Sales</h2>
+              <canvas id="kategori"></canvas>
             </div>
+            <div class="chart-box">
+              <h2 class="chart-title">Top Product by Sales & Transactions</h2>
+              <canvas id="topproduct"></canvas>
+            </div>
+          </div>
         </section>
         <section id="bagian5" class="tab-content bagian5">
-            <div class="chart-container">
-                <div class="chart-box tablebox">
-                    <section class="table_body">
-                        <table id="datatable" class="display">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Date</th>
-                                    <th>Time</th>
-                                    <th>Quantity</th>
-                                    <th>Store ID</th>
-                                    <th>Store Location</th>
-                                    <th>Product ID</th>
-                                    <th>Price</th>
-                                    <th>Category</th>
-                                    <th>Type</th>
-                                    <th>Product Details</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </section>
-                </div>
+          <div class="chart-container">
+            <div class="chart-box tablebox">
+              <section class="table_body">
+                <table id="datatable" class="display">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Date</th>
+                      <th>Time</th>
+                      <th>Quantity</th>
+                      <th>Store ID</th>
+                      <th>Store Location</th>
+                      <th>Product ID</th>
+                      <th>Price</th>
+                      <th>Category</th>
+                      <th>Type</th>
+                      <th>Product Details</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </section>
             </div>
+          </div>
         </section>
-    </div>
-    </div>
+      </div>
     </div>
 
     <footer class="footer">
-        <div class="footer-content">
-            <div class="social-media">
-                <div class="social-media-content">
-                    <img src="assets/images/Maven Roaster Logo (3).png" alt="Company Logo" class="logo" />
-                    <div class="social-media-text">
-                        <h3 class="social-media-title">Follow us on Social Media</h3>
-                        <div class="social-media-icons">
-                            <img src="assets/images/Facebook.png" alt="Facebook Icon" class="social-media-icon" />
-                            <img src="assets/images/twitter.png" alt="Twitter Icon" class="social-media-icon" />
-                            <img src="assets/images/Instagram.png" alt="Instagram Icon" class="social-media-icon" />
-                        </div>
-                    </div>
-                </div>
+      <div class="footer-content">
+        <div class="social-media">
+          <div class="social-media-content">
+            <img
+              src="assets/images/Maven Roaster Logo (3).png"
+              alt="Company Logo"
+              class="logo"
+            />
+            <div class="social-media-text">
+              <h3 class="social-media-title">Follow us on Social Media</h3>
+              <div class="social-media-icons">
+                <img
+                  src="assets/images/Facebook.png"
+                  alt="Facebook Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/twitter.png"
+                  alt="Twitter Icon"
+                  class="social-media-icon"
+                />
+                <img
+                  src="assets/images/Instagram.png"
+                  alt="Instagram Icon"
+                  class="social-media-icon"
+                />
+              </div>
             </div>
-            <div class="contact-info">
-                <div class="contact-info-content">
-                    <p class="copyright">
-                        Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
-                    </p>
-                    <div class="contact-details">
-                        <span class="phone">Phone: +(62) 8123 4567 890</span><br />
-                        <span class="email">info@mavenroastersco.com</span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="contact-info">
+          <div class="contact-info-content">
+            <p class="copyright">
+              Copyright ©2024 Team 20 RevoU SIB 6. All Right Reserved.
+            </p>
+            <div class="contact-details">
+              <span class="phone">Phone: +(62) 8123 4567 890</span><br />
+              <span class="email">info@mavenroastersco.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="assets/js/salestransaksi.js"></script>
@@ -249,5 +302,5 @@
     <script src="assets/js/product.js"></script>
     <script src="assets/js/sidebar.js"></script>
     <script type="module" src="assets/js/dashboardSignOut.js"></script>
-</body>
+  </body>
 </html>
